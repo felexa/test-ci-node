@@ -1,0 +1,28 @@
+.timer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 265px;
+  margin-left: auto;
+
+  .timer__separator {
+    display: none;
+  }
+
+  .timer__days,
+  .timer__hours,
+  .timer__minutes,
+  .timer__seconds {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    font-size: 36px;
+    width: 42px;
+
+    & > span {
+      font-size: 14px;
+      font-weight: normal;
+    }
+  }
+}

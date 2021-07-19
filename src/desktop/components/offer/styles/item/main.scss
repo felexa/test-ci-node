@@ -1,0 +1,142 @@
+.offer__item.item {
+  border-bottom: 1px solid $borderColorBase;
+
+  .item__col {
+    padding: 24px 12px;
+
+    .item__properties {
+      display: none;
+    }
+
+    &:first-child {
+      padding-left: 0;
+    }
+
+    &:last-child {
+      padding-right: 0;
+      border-bottom: none;
+    }
+  }
+
+  .item__col-sm-width {
+    width: 96px;
+  }
+
+  .item__preview,
+  .item__logo {
+    width: 80px;
+    min-width: 80px;
+    vertical-align: top;
+
+    img {
+      max-width: 100%;
+      max-height: 100px;
+    }
+  }
+
+  .item__logo--border {
+    border: 1px solid $borderColorBase;
+  }
+
+  .item__name {
+    font-size: $fontSizeBase;
+  }
+
+  .price {
+    margin-right: 20px;
+    font-size: 20px;
+
+    .price__currency {
+      font-size: 100%;
+    }
+  }
+
+  .item__to-buy--mobile {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    border: 1px solid transparent;
+    color: $colorPink;
+
+    &:hover {
+      box-shadow: none;
+    }
+
+    .icon {
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
+
+@include md {
+  .offer__item.item {
+    .price {
+      font-size: 24px;
+
+      .price__currency {
+        font-size: 80%;
+      }
+    }
+    .item__logo {
+      width: 104px;
+      height: 86px;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 24px;
+
+      img {
+        max-height: 80px;
+      }
+    }
+
+    .item__col {
+      &:first-child {
+        padding-left: 24px;
+      }
+
+      &:last-child {
+        padding-right: 24px;
+      }
+    }
+
+    .item__preview {
+      width: 108px;
+      min-width: 108px;
+      vertical-align: middle;
+    }
+
+    .item__name {
+      font-size: $fontSizeMedium;
+    }
+  }
+}
+
+@include lg {
+  .offer__item.item {
+    .item__col {
+      .item__vendor {
+        min-width: 210px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $maxLGResolution) and (min-width: $minMDResolution) {
+  .item__col {
+    .item__vendor {
+      display: none;
+    }
+  }
+  .offer__item.item {
+    .item__col {
+      .item__properties {
+        display: block;
+        font-size: 14px;
+      }
+    }
+  }
+}

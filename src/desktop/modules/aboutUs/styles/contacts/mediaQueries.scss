@@ -1,0 +1,8 @@
+.contacts {
+  @media screen and (max-width: $maxLGResolution) {
+    .contacts__body {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+}

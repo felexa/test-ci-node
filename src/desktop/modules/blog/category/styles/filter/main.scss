@@ -1,0 +1,59 @@
+.filter {
+  .custom-input__name {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .filter__title {
+    font-size: 28px;
+    margin-bottom: 16px;
+    color: $colorBlack;
+  }
+
+  .filter__items {
+    display: flex;
+  }
+
+  .filter__item:not(:last-child) {
+    margin-right: 24px;
+  }
+
+  @include before-xl {
+    .custom-input__name {
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    .filter__title {
+      font-size: 24px;
+      margin-bottom: 12px;
+    }
+  }
+
+  @include before-lg {
+    .filter__title {
+      font-size: 22px;
+    }
+  }
+
+  @include before-md {
+    padding: 24px 12px 18px;
+    background: $colorWhite;
+    border-radius: 16px;
+    box-shadow: 0 5px 10px rgba(57, 72, 86, 0.05);
+
+    .filter__item {
+      width: 50%;
+      margin-bottom: 6px;
+    }
+
+    .filter__item:not(:last-child) {
+      margin-right: 0;
+    }
+
+    .filter__title {
+      font-size: 16px;
+      margin-bottom: 8px;
+    }
+  }
+}

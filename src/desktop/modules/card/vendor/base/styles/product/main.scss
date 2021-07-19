@@ -1,0 +1,36 @@
+.product {
+  background: $blueGradient;
+  padding: 20px 15px;
+  overflow: hidden;
+
+  .product__preview {
+    img {
+      height: 220px;
+      margin: 0 auto;
+      display: block;
+    }
+  }
+
+  a {
+    max-width: 200px;
+    width: 100%;
+    background: $colorWhite;
+    border-color: $colorWhite;
+    color: #0A437D;
+  }
+
+  .product__title {
+    margin-bottom: 16px;
+    font-size: 20px;
+  }
+
+  .product__description {
+    margin: 0 0 24px 0;
+    font-size: 14px;
+    line-height: 1.5;
+    opacity: 0.9;
+  }
+}
+
+@import "mediaQueries";
+

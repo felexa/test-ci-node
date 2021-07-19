@@ -1,0 +1,32 @@
+.instruction {
+  .instruction__body {
+    position: relative;
+    overflow-x: auto;
+
+    &.loading:before {
+      background: transparent;
+    }
+
+    .form-control {
+      font-size: 16px;
+      font-weight: 400;
+      color: #212121; 
+      line-height: 21px;
+      height: 100%;
+      appearance: auto;
+    }
+  }
+
+  .instruction__description {
+    margin-top: 40px;
+    color: #212121;
+  }
+}
+
+@include md {
+  .instruction {
+    select {
+      max-width: 50%;
+    }
+  }
+}

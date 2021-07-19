@@ -1,0 +1,5 @@
+$imageRepository: "https://i.apteka24.ua";
+
+@function build-image-url($url) {
+  @return $imageRepository + $url;
+}

@@ -1,0 +1,41 @@
+.terms {
+  @include md {
+    .faq {
+      .faq__body {
+        .accordion {
+          .panel {
+            & + .panel {
+              margin-top: 24px;
+
+            }
+
+            .panel__header {
+              padding: 21px 24px;
+            }
+
+            .panel__title {
+              font-size: 18px;
+              min-height: auto;
+            }
+
+            .panel__body {
+              padding: 24px 24px 30px 24px;
+
+              ul {
+                li {
+                  font-size: 18px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @include xl {
+    .faq {
+      margin-top: -10px;
+    }
+  }
+}

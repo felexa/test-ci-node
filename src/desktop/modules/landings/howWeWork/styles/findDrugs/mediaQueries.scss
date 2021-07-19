@@ -1,0 +1,50 @@
+.find-drugs {
+  @include md {
+    .find-drugs__preview {
+      max-width: none;
+      width: 425px;
+    }
+
+  }
+
+  @include lg {
+    padding: 0;
+    margin-bottom: 100px;
+    background-color: #0C3483;
+    background-image: url(build-image-url("/landings/how-it-works/find-bg.svg"));
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .find-drugs__preview {
+      width: 425px;
+      flex-shrink: 0;
+    }
+
+    .find-drugs__body {
+      margin: 50px 0 50px 0;
+    }
+
+    .find-drugs__description {
+      font-size: 24px;
+      margin-bottom: 40px;
+    }
+
+    .find-drugs__to-catalog {
+      margin: 0;
+
+      a {
+        max-width: 240px;
+      }
+    }
+  }
+
+  @include xl {
+    .find-drugs__preview {
+      width: 515px;
+    }
+
+    .find-drugs__body {
+      margin: 80px 0 80px 40px;
+    }
+  }
+}

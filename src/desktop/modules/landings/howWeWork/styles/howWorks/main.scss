@@ -1,0 +1,221 @@
+.how-works {
+  background: $blueGradient;
+  padding: 60px 0;
+  font-size: 16px;
+  line-height: 1.5;
+
+  p {
+    margin: 0;
+  }
+
+  p + p {
+    margin-top: 1em;
+  }
+
+  .how-works__title {
+    font-size: 22px;
+    margin-bottom: 12px;
+  }
+
+  .how-works__description {
+    .description__text {
+      max-width: none;
+
+    }
+
+    .description__preview {
+      display: flex;
+      justify-content: center;
+      margin-top: 24px;
+
+      .bonus {
+        margin-left: 20px;
+        width: 126px;
+        height: 126px;
+      }
+
+      .bonus:first-child {
+        margin-top: 30px;
+        margin-left: 0;
+      }
+    }
+  }
+
+  .how-works__example {
+    padding: 24px 12px 28px 12px;
+    margin-top: 32px;
+    border-radius: 16px;
+    background-color: $colorGrayLight;
+
+    .example__text {
+      a {
+        color: $colorWhite;
+
+        &:hover {
+          color: $colorPink;
+        }
+      }
+    }
+
+
+    .example__discount-calc {
+      margin-top: 24px;
+      margin-left: auto;
+      margin-right: auto;
+
+      img {
+        margin: 0;
+        width: 24px;
+        height: 24px;
+      }
+
+      .discount-calc__value {
+        font-size: 22px;
+        font-weight: 700;
+      }
+    }
+
+    .example__preview {
+      margin-top: 32px;
+
+      .preview__left-col {
+        margin: 34px 14px 0 0;
+      }
+
+      .bonus + .bonus {
+        margin-top: 14px;
+      }
+    }
+  }
+
+  .bonus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    height: 130px;
+    text-align: center;
+    background: $colorWhite;
+    box-shadow: 0px 50px 100px rgba(33, 46, 66, 0.1);
+    border-radius: 40px;
+    color: $colorBlack;
+  }
+
+  .economy {
+    display: inline-flex;
+    align-items: center;
+    padding: 3px 3px 3px 12px;
+    margin-top: 24px;
+    border-radius: 20px;
+    line-height: 1.5;
+    background: $pinkGradient;
+
+    .economy__text {
+      font-size: 20px;
+      color: $colorWhite;
+    }
+
+    .economy__value {
+      padding: 3px 8px;
+      margin-left: 11px;
+      border-radius: 18px;
+      font-size: 24px;
+      font-weight: 500;
+      color: $colorPink;
+      background-color: $colorWhite;
+    }
+  }
+}
+
+@include md {
+  .how-works {
+    padding: 70px 0;
+    font-size: 18px;
+
+    .how-works__title{
+      font-size: 28px;
+      margin-bottom: 16px;
+    }
+    .how-works__description {
+
+
+      .description__preview {
+        .bonus {
+          margin-left: 24px;
+          width: 150px;
+          height: 150px;
+        }
+
+        .bonus:first-child {
+          margin-top: 60px;
+        }
+      }
+    }
+
+    .how-works__example {
+      padding: 40px;
+      margin-top: 60px;
+
+      .example__discount-calc {
+        margin-top: 32px;
+
+        img {
+          margin: 0 8px;
+          width: auto;
+          height: auto;
+        }
+
+        .discount-calc__value {
+          font-size: 36px;
+        }
+      }
+
+      .example__preview {
+        .preview__left-col {
+          margin: 34px 34px 0 0;
+        }
+
+        .bonus + .bonus {
+          margin-top: 34px;
+        }
+      }
+    }
+
+    .bonus {
+      width: 140px;
+      height: 140px;
+    }
+  }
+}
+
+@include lg {
+  .how-works {
+    .how-works__description {
+      .description__text {
+        max-width: 810px;
+      }
+
+      .description__preview {
+        margin-top: 0px;
+        padding-right: 100px;
+      }
+    }
+
+    .how-works__example {
+      padding: 40px 100px 40px 40px;
+
+      .example__text {
+        max-width: 770px;
+      }
+
+      .example__preview {
+        margin-top: 0;
+      }
+    }
+
+    .economy {
+      margin-top: 0;
+      margin-left: 36px;
+    }
+  }
+}

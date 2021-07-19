@@ -1,0 +1,21 @@
+.tridi {
+  position: relative;
+  height: 100%;
+  cursor: url(build-image-url("/icons/view360Black.svg")), pointer;
+
+  &::after {
+    content: "";
+    position: absolute;
+    z-index: 3;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    background: linear-gradient(to top, rgba(255,255,255,1) 0%, rgba(255, 255, 255, 0) 100%);
+  }
+
+  & > div {
+    height: 100%;
+  }
+}

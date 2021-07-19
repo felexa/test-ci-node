@@ -1,0 +1,158 @@
+.accordion {
+  margin: -16px;
+  display: flex;
+  flex-direction: column;
+
+  .panel {
+    min-height: auto;
+    border: none;
+    padding: 8px;
+    order: 4;
+
+    border: none;
+    margin: 12px 12px 0 12px;
+    background-color: $colorWhite;
+    border-radius: 16px;
+    box-shadow: 0 5px 10px rgba(26, 54, 95, 0.05);
+
+    &[data-id="filter_prices"] {
+      order: 2;
+    }
+
+    &[data-id="loyalty"] {
+      order: 1;
+      background-color: $yellowBackground;
+      border-radius: 12px;
+
+      .atrribute-item-count {
+        display: none;
+      }
+
+      .custom-input__state::after {
+        background-color: $colorWhite;
+      }
+      .custom-input--checkbox input:checked ~ .custom-input__state:after {
+        background-color: $colorPink;
+      }
+
+      .custom-input--checkbox::after {
+        position: absolute;
+        content: "";
+        display: block;
+        width: 21px;
+        height: 21px;
+        background-image: url(build-image-url("/user-profile/bonusNewMiniColor.svg"));
+        background-size: cover;
+        right: -25px;
+        top: 0;
+      }
+    }
+
+    &[data-id="komu-mozhno"] {
+      background-color: $greyBackground;
+      order: 3;
+      border-radius: 12px;
+
+      .custom-input__state::after {
+        background-color: $colorWhite;
+      }
+      .custom-input--checkbox input:checked ~ .custom-input__state:after {
+        background-color: $colorPink;
+      }
+
+      .panel__header {
+        position: relative;
+
+        .panel__title {
+          .icon {
+            display: block;
+          }
+        }
+      }
+    }
+
+    .panel__header {
+      padding: 8px;
+      cursor: pointer;
+
+      .panel__title {
+        font-size: 16px;
+        color: $colorBlack;
+
+        .icon {
+          display: none;
+        }
+
+
+      }
+    }
+
+    .panel__body {
+      padding: 0 16px 18px 16px;
+
+
+      .custom-input__item {
+        padding: 7px 0;
+        font-size: 14px;
+
+        .atrribute-item-name {
+          text-decoration: none;
+          color: $colorBlack;
+          margin-right: 6px;
+        }
+
+        .atrribute-item-name--disabled {
+          color: $colorGray;
+          cursor: not-allowed;
+        }
+      }
+
+      .custom-input__item--disabled {
+        cursor: not-allowed;
+      }
+
+      .panel__toggle {
+        padding-left: 0;
+        margin-top: 8px;
+      }
+    }
+  }
+
+  .panel + .panel {
+    border-top: 1px solid $colorLightGray;
+
+    &[data-id="filter_prices"] {
+      border-top: none;
+    }
+
+    &[data-id="komu-mozhno"] {
+      border: 1px solid $blueBorder;
+    }
+
+    &[data-id="loyalty"] {
+      border: 1px solid $yellowBorder;
+    }
+  }
+
+  @include md {
+    margin: -16px 0;
+
+    .panel {
+      margin: 0;
+      border-radius: 0;
+      box-shadow: none;
+
+      .panel__header {
+        padding: 6px 0;
+
+        .panel__title {
+          font-size: 14px;
+        }
+      }
+
+      .panel__body {
+        padding: 0;
+      }
+    }
+  }
+}

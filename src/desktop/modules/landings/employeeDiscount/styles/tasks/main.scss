@@ -1,0 +1,80 @@
+.tasks {
+  .tasks__body {
+    .tasks__description {
+      max-width: 630px;
+      margin-right: 16px;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    .tasks__available {
+      margin-top: 32px;
+
+      .available__title {
+        margin-bottom: 16px;
+        font-size: 22px;
+        font-weight: 700;
+      }
+
+      .available__items {
+        .icon {
+          color: $colorWhite;
+          font-size: 28px;
+        }
+
+        .item + .item {
+          margin-top: 20px;
+        }
+
+        .item__preview {
+          flex-shrink: 0;
+          width: 56px;
+          height: 56px;
+          margin-right: 24px;
+          border-radius: 20px;
+          background-color: $colorPink;
+          box-shadow: 0px 6px 12px rgba(255, 51, 102, 0.16);
+        }
+
+        .item__description {
+          font-size: 16px;
+          line-height: 1.5;
+        }
+      }
+    }
+  }
+}
+
+@include md {
+  .tasks {
+    .tasks__body {
+      .tasks__description {
+        font-size: 20px;
+      }
+
+      .tasks__available {
+        margin-top: -32px;
+
+        .available__items {
+          .icon {
+            font-size: 32px;
+          }
+
+          .item + .item {
+            margin-top: 32px;
+          }
+
+          .item__preview {
+            width: 60px;
+            height: 60px;
+          }
+
+          .item__description {
+            max-width: 380px;
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+}

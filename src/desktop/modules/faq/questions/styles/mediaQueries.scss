@@ -1,0 +1,33 @@
+.faq {
+  @media screen and (max-width: $maxLGResolution) {
+    .faq__title {
+      margin: 0 0 10px 0;
+      font-size: 24px;
+    }
+
+    .faq__subtitle {
+      margin: 0 0 32px 0;
+      font-size: 16px;
+    }
+
+    .faq__questions {
+      padding: 30px;
+    }
+  }
+
+  @media screen and (max-width: $maxMDResolution) {
+    .faq__questions {
+      padding: 30px 22px;
+    }
+  }
+
+  @media screen and (max-width: $maxXSResolution) {
+    .faq__subtitle {
+      margin: 0 0 24px 0;
+    }
+
+    .faq__questions {
+      padding: 8px 16px;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.partners {
+  @media screen and (max-width: 729px) {
+    .partners__items {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media screen and (max-width: 484px) {
+    .partners__items {
+      grid-template-columns: repeat(1, 1fr);
+      margin-right: 0;
+    }
+
+    .partners__item {
+      margin-right: 0;
+      max-width: 100%;
+    }
+  }
+}

@@ -1,0 +1,24 @@
+.account-bonus {
+  background: linear-gradient(90.12deg, #FFB340 0.11%, #F64C6B 100.52%);
+  border-radius: 30px;
+  padding: 2px 8px 2px 2px;
+  color: $colorWhite;
+  font-size: $fontSizeBase;
+  font-weight: 700;
+
+  &:hover {
+    color: $colorWhite;
+  }
+
+  .account-bonus__icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 4px;
+    background: $colorWhite;
+
+    img {
+      max-width: 16px;
+      max-height: 16px;
+    }
+  }
+}

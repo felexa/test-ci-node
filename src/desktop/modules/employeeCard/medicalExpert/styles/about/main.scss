@@ -1,0 +1,56 @@
+.medical-expert-card__about {
+  padding: 0 12px 24px 12px;
+  color: $colorBlack;
+  font-size: 16px;
+  line-height: 24px;
+
+  a {
+    text-decoration: none;
+  }
+
+  h2 {
+    color: $colorBlack;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 24px 0 12px 0;
+  }
+
+  ul {
+    margin: 0;
+  }
+
+  .swiper-container {
+    height: 200px;
+
+    .swiper-slide {
+      margin-right: 20px !important;
+      width: auto;
+
+      img {
+        height: 96%;
+        width: auto;
+        border: 2px solid $borderColorBase;
+        border-radius: 10px;
+      }
+    }
+  }
+}
+
+@include md {
+  .medical-expert-card__about {
+    padding: 0 24px 32px 24px;
+
+    .carousel-button-prev {
+      left: 2px;
+      top: 130px;
+    }
+    .carousel-button-next {
+      right: 2px;
+      top: 130px;
+    }
+
+    .swiper-container {
+      height: 300px;
+    }
+  }
+}

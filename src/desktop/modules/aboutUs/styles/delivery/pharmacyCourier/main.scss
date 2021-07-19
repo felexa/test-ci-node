@@ -1,0 +1,60 @@
+.pharmacy-courier {
+  .pharmacy-courier__availability {
+    background: rgba(52, 92, 139, 0.04);
+    border-radius: 10px;
+    padding: 24px;
+
+    .availability__title {
+      margin-bottom: 18px;
+    }
+
+    .availability__items {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-auto-flow: row;
+      list-style-type: none;
+
+      .availability__item {
+        line-height: 150%;
+        padding-left: 8px;
+        position: relative;
+        margin: 0 14px 4px 0;
+
+        &::before {
+          content: "";
+          display: block;
+          width: 4px;
+          height: 4px;
+          background: #000;
+          border-radius: 50%;
+          position: absolute;
+          top: 8px;
+          left: 0;
+        }
+      }
+    }
+  }
+
+  .prices__item {
+    line-height: 150%;
+  }
+
+  .pharmacy-courier__how-works,
+  .payment-types {
+    .schedule__items {
+      .schedule__item {
+        line-height: 150%;
+
+        &:not(:last-child) {
+          margin-bottom: 16px;
+        }
+      }
+    }
+  }
+
+  .how-works__warning {
+    text-align: justify;
+  }
+}
+
+@import "mediaQueries.scss";

@@ -1,0 +1,66 @@
+@import "./src/styles/variables/main";
+@import "./src/styles/mixin/main";
+
+@import "./src/desktop/components/title/styles/main";
+@import "./src/desktop/components/nativeCarousel/styles/main";
+
+.brand {
+  overflow: auto;
+
+  .brand__item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px 20px;
+    max-width: 100%;
+    height: auto;
+
+    &:first-child {
+      margin-left: 25px;
+    }
+
+    img  {
+      position: relative;
+      display: flex;
+      height: 38px;
+      width: auto;
+    }
+  }
+}
+
+@include md {
+  .brand {
+    .brand__item {
+      img {
+        transition: transform 0.2s;
+
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+
+      //&:first-child {
+      //  margin-left: 50px;
+      //}
+      //
+      //&:last-child {
+      //  margin-right: 50px;
+      //}
+    }
+  }
+}
+
+
+@include xl {
+  .brand {
+    .brand__item {
+      margin: 24px 20px;
+
+      img {
+        height: 48px;
+      }
+    }
+  }
+}
+

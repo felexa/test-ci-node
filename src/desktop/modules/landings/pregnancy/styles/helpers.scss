@@ -1,0 +1,25 @@
+.pregnancy-section {
+  .pregnancy-section__title {
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 28px;
+  }
+
+  & + .pregnancy-section {
+    margin-top: 40px;
+  }
+}
+
+.list--default {
+  display: grid;
+  grid-auto-flow: row;
+  grid-row-gap: 24px;
+  grid-column-gap: 24px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+
+  li {
+    font-size: 18px;
+  }
+}

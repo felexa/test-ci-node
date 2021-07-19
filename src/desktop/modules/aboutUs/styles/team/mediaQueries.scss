@@ -1,0 +1,17 @@
+.team {
+  @include before-lg {
+    .member__preview {
+      margin-top: 16px;
+    }
+  }
+
+  @include md {
+    h2 {
+      margin: 48px 0 32px;
+    }
+
+    p + p {
+      margin-top: 16px;
+    }
+  }
+}

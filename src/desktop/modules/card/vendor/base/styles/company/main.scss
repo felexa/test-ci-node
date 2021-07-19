@@ -1,0 +1,57 @@
+.company {
+  width: 100%;
+  .company__section {
+    padding: 35px 16px 38px 16px;
+    color: $colorWhite;
+    background: $blueGradient;
+  }
+
+  .company__banner {
+    img {
+      width: 100%;
+    }
+  }
+
+  .company__logo {
+    margin-bottom: 24px;
+    max-width: 214px;
+  }
+
+  .company__title {
+    font-weight: 500;
+    color: $colorWhite;
+    margin-bottom: 24px;
+  }
+
+  .contacts {
+    .contacts__item + .contacts__item {
+      margin-top: 16px;
+    }
+
+    .item__title {
+      width: 150px;
+      flex: 0 0 150px;
+      font-weight: 300;
+      display: block;
+      text-transform: uppercase;
+      margin-bottom: 4px;
+    }
+
+    .item__value {
+      color: $colorWhite;
+      font-size: 16px;
+      text-decoration: none;
+    }
+
+    a.item__value {
+      border-bottom: 1px solid $colorWhite;
+      transition: .1s;
+
+      &:hover {
+        border-bottom-color: transparent;
+      }
+    }
+  }
+}
+
+@import "mediaQueries";

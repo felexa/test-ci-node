@@ -1,0 +1,15 @@
+.warning--review {
+  margin: 32px 0;
+
+  @media screen and (max-width: $maxSMResolution) {
+    margin: 24px 0;
+  }
+}
+
+.warning--product {
+  margin: 0 24px 24px 24px;
+
+  @media screen and (max-width: $maxSMResolution) {
+    margin: 0 12px 24px 12px;
+  }
+}

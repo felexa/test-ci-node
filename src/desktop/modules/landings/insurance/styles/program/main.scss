@@ -1,0 +1,26 @@
+.insurance__program {
+  margin: 110px 0 60px 0;
+
+  .program__body {
+    padding: 70px 16px 40px 16px;
+    font-size: 16px;
+
+    p + p {
+      margin-top: 1em;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: -47px;
+      left: 50%;
+      transform: translate(-50%, 0);
+      width: 82px;
+      height: 94px;
+      background: url(build-image-url("/landings/insurance/shield.svg")) no-repeat center;
+      background-size: contain;
+    }
+  }
+}
+
+@import "mediaQueries";

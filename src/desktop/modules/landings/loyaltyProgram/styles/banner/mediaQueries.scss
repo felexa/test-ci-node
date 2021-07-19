@@ -1,0 +1,44 @@
+.banner {
+  @include md {
+    .banner__image {
+      margin-top: 0;
+
+      img {
+        max-width: 600px;
+      }
+    }
+  }
+  @include lg {
+    padding: 100px 0 160px 0;
+    background: url(build-image-url("/landings/loyalty-program/banner-bg.png")) no-repeat center;
+    background-size: 100% 100%;
+
+    .banner__header {
+      margin-bottom: 50px;
+
+      .banner__title {
+        font-size: 50px;
+      }
+    }
+
+    .banner__body {
+      max-width: 688px;
+
+      p {
+        font-size: 22px;
+      }
+    }
+  }
+
+  @include xl {
+    .banner__image {
+      position: relative;
+
+      img {
+        position: absolute;
+        top: -35px;
+        left: -40px;
+      }
+    }
+  }
+}

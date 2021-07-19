@@ -1,0 +1,33 @@
+.advantages {
+  @include md {
+    padding: 100px 0 90px 0;
+
+    &.section {
+      padding-bottom: 105px;
+    }
+
+    .advantages__title {
+      margin-bottom: 60px;
+    }
+
+    .advantages__item {
+      margin: 0 12px 0 12px;
+      padding: 0;
+
+      .item__title {
+        font-size: 20px;
+        margin-bottom: 16px;
+      }
+
+      .item__description {
+        font-size: 18px;
+      }
+    }
+  }
+
+  @include lg {
+    .advantages__items {
+      padding: 0 50px;
+    }
+  }
+}

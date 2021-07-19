@@ -1,0 +1,14 @@
+.other-contacts {
+  @media screen and (max-width: $maxLGResolution) {
+    width: 100%;
+    float: none;
+    order: 2;
+  }
+
+  @media screen and (max-width: $maxXSResolution) {
+    .other-contacts__item {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+}

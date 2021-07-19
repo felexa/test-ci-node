@@ -1,0 +1,40 @@
+@include before-xl {
+  .articles {
+    .articles__header h2{
+      font-size: 24px;
+    }
+  }
+}
+
+@include before-lg {
+  .articles {
+    .articles__header h2{
+      font-size: 22px;
+    }
+  }
+}
+
+@include before-md {
+  .articles {
+    .articles__header h2 {
+      margin-bottom: 16px;
+      margin-left: 12px;
+    }
+
+    .articles__item {
+      width: 100%;
+    }
+
+    .articles__items {
+      margin: 0;
+    }
+
+    .articles__item {
+      padding: 0;
+    }
+
+    .articles__item:not(:last-child) {
+      margin-bottom: 16px;
+    }
+  }
+}

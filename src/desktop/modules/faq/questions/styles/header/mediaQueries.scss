@@ -1,0 +1,10 @@
+.faq__header {
+  @media screen and (max-width: $maxLGResolution) {
+    padding-top: 30px;
+  }
+
+  @media screen and (max-width: $maxXSResolution) {
+    padding-top: 16px;
+    background-position: 0 0;
+  }
+}

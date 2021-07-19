@@ -1,0 +1,525 @@
+//.checkout-page {
+//    .checkout__step {
+//        .step__edit {
+//            display: none;
+//        }
+//
+//        &.confirm {
+//            .step__edit {
+//                display: inline-block;
+//            }
+//
+//            .step__confirm {
+//                display: none;
+//            }
+//        }
+//
+//        &.disabled {
+//            .step__confirm {
+//                display: none;
+//            }
+//        }
+//    }
+//}
+//
+//.needAuthText {
+//    text-align: center;
+//    margin-top: 20vh;
+//}
+//
+//.print_orderset,
+//.print_foot {
+//    display: none;
+//}
+//
+//.thks_printicon {
+//    display: flex;
+//    justify-content: space-between;
+//    & a {
+//        display: flex;
+//        align-items: center;
+//        justify-content: end;
+//        color: $colorfont;
+//    }
+//}
+//
+//.table-list {
+//    color: $dark1;
+//    padding: 0;
+//    margin: 0;
+//
+//    .table-row {
+//        padding: 0 20px;
+//        display: flex;
+//        margin-top: 3px;
+//        margin-bottom: 3px;
+//        &:first-child {
+//            margin-top: 0;
+//            margin-bottom: 0;
+//        }
+//        &:first-child + .table-row {
+//            margin-top: 10px;
+//        }
+//    }
+//
+//    .table-list-i {
+//        padding: 15px 0;
+//        border-bottom: 1px solid $gray2;
+//        height: calc(100% - 1px);
+//        width: 100%;
+//    }
+//
+//    .title-holder {
+//        width: 33%;
+//        font-size: $font16;
+//        font-family: $mainfont2;
+//        p {
+//            font-family: $mainfont2;
+//        }
+//    }
+//
+//    .description-holder {
+//        width: 67%;
+//        font-size: $font14;
+//    }
+//}
+//
+//.checkout-page {
+//    height: 100vh;
+//    background-color: $litegray;
+//
+//    .checkout-title {
+//        font-size: $font22;
+//        text-transform: uppercase;
+//        color: $black;
+//        font-weight: bold;
+//    }
+//    ul {
+//        list-style-type: none;
+//        padding: 0;
+//        li {
+//            list-style: none;
+//        }
+//    }
+//
+//    .tabs-header-holder {
+//        .tab-btn {
+//            font-size: $font14;
+//            font-family: $mainfont2;
+//            color: $colorfont;
+//            border: 2px solid transparent;
+//            border-bottom-color: $gray2;
+//            padding: 2px;
+//            max-width: 100%;
+//            max-width: 275px;
+//            &.selected {
+//                border-color: $redcolor2;
+//                color: $redcolor2;
+//            }
+//            &:not(:first-child) {
+//                margin-left: 8px;
+//            }
+//        }
+//        .tab-indicator {
+//            display: none;
+//        }
+//    }
+//
+//    .checkout-wizard-holder {
+//        background: $white;
+//        box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+//        .row-wizards-btn {
+//            padding: 20px 34px;
+//        }
+//    }
+//
+//    .checkout-sidebar-holder {
+//        box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+//        background-color: $white;
+//    }
+//    .purchases-total {
+//        padding: 30px 20px;
+//    }
+//    .btn {
+//        font-size: $font14;
+//    }
+//    .btn-submit-wizards {
+//        min-width: auto;
+//        width: 100%;
+//        padding: 8px 10px;
+//        & + .btn-forgot-password {
+//            margin-top: 15px;
+//            display: inline-block;
+//        }
+//    }
+//    .btn-forgot-password {
+//        text-transform: none;
+//        color: $black;
+//        text-decoration: underline;
+//        display: inline-block;
+//    }
+//
+//    .checkout-delivery-payment {
+//        border-top: 2px solid $gray2;
+//        .tabs-header-holder .tab-btn {
+//            max-width: none;
+//        }
+//        .form-row-btn {
+//            padding: 0 34px 25px;
+//        }
+//    }
+//
+//    .checkout-section {
+//        &:not(:last-child) {
+//            padding-bottom: 15px;
+//        }
+//        &.delivery-section {
+//            padding-bottom: 10px;
+//            margin-bottom: 15px;
+//            padding-top: 15px;
+//            border-bottom: 1px solid #ddd;
+//            border-top: 1px solid #ddd;
+//        }
+//
+//        &.additionally-section {
+//            .checkout-section-title {
+//                font-weight: normal;
+//            }
+//        }
+//    }
+//
+//    .checkout-section-title {
+//        font-size: $font15;
+//        font-weight: bold;
+//        color: $black;
+//        font-family: $mainfont2;
+//        text-transform: uppercase;
+//    }
+//    .checkout-section-body {
+//        padding-left: 0;
+//        padding-top: 25px;
+//    }
+//
+//    .form-row-method-header {
+//        display: flex;
+//    }
+//    .radio-holder {
+//        //min-width: 360px;
+//        & > label {
+//            margin: 0;
+//        }
+//        .option-label {
+//            font-size: $font16;
+//            font-family: $mainfont2;
+//            color: $black;
+//            padding-left: 10px;
+//            display: block;
+//        }
+//    }
+//    .checkbox-holder {
+//        .option-label {
+//            font-size: $font16;
+//            font-family: $mainfont2;
+//            color: $black;
+//            padding-left: 3px;
+//            padding-left: 10px;
+//        }
+//    }
+//    .select-holder {
+//        width: 100%;
+//        max-width: 440px;
+//    }
+//
+//    .order-section {
+//        .svg-icon {
+//            margin-right: 10px;
+//        }
+//        .svg-icon-marker {
+//            font-size: $font20;
+//        }
+//        .svg-icon-clock {
+//            font-size: $font18;
+//        }
+//    }
+//    .btn-show-map {
+//        font-size: $font14;
+//        text-transform: none;
+//        font-family: $mainfont2;
+//    }
+//    .work-time-block {
+//        display: flex;
+//        color: $redcolor2;
+//        font-family: $mainfont2;
+//        .work-time-body {
+//            div:first-child {
+//                margin-bottom: 4px;
+//            }
+//            span {
+//                margin-left: 4px;
+//            }
+//        }
+//    }
+//
+//    .delivery-pickup {
+//        .form-row-info {
+//            justify-content: space-between;
+//        }
+//    }
+//
+//    .tooltip-holder {
+//        margin-left: 5px;
+//        color: $redcolor2;
+//    }
+//}
+//
+//.tooltip-popper-checkout {
+//    .tooltip {
+//        font-size: $font10 !important;
+//    }
+//}
+//
+//.order-product-list {
+//    margin: 0 0 30px;
+//    .order-product-i {
+//        display: flex;
+//        justify-content: space-between;
+//        align-items: center;
+//        flex-direction: row;
+//        &:not(:first-child) {
+//            margin-top: 14px;
+//        }
+//
+//        .item-body-mob {
+//            display: block;
+//        }
+//        .item-body-web {
+//            display: none;
+//        }
+//    }
+//    .item-image {
+//        float: left;
+//        position: relative;
+//        overflow: hidden;
+//        width: 60px;
+//        height: 60px;
+//        border: 1px solid $gray2;
+//        padding: 5px;
+//        box-sizing: border-box;
+//        img {
+//            position: absolute;
+//            top: 50%;
+//            left: 50%;
+//            -webkit-transform: translate(-50%, -50%);
+//            -ms-transform: translate(-50%, -50%);
+//            transform: translate(-50%, -50%);
+//            width: 50px;
+//            height: 50px;
+//            -o-object-fit: cover;
+//            object-fit: cover;
+//        }
+//    }
+//    .item-name {
+//        box-sizing: border-box;
+//        width: 50%;
+//        font-family: $mainfont2;
+//        color: $black;
+//        font-size: $font18;
+//        padding: 10px;
+//        line-height: 1.3;
+//        flex: 3;
+//    }
+//    .item-quantity {
+//        flex: 1;
+//        padding: 10px;
+//        box-sizing: border-box;
+//        text-align: center;
+//        font-family: $mainfont2;
+//        font-size: $font18;
+//        color: $black;
+//    }
+//    .item-price {
+//        padding: 10px;
+//        box-sizing: border-box;
+//        width: 200px;
+//        text-align: right;
+//        font-family: $mainfont2;
+//        font-size: $font24;
+//        color: $black;
+//        span {
+//            font-size: $font18;
+//        }
+//    }
+//
+//    .item-body-mob {
+//        padding: 10px;
+//        width: 100%;
+//
+//        .item-name {
+//            flex: none;
+//            width: 100%;
+//            padding: 0;
+//            font-size: $font14;
+//            margin-bottom: 5px;
+//        }
+//        .item-body-mob-bill {
+//            display: flex;
+//            align-items: center;
+//            justify-content: space-between;
+//        }
+//        .item-quantity {
+//            flex: none;
+//            padding: 0;
+//            font-size: $font16;
+//        }
+//        .item-price {
+//            width: auto;
+//            padding: 0;
+//            font-size: $font20;
+//        }
+//    }
+//}
+//
+//.thks_title,
+//.thks_title2 {
+//    font-family: $mainfont2;
+//    font-size: $font18;
+//    color: $black;
+//    font-weight: bold;
+//    padding: 15px 10px;
+//    display: flex;
+//    justify-content: space-between;
+//    border-bottom: 1px solid $gray2;
+//}
+//
+//.thks_row-foot {
+//    padding: 20px;
+//    display: flex;
+//    justify-content: center;
+//    align-items: center;
+//    height: 50px;
+//    a {
+//        display: flex;
+//        justify-content: center;
+//        align-items: center;
+//        color: $colorfont;
+//    }
+//}
+//
+//.thks_row {
+//    display: flex;
+//    justify-content: space-between;
+//    padding: 15px 10px;
+//    flex-direction: row;
+//    & div {
+//        flex: 1;
+//        font-family: $mainfont2;
+//        color: $black;
+//        font-size: $font16;
+//        padding: 0 10px;
+//        &:first-child {
+//            color: $colorfont;
+//            flex: 3;
+//            font-family: $mainfont;
+//            font-size: $font14;
+//        }
+//    }
+//}
+//
+//.purchases-block {
+//    overflow: auto;
+//    max-height: calc(100vh - 115px);
+//}
+//
+//@media (min-width: 600px) {
+//    .checkout-page {
+//        .btn {
+//            font-size: $font18;
+//        }
+//        .btn-submit-wizards {
+//            max-width: 260px;
+//            & + .btn-forgot-password {
+//                margin-left: 25px;
+//            }
+//        }
+//        .tabs-header-holder {
+//            .tab-btn {
+//                font-size: $font16;
+//                padding: 2px 8px;
+//            }
+//        }
+//    }
+//    .tooltip-popper-checkout {
+//        .tooltip {
+//            font-size: $font12 !important;
+//        }
+//    }
+//}
+//
+//@media (min-width: 768px) {
+//    .checkout-page {
+//        .checkout-title {
+//            font-size: $font28;
+//        }
+//        .tabs-header-holder {
+//            .tab-btn {
+//                font-size: $font18;
+//                padding: 2px 20px;
+//            }
+//        }
+//        .radio-holder {
+//            .option-label {
+//                font-size: $font18;
+//                padding-left: 15px;
+//            }
+//        }
+//        .checkbox-holder {
+//            .option-label {
+//                font-size: $font18;
+//                padding-left: 15px;
+//            }
+//        }
+//    }
+//
+//    .order-product-list {
+//        .order-product-i {
+//            .item-body-mob {
+//                display: none;
+//            }
+//            .item-body-web {
+//                display: flex;
+//                width: 100%;
+//            }
+//        }
+//    }
+//}
+//
+//@media (min-width: 1280px) {
+//    .checkout-page .checkout-sidebar-holder {
+//        position: sticky;
+//        top: 100px;
+//    }
+//}
+//
+//@media print {
+//    .table-list {
+//        list-style: none;
+//        & .table-list-i:first-child .table-row p {
+//            font-size: $font24;
+//            font-family: $mainfont2;
+//            font-weight: bold;
+//        }
+//    }
+//    .thks_title {
+//        display: none;
+//    }
+//    .print_orderset {
+//        display: block;
+//        font-family: $mainfont2;
+//        font-weight: bold;
+//        margin: 15px 20px;
+//    }
+//    .print_foot {
+//        display: block;
+//        margin-bottom: 100px;
+//    }
+//}

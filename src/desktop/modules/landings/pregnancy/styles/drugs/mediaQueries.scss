@@ -1,0 +1,25 @@
+.drugs {
+  @media screen and (max-width: $maxMDResolution) {
+    .drugs__items {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  @media screen and (max-width: $maxSMResolution) {
+    .drugs__items {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  @media screen and (max-width: $maxXSResolution) {
+    .drugs__items {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media screen and (max-width: 340px) {
+    .drugs__items {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+}

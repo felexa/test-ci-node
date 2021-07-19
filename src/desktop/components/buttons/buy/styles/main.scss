@@ -1,0 +1,60 @@
+@import "./src/styles/variables/colors";
+@import "./src/styles/variables/fonts";
+
+.to-basket {
+  height: 46px;
+
+  &:hover {
+    opacity: 0.85;
+  }
+
+  &:not(.to-basket--in-basket):hover {
+    .icon--default {
+      display: none;
+    }
+
+    .icon--hovered {
+      display: inline;
+    }
+  }
+
+  &.to-basket--with-price:not(.to-basket--in-basket) {
+    .buy-icons {
+      display: none;
+    }
+  }
+
+  .buy-icons {
+    min-width: 16px;
+    min-height: 16px;
+  }
+
+  .icon {
+    margin-right: 8px;
+    position: relative;
+  }
+
+  .icon-cart {
+    font-size: 16px;
+    height: 16px;
+    width: 16px;
+  }
+
+  .icon--default {
+    position: relative;
+    margin-right: 8px;
+  }
+
+  .icon--hovered {
+    display: none;
+
+    &:after {
+      display: none;
+    }
+  }
+
+  .price {
+    color: $colorWhite;
+    font-size: $fontSizeMedium;
+  }
+}

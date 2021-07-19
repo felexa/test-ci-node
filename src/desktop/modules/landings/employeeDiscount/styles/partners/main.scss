@@ -1,0 +1,42 @@
+.partners {
+  .partners__body {
+    .partners__items {
+      margin: -8px;
+
+      .item {
+        width: calc(48.5% - 12px);
+        height: 68px;
+        margin: 8px;
+        border-radius: 20px;
+        border: 1px solid $borderColorBase;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+
+        img {
+          object-fit: contain;
+          width: 98%;
+        }
+      }
+    }
+  }
+}
+
+@include md {
+  .partners {
+    .partners__body {
+      .partners__items {
+        .item {
+          width: calc(16.66% - 16px);
+          height: 100px;
+          font-size: 20px;
+
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

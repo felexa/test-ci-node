@@ -1,0 +1,11 @@
+.clients {
+  @media screen and (max-width: $maxLGResolution) {
+    width: 100%;
+    float: none;
+    order: 1;
+  }
+
+  @media screen and (max-width: $maxXSResolution) {
+    padding: 24px 16px;
+  }
+}

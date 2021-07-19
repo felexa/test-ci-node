@@ -1,0 +1,47 @@
+@import "./src/styles/variables/main";
+@import "./src/styles/mixin/main";
+@import "./src/styles/helpers/main";
+
+.bonuses-airdrop {
+  $blueRedGradient: linear-gradient(225.37deg, #FFE6FA 0%, #E3FDF5 100.65%), #EEF1F5;
+
+  $redBlueGradient: linear-gradient(225.37deg, #E3FDF5 0%, #FFE6FA 100.65%), #EEF1F5;
+
+  $blueGradient: linear-gradient(326.85deg, #0D46B8 0%, #6E9CF8 98.81%),
+                 linear-gradient(326.85deg, #0C3483 0%, #6B8CCE 98.81%);
+
+  $purpleGradient: linear-gradient(327.58deg, #3B278D -2.09%, #9C8DFF 97.92%),
+                   linear-gradient(327.58deg, #3D3C84 -2.09%, #B5AEE4 97.92%);
+
+  $lightBlueGradient: linear-gradient(321.59deg, #0574B6 2.3%, #91F3E8 103.92%),
+                      linear-gradient(321.59deg, #13547A 2.3%, #80D0C7 103.92%);
+
+  $greenGradient: linear-gradient(330.54deg, #036C3A -3.32%, #79E090 98.92%),
+                  linear-gradient(330.54deg, #3D4E81 -3.32%, #5753C9 45.62%, #6E7FF3 98.92%);
+
+  $redGradient: linear-gradient(325.72deg, #B12A5B 11.82%, #CF556C 34.2%, #FF8C7F 67.61%, #FF8177 100%);
+
+  @import "conditions/main";
+  @import "howWorks/main";
+  @import "coupons/main";
+
+  margin: -16px 0 -60px 0;
+
+  p {
+    margin: 0;
+  }
+
+  .section {
+    padding: 80px 0;
+
+    .section__title {
+      margin: 0 0 16px 0;
+      font-size: 32px;
+      font-weight: 700;
+      color: $colorBlack;
+      text-align: center;
+    }
+  }
+}
+
+@import "mediaQueries.scss";

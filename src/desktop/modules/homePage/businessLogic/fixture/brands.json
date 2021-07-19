@@ -1,0 +1,99 @@
+[
+  {
+    "name": "",
+    "logo": {
+      "src": {
+        "medium": "https://i.apteka24.ua/blog/Frame+1617+(2).png"
+      },
+      "size": {
+        "medium": {
+          "width": 161,
+          "height": 48
+        }
+      }
+    },
+    "url": "coloplast/",
+    "id": 1
+  },
+  {
+    "name": "",
+    "logo": {
+      "src": {
+        "medium": "https://i.apteka24.ua/blog/Frame+1622+(2).png"
+      },
+      "size": {
+        "medium": {
+          "width": 48,
+          "height": 48
+        }
+      }
+    },
+    "url": "search?query=bayer",
+    "id": 2
+  },
+  {
+    "name": "",
+    "logo": {
+      "src": {
+        "medium": "https://i.apteka24.ua/blog/jj-logo.png"
+      },
+      "size": {
+        "medium": {
+          "width": 184,
+          "height": 48
+        }
+      }
+    },
+    "url": "manufacturer/jj/",
+    "id": 3
+  },
+  {
+    "name": "",
+    "logo": {
+      "src": {
+        "medium": "https://i.apteka24.ua/blog/Frame+1630.png"
+      },
+      "size": {
+        "medium": {
+          "width": 149,
+          "height": 48
+        }
+      }
+    },
+    "url": "search?query=boehringer",
+    "id": 4
+  },
+  {
+    "name": "",
+    "logo": {
+      "src": {
+        "medium": "https://i.apteka24.ua/blog/Frame+1641.png"
+      },
+      "size": {
+        "medium": {
+          "width": 84,
+          "height": 48
+        }
+      }
+    },
+    "url": "search?query=pfizer",
+    "id": 5
+  },
+  {
+    "name": "",
+    "logo": {
+      "src": {
+        "medium": "https://i.apteka24.ua/blog/Frame+1642.png"
+      },
+      "size": {
+        "medium": {
+          "width": 110,
+          "height": 48
+        }
+      }
+    },
+    "url": "search?query=procter",
+    "id": 6
+  }
+]
+

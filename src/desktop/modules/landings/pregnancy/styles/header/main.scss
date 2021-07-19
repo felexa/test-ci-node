@@ -1,0 +1,27 @@
+.pregnancy__header {
+  padding: 65px 0 145px 0;
+  margin-bottom: -60px;
+  color: $colorWhite;
+  background: url(build-image-url("/pregnancy/woman.png")) no-repeat 84% 0 / contain,
+              linear-gradient(90deg, #E88184 0%, #FAA1A3 89.38%),
+              linear-gradient(0deg, #F9A1A3 14.74%, #F9A4A5 56.92%, #F49A9B 100%);
+
+  a {
+    text-decoration: underline;
+    color: $colorWhite;
+  }
+
+  .pregnancy__title {
+    margin: 0 0 24px 0;
+    line-height: 150%;
+    font-size: 36px;
+    color: inherit;
+  }
+
+  .pregnancy__subtitle {
+    margin: 0;
+    font-size: 20px;
+  }
+}
+
+@import "mediaQueries";

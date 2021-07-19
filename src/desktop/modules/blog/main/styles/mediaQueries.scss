@@ -1,0 +1,109 @@
+@include before-xl {
+  .blog {
+    .blog__content {
+      padding: 32px 24px;
+    }
+
+    .blog-section:not(:last-child) {
+      border: none;
+      margin-bottom: 32px;
+      padding-bottom: 0px;
+    }
+  }
+}
+
+@include before-lg {
+  .blog {
+    h1 {
+      font-size: 28px;
+    }
+  }
+}
+
+@include before-md {
+  .blog {
+    margin-bottom: -24px;
+
+    .categories__body {
+      overflow: hidden;
+    }
+
+    .collapsed {
+      max-height: 335px;
+    }
+
+    .blog-section:not(:last-child) {
+      margin-bottom: 24px;
+    }
+
+    .blog__content {
+      padding: 0;
+      background: transparent;
+      box-shadow: none;
+    }
+
+    h1 {
+      padding-left: 12px;
+      font-size: 24px;
+    }
+
+
+    .blog__pagination {
+      .pagination {
+        margin-top: 24px;
+      }
+    }
+  }
+}
+
+@include xl {
+  .blog {
+    .articles {
+      .articles__items {
+        margin: -12px;
+      }
+
+      .articles__item {
+        padding: 12px;
+      }
+    }
+  }
+}
+
+//------ styles for last-articles block -------
+
+//@include lg {
+//  .blog__last-articles {
+//    .articles {
+//      .articles__items {
+//        display: block;
+//        column-count: 2;
+//      }
+//
+//      .articles__item {
+//        width: 100%;
+//        break-inside: avoid;
+//        page-break-inside: avoid;
+//      }
+//
+//      .articles__item:first-child {
+//        .article {
+//          flex-direction: column;
+//        }
+//
+//        .article__header {
+//          width: 100%;
+//          margin-bottom: 12px;
+//        }
+//
+//        .article__preview {
+//          width: 100%;
+//        }
+//
+//        .article__title {
+//          font-size: 24px;
+//        }
+//      }
+//    }
+//  }
+//}

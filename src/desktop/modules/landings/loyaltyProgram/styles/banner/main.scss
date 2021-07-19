@@ -1,0 +1,38 @@
+.banner {
+  padding: 40px 0 80px 0;
+  background: url(build-image-url("/landings/loyalty-program/banner-bg_mobile.png")) no-repeat center;
+  background-size: 100% 100%;
+
+  .banner__header {
+    margin-bottom: 16px;
+
+    .banner__title {
+      margin: 0;
+      font-size: 36px;
+      font-weight: 700;
+    }
+  }
+
+  .banner__body {
+    p {
+      margin: 0;
+      font-size: 18px;
+      line-height: 1.66;
+    }
+  }
+
+  .banner__image {
+    height: 100%;
+    margin-top: 24px;
+
+    img {
+      display: block;
+      width: 100%;
+      max-width: 320px;
+      margin: 0 auto;
+      height: auto;
+    }
+  }
+}
+
+@import "mediaQueries";

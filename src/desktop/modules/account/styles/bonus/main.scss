@@ -1,0 +1,144 @@
+.bonus {
+  @import "history/main";
+
+    .bonus__banner {
+      background: linear-gradient(244.1deg, #ffcc30 -11.57%, #ffa030 60.53%), #ffffff;
+      display: flex;
+      justify-content: center;
+
+      img {
+        display: none;
+      }
+
+      .bonus__banner-essentials {
+        padding: 24px 12px;
+
+          .bonus__banner-label {
+            display: flex;
+            align-items: center;
+            margin-bottom: 24px;
+            border: 1px dashed $colorWhite;
+            border-radius: 40px;
+            padding: 16px;
+            background: $colorTransparentWhiteBonus;
+
+            img {
+              height: 72px;
+              margin-right: 16px;
+              display: block;
+            }
+
+            .bonus__banner-quantity {
+              display: flex;
+              align-items: center;
+            }
+
+            .bonus__banner-price {
+              margin-right: 7px;
+              font-size: 40px;
+              font-weight: bold;
+            }
+          }
+
+        .bonus__banner-controlers {
+          flex-direction: column;
+          align-items: center;
+
+          .icon {
+            color: $colorWhite;
+          }
+
+          .bonus__banner-instruction {
+            text-decoration-style: dashed;
+            color: $colorWhite;
+            margin-top: 24px;
+          }
+          .bonus__banner-upgrade-bonus {
+            border: 1px solid $colorWhite;
+          }
+        }
+      }
+    }
+    .bonus__banner--empty {
+      padding: 32px 50px !important;
+      text-align: center;
+      font-size: $fontSizeMedium;
+
+      a {
+        font-size: $fontSizeMedium;
+        color: $colorWhite;
+      }
+    }
+  }
+
+@include md {
+  .bonus {
+    .bonus__header {
+      .bonus__banner {
+        justify-content: flex-start;
+        align-items: center;
+        padding: 16px 24px;
+
+        .bonus__banner-label-img {
+          max-width:100%;
+
+          img {
+            display: block;
+            max-width:100%;
+          }
+        }
+
+        .bonus__banner-essentials {
+          padding: 20px;
+          justify-content: flex-start;
+
+          .bonus__banner-controlers {
+            align-items: flex-start;
+          }
+        }
+        .bonus__banner--empty {
+          img {
+            height: 94px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@include lg {
+  .bonus {
+      .bonus__banner {
+        padding: 40px 0 40px 56px;
+        justify-content: space-between;
+        align-items: center;
+
+        img {
+          display: block;
+          max-height: 195px;
+        }
+
+        .bonus__banner-essentials {
+          padding: 0;
+
+          .bonus__banner-label {
+            margin-bottom: 32px;
+            width: 100%;
+
+            img {
+              height: 88px;
+            }
+          }
+
+          .bonus__banner-controlers {
+            flex-direction: row;
+            align-items: center;
+
+            .bonus__banner-instruction {
+              margin-top: 0;
+            }
+          }
+        }
+      }
+    }
+  }

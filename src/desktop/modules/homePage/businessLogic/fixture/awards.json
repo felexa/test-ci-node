@@ -1,0 +1,90 @@
+[
+  {
+    "id": "1",
+    "title": "Награда «Аптека года», 2015 г., «Панацея», Черкассы",
+    "description": "",
+    "url": "https://www.apteka24.ua/blog/zdorove-semi/apteka24_pobeditel_ezhegodnogo_konkursa_panatseya_2015_/",
+    "preview": {
+      "alt": "",
+      "title": "",
+      "src": {
+        "small": "",
+        "medium": "",
+        "large": "",
+        "original": "https://i.apteka24.ua/temp-images/award_1.png"
+      },
+      "size": {
+        "original": {
+          "width": 292,
+          "height": 206
+        }
+      }
+    }
+  },
+  {
+    "id": "2",
+    "title": "Награда «Аптека года», 2015 г., «Панацея», Черкассы",
+    "description": "",
+    "url": "https://www.apteka24.ua/blog/zdorove-semi/apteka24_pobeditel_ezhegodnogo_konkursa_panatseya_2015_/",
+    "preview": {
+      "alt": "",
+      "title": "",
+      "src": {
+        "small": "",
+        "medium": "",
+        "large": "",
+        "original": "https://i.apteka24.ua/temp-images/award_2.png"
+      },
+      "size": {
+        "original": {
+          "width": 150,
+          "height": 206
+        }
+      }
+    }
+  },
+  {
+    "id": "3",
+    "title": "Сертификат ITE Beauty Event XV, 2016, Intercharm",
+    "description": "",
+    "url": "",
+    "preview": {
+      "alt": "",
+      "title": "",
+      "src": {
+        "small": "",
+        "medium": "",
+        "large": "",
+        "original": "https://i.apteka24.ua/temp-images/award_3.png"
+      },
+      "size": {
+        "original": {
+          "width": 150,
+          "height": 206
+        }
+      }
+    }
+  },
+  {
+    "id": "4",
+    "title": "J&J",
+    "description": "",
+    "url": "",
+    "preview": {
+      "alt": "",
+      "title": "",
+      "src": {
+        "small": "",
+        "medium": "",
+        "large": "",
+        "original": "https://i.apteka24.ua/temp-images/award_4.jpg"
+      },
+      "size": {
+        "original": {
+          "width": 150,
+          "height": 206
+        }
+      }
+    }
+  }
+]

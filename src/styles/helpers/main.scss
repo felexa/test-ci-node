@@ -1,0 +1,14 @@
+@import "utilities/main.scss";
+
+// TODO move to borders later
+.base-border {
+  border: 1px solid $borderColorBase;
+}
+
+.base-border-bottom {
+  border-bottom: 1px solid $borderColorBase;
+}
+
+.base-border-top {
+  border-top: 1px solid $borderColorBase;
+}

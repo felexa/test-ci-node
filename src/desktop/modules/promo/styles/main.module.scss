@@ -1,0 +1,67 @@
+@import "./src/styles/variables/main";
+@import "./src/styles/mixin/main";
+
+@import "./src/desktop/components/error/style";
+@import "./src/desktop/components/rubric/product/styles/main";
+
+.modal.promo {
+  .modal__body {
+    overflow-x: auto;
+  }
+}
+
+.promo {
+  @import "header/main";
+  @import "timer/main";
+
+  h1 {
+    font-family: $fontFamilySans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    color: $colorBlack;
+    margin: 0 0 24px 0;
+    max-width: 100%;
+
+    @media screen and (max-width: $maxSMResolution) {
+      margin-top: 12px;
+      font-size: 28px;
+    }
+
+    @media screen and (max-width: $minMDResolution) {
+      font-size: 24px;
+    }
+  }
+
+  p {
+    margin: 0 0 24px 0;
+    padding: 0;
+    color: $colorBlack;
+    font-size: 16px;
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  //.promo__body {
+  //  max-width: 1076px;
+  //  width: 100%;
+  //  padding: 40px;
+  //  box-shadow: $box-shadow-primary;
+  //  border-radius: 10px;
+  //  background: $colorWhite;
+  //
+  //  a {
+  //    text-decoration: none;
+  //  }
+  //}
+
+  @media screen and (max-width: $maxSMResolution) {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
+
+//@import "mediaQueries";

@@ -1,0 +1,156 @@
+@import "./src/styles/variables/main";
+@import "./src/styles/mixin/main";
+@import "./src/styles/helpers/utilities/image";
+
+@import "./src/core/components/rangeSlider/styles/main";
+
+@import "./src/desktop/components/pagination/styles/main";
+@import "./src/desktop/components/priceSlider/styles/main";
+@import "./src/desktop/components/rubric/product/styles/main";
+
+.search-result {
+  $colorLightGray: rgba(136, 143, 154, 0.16);
+  $colorGreyForHover: rgba(52, 92, 139, 0.04);
+
+  @import "./category/main";
+  @import "./products/main";
+  //@import "./priceSlider/main";
+  @import "./filter/main";
+
+  &.loading {
+    &::before {
+      content: "";
+      position: fixed;
+  }
+}
+
+  .search__header {
+    .search__title {
+      font-size: 20px;
+      margin-bottom: 12px;
+    }
+
+    .search__controls {
+      justify-content: flex-start;
+  }
+
+    .search__found-products {
+      .found-products__category {
+        color: $colorBlue;
+        cursor: pointer;
+
+        &:hover {
+          color: $colorPink;
+        }
+      }
+    }
+
+    .search__suggestion {
+      font-size: 16px;
+      margin-top: 16px;
+    }
+
+    .btn-default--outline .icon {
+      margin-right: 8px;
+    }
+
+    .search__selection {
+      margin-right: 16px;
+      margin-bottom: 8px;
+
+      .selection__title {
+        margin-right: 14px;
+        margin-bottom: 8px;
+        white-space: nowrap;
+        padding: 6px 0px;
+        align-self: flex-start;
+      }
+
+      .selection__items {
+        flex-wrap: wrap;
+
+        .item {
+          display: flex;
+          align-items: center;
+          padding: 6px 10px 6px 16px;
+          margin-right: 8px;
+          margin-bottom: 8px;
+          border: 1px solid $colorGray;
+          border-radius: 16px;
+          cursor: pointer;
+
+          span {
+            white-space: nowrap;
+          }
+
+          .icon {
+            margin-left: 8px;
+            color: $colorGray;
+            font-size: 20px;
+          }
+        }
+
+        .item:hover {
+          border: 1px solid $colorPink;
+          .icon {
+            color: $colorPink;
+          }
+        }
+      }
+
+      .selection__reset {
+        margin-right: 8px;
+        margin-bottom: 8px;
+        padding: 7px 16px;
+        border: 1px solid $colorPink;
+        border-radius: 16px;
+        cursor: pointer;
+        color: $colorBlack;
+        font-size: 14px;
+        align-self: flex-start;
+      }
+
+      .selection__reset:hover {
+        color: $colorWhite;
+        background-color: $colorPink;
+      }
+    }
+  }
+
+  .search__body {
+    width: 100%;
+  }
+
+  .search__aside {
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    max-width: 320px;
+    transform: translateX(-100%);
+    transition: 0;
+
+    &--active {
+      transform: translateX(0);
+    }
+  }
+
+  .search__aside--active + .overlay {
+    display: block;
+  }
+
+  .overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 4;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+}
+
+@import "mediaQueries";

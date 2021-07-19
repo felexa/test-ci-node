@@ -1,0 +1,22 @@
+.nicorette__header {
+  padding: 0 16px;
+
+  .nicorette__banner {
+    border-radius: 16px;
+    overflow: hidden;
+
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+.nicorette__header {
+  @include md {
+    padding: 0 40px;
+  }
+}
+
+

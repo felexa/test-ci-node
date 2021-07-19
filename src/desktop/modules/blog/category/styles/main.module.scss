@@ -1,0 +1,40 @@
+@import "./src/styles/variables/main";
+@import "./src/styles/mixin/main";
+
+@import "./src/desktop/components/pagination/styles/main";
+@import "./src/desktop/modules/blog/components/article/styles/main";
+@import "./src/desktop/modules/blog/components/articles/styles/main";
+@import "./src/desktop/modules/blog/components/mailing/styles/main";
+
+.category {
+  @import "./filter/main";
+
+  margin-top: 16px;
+
+  h1 {
+    color: $colorBlack;
+    font-size: 36px;
+    margin: 0 0 16px 0;
+  }
+
+  .category__content {
+    padding: 40px;
+  }
+
+  .category__filter {
+    margin-bottom: 26px;
+  }
+
+  .category__pagination {
+    .pagination {
+      margin-top: 40px;
+    }
+  }
+}
+
+@import "./mediaQueries";
+
+
+
+
+

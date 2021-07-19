@@ -1,0 +1,64 @@
+.banner {
+  padding-top: 32px;
+  background: radial-gradient(65.31% 25.7% at 50% 53.83%, #517DD5 0%, #0C3483 100%),
+  linear-gradient(102.12deg, #1B79DD 23.97%, #3AB3EC 91.94%),
+  linear-gradient(79.13deg, #91B8F3 10.29%, #C0E7FC 106.13%);
+
+
+  .banner__header {
+    margin-bottom: 24px;
+  }
+
+  .banner__title {
+    font-weight: 700;
+    font-size: 24px;
+  }
+
+  .banner__description {
+    font-size: 18px;
+
+    strong {
+      color: #FFD645;
+    }
+  }
+
+  .banner__preview {
+    max-width: 360px;
+    margin: 24px auto 32px auto;
+
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  }
+
+  .banner__links {
+    margin-bottom: 40px;
+
+    a,
+    button {
+      display: block;
+      width: 240px;
+      padding: 17px 16px;
+      margin: 0 auto;
+      font-size: 18px;
+      text-transform: uppercase;
+
+      &.banner__learn-more {
+        margin-top: 24px;
+        color: $colorBlack;
+        background-color: $colorWhite;
+        border-color: $colorWhite;
+      }
+    }
+  }
+
+  .banner__footer {
+    margin-bottom: -43px;
+    margin-left: 9px;
+    margin-right: 9px;
+  }
+}
+
+@import "mediaQueries";

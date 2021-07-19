@@ -1,0 +1,116 @@
+.warranty {
+  color: $colorBlack;
+
+  h2,
+  h3,
+  p.warning-text {
+    font-family: $fontFamilySans;
+    font-weight: 500;
+    font-size: 24px;
+    margin: 32px 0 12px;
+    width: 100%;
+    color: inherit;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 150%;
+
+    &:not(:last-child) {
+      margin-bottom: 8px;
+    }
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 24px !important;
+
+    li {
+      padding: 0 0 0 26px;
+      position: relative;
+      width: 100%;
+      color: $colorBlack;
+
+      &::before {
+        content: "";
+        display: block;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: #f64c6b;
+        position: absolute;
+        top: 6px;
+        left: 0;
+      }
+
+      &:not(:last-child) {
+        margin-bottom: 4px;
+      }
+    }
+  }
+
+  ol {
+    margin-top: 0;
+    margin-bottom: 10.5px;
+
+    li {
+      position: relative;
+      width: 100%;
+      color: $colorBlack;
+
+      &:not(:last-child) {
+        margin-bottom: 6px;
+      }
+    }
+  }
+
+  .warranty__highlight {
+    background: #F5F7FA;
+    border-radius: 16px;
+    padding: 24px;
+    margin: 35px 0 32px 0;
+  }
+
+  .certificates {
+    position: relative;
+    margin-top: 24px;
+
+    .certificates__title {
+      font-weight: 500;
+      font-size: 24px;
+      color: #212121;
+      margin-bottom: 10px;
+    }
+
+    .swiper-slide {
+      max-width: 486px;
+      //cursor: pointer;
+
+      a {
+        display: block;
+      }
+
+      img {
+        max-width: 100%;
+        min-width: 100%;
+        height: auto;
+      }
+    }
+
+    .carousel-button-prev,
+    .carousel-button-next {
+      top: calc(50% + 20px);
+    }
+
+    .carousel.blur-left::before {
+      background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+    }
+
+    .carousel.blur-right::after {
+      background: linear-gradient(270deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+    }
+  }
+}
+
+@import "mediaQueries";

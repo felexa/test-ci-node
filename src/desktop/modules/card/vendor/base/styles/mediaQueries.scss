@@ -1,0 +1,7 @@
+.vendor-card {
+  @include md {
+    .vendor-card__section {
+      margin-top: 60px;
+    }
+  }
+}

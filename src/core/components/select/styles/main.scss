@@ -1,0 +1,17 @@
+.custom-select {
+  position: relative;
+  display: flex;
+  align-items: center;
+
+  .form-control {
+    appearance: none;
+    color: $colorBlack;
+  }
+
+  .icon {
+    position: absolute;
+    right: 10px;
+    font-size: 24px;
+    pointer-events: none;
+  }
+}

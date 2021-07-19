@@ -1,0 +1,94 @@
+@import "./src/desktop/components/title/styles/main";
+
+.awards {
+  padding: 24px 16px 16px 16px;
+  background: $purpleGradient;
+
+  .title {
+    margin-bottom: 16px;
+
+    .title-heading {
+      color: white;
+    }
+  }
+
+  .awards__body {
+    overflow: auto;
+    display: flex;
+  }
+
+  .custom-scroll {
+    &::-webkit-scrollbar {
+      width: 0;
+      height: 0;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: transparent;
+    }
+
+    &::-webkit-scrollbar-thumb:hover {
+      background: transparent;
+    }
+  }
+
+
+  .awards__items {
+    flex: 1;
+    margin: 0;
+    padding: 24px;
+    list-style: none;
+
+    li {
+      &:not(:last-child) {
+        margin-right: 14px;
+      }
+
+      a:hover {
+        cursor: pointer;
+      }
+
+      img {
+        width: auto;
+        height: 206px;
+      }
+    }
+  }
+}
+
+@include before-lg {
+  .awards {
+    .awards__body {
+      margin-left: -16px;
+      margin-right: -16px;
+
+      &:before,
+      &:after {
+        content: "";
+        min-width: 16px;
+      }
+    }
+  }
+}
+
+
+@include lg {
+  .awards {
+    padding: 32px 24px 24px 24px;
+
+    margin-left: 5px;
+    margin-right: 5px;
+
+    .title {
+      margin-bottom: 24px;
+    }
+
+    .awards__items {
+      li {
+        &:not(:last-child) {
+          margin-right: 38px;
+        }
+      }
+    }
+  }
+}

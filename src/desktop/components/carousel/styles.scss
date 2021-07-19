@@ -1,0 +1,127 @@
+@import "./src/styles/variables/main";
+@import "./src/styles/mixin/main";
+
+.carousel {
+  position: relative;
+  padding-bottom: 2px;
+
+  .swiper-container.carousel-with-pagination {
+    .swiper-wrapper {
+      height: calc(100% - 25px);
+    }
+  }
+
+  .swiper-wrapper {
+    padding: 3px 0;
+  }
+
+  .swiper-pagination {
+    display: flex;
+    justify-content: center;
+    min-height: 6px;
+
+    &.hidden {
+      opacity: 0;
+    }
+
+    .swiper-pagination-bullet {
+      display: inline-block;
+      height: 6px;
+      width: 6px;
+      margin-left: 6px;
+      background-color: $borderColorBase;
+      border-radius: 10px;
+      transition: all 0.5s;
+      cursor: pointer;
+
+      &.swiper-pagination-bullet-active {
+        width: 14px;
+        background-color: $colorPink;
+      }
+    }
+  }
+
+  .carousel-button-prev,
+  .carousel-button-next {
+    position: absolute;
+    z-index: 3;
+    top: 50%;
+    width: 60px;
+    height: 60px;
+    margin-top: -30px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    &.swiper-button-disabled {
+      display: none;
+    }
+
+    .icon {
+      top: 50%;
+      width: 60px;
+      height: 60px;
+      border-radius: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 6px 30px rgba(57, 72, 86, 0.12),
+                  0 16px 24px rgba(57, 72, 86, 0.06);
+      font-size: 20px;
+      color: $colorBlack;
+      background-color: #fff;
+    }
+  }
+
+  .carousel-button-prev {
+    left: -20px;
+  }
+
+  .carousel-button-next {
+    right: -20px;
+  }
+}
+
+@include xl {
+  .carousel {
+    &.blur-left::before {
+      content: "";
+      position: absolute;
+      z-index: 2;
+      left: 0;
+      top: 0;
+      width: 32px;
+      height: 100%;
+      background: linear-gradient(to right, $bodyBackgroundBase 0%, rgba(250, 250, 251, 0) 100%);
+    }
+
+    &.blur-right::after {
+      content: "";
+      position: absolute;
+      z-index: 2;
+      right: 0;
+      top: 0;
+      width: 32px;
+      height: 100%;
+      background: linear-gradient(to left, $bodyBackgroundBase 0%, rgba(250, 250, 251, 0) 100%);
+    }
+
+    .carousel-button-prev,
+    .carousel-button-next {
+      display: flex;
+    }
+  }
+}
+
+@media (max-width: 1450px) {
+  .carousel {
+    .carousel-button-prev {
+      left: 4px;
+    }
+
+    .carousel-button-next {
+      right: 4px;
+    }
+  }
+}

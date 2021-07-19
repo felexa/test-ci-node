@@ -1,0 +1,47 @@
+.about-delivery {
+  margin-bottom: 60px;
+
+  .about-delivery__title {
+    .title-heading {
+      line-height: 42px;
+
+      .icon {
+        font-size: 27px;
+      }
+    }
+  }
+
+  .about-delivery__items {
+    .item {
+      max-width: 332px;
+      width: 100%;
+      padding: 24px;
+      border-radius: 16px;
+      background: $colorWhite;
+      box-shadow: 0 5px 10px rgba(57, 72, 86, 0.05);
+
+      & + .item {
+        margin-left: 16px;
+      }
+    }
+
+    .item__description {
+      font-size: 16px;
+      margin: 0;
+    }
+
+    .item__preview {
+      width: 80px;
+      height: 80px;
+      margin-bottom: 16px;
+
+      img {
+        max-width: 100%;
+        max-height: 100%;
+      }
+    }
+  }
+}
+
+
+@import "mediaQueries.scss";

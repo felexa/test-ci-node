@@ -1,0 +1,58 @@
+@import "./src/styles/variables/main";
+
+.status {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 10px 6px 6px;
+  border-radius: 20px;
+  color: $colorGreen;
+  font-size: 14px;
+  line-height: 1.2;
+
+  .status__icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    //line-height: 18px;
+    text-align: center;
+    color: $colorWhite;
+  }
+
+  .status__title {
+    font-size: 12px;
+    line-height: normal;
+    white-space: nowrap;
+  }
+
+  &[data-status-id="in-stock"] {
+    background-color: $colorLightGreen;
+
+    .status__icon {
+      background-color: $colorGreen;
+    }
+  }
+
+  &[data-status-id="out-of-stock"] {
+    color: $colorGray;
+    background-color: $bodyBackgroundBase;
+
+    .status__icon {
+      font-size: 18px;
+      background-color: $colorGray1;
+    }
+  }
+}
+
+@media screen and (max-width: $maxXSResolution) {
+  .status {
+    padding: 8px 12px 8px 8px;
+
+    .status__title {
+      line-height: 21px;
+    }
+  }
+}

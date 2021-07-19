@@ -1,0 +1,95 @@
+.account__aside {
+  display: none;
+
+  .aside__profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    font-size: 14px;
+
+    .profile__photo {
+      margin-right: 14px;   
+      overflow: hidden;
+      flex-shrink: 0;
+
+      img {
+        border-radius: 50%;
+        width: 56px;
+        height: 56px;
+        object-fit: cover;
+      }
+    }
+
+    .aside__user-name {
+      word-break: break-word;
+    }
+  }
+
+  .aside__label {
+    display: flex;
+    align-items: center;
+    padding: 16px 12px;
+    margin-bottom: 16px;
+    border: 1px solid $colorYellowAside;
+  }
+  
+  .aside__navigation {
+    .navigation__item {
+      a {
+        display: flex;
+        align-items: center;
+        padding: 12px 24px;
+        text-decoration: none;
+        margin-left: -24px;
+        margin-right: -24px;
+        cursor: pointer;
+
+        &.active {
+          background: $linkHoverColor;
+
+          &:before {
+            content: "";
+            position: absolute;
+            left: 8px;
+            display: block;
+            border: solid transparent;
+            border-left: 3px solid $colorGrayAside;
+            height: 44px;
+          }
+        }
+
+        &:hover {
+          background: $linkHoverColor;
+        }
+      }
+      .icon {
+        font-size: 24px;
+        color: $colorGray1;
+        margin-right: 14px;
+      }
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    .navigation__icon {
+      margin-right: 14px;
+      width: 24px;
+      min-width: 24px;
+      height: 24px;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+@include lg {
+  .account__aside {
+    display: block;
+    padding: 24px 24px 18px 24px;
+  }
+}

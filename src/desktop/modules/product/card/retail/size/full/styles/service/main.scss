@@ -1,0 +1,15 @@
+@import "./src/styles/mixin/main";
+
+.product-card__service.service {
+    .tabs.tabs--horizontal .tabs__body {
+        padding: 24px 16px;
+    }
+}
+
+@include before-md {
+    .product-card__service.service {
+        .tabs.tabs--horizontal .tabs__header {
+            background-color: inherit;
+        }
+    }
+}

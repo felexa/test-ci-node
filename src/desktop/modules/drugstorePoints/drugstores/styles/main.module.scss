@@ -1,0 +1,159 @@
+@import "./src/styles/variables/main";
+@import "./src/styles/mixin/main";
+
+@import "./src/core/components/leaflet/styles/main";
+@import "./src/core/components/markercluster/styles/main";
+
+@import "./src/desktop/components/map/styles/main";
+@import "./src/desktop/components/location/styles/main";
+
+.avatar.avatar--default {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: $colorWhite;
+}
+
+.modal {
+  &.modal-change-city {
+    $colorGreyForHover: rgba(52, 92, 139, 0.04);
+
+    .region__popular-cities {
+      .btn-md {
+        font-weight: 400;
+      }
+    }
+    .custom-scroll::-webkit-scrollbar {
+      display: none;
+    }
+
+    .react-autosuggest__suggestions-list {
+      list-style: none;
+      max-height: 260px;
+      margin-right: 0;
+      margin-left: 0;
+      padding-left: 16px;
+      border-radius: 0;
+      border: none;
+      overflow-y: auto;
+      overflow-x: hidden;
+      @include custom-scroll();
+
+      li {
+        padding: 5px;
+
+        a {
+          text-decoration: none;
+          color: $colorBlack;
+        }
+
+        &:hover {
+          background-color: $colorGreyForHover;
+        }
+      }
+    }
+  }
+}
+
+.drugstores {
+  $borderColorGray: rgba(136, 143, 154, 0.16);
+  $colorGreyForHover: rgba(52, 92, 139, 0.04);
+  $colorBackgroundLightPink: #ffdae3;
+
+  @import "cities/main";
+  @import "location/main";
+  @import "search/main";
+  @import "drugstoreItems/main";
+
+  .link-bordered:hover {
+    border:none;
+  }
+
+  &.drugstores--mobile {
+    margin: 15px 0 0 0;
+
+    .drugstores__header {
+      .drugstores__action-bar {
+        margin: 24px 0 0 0;
+        border-radius: 100px;
+        border: 1px solid $borderColorGray;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .btn-link {
+          text-transform: uppercase;
+          color: $colorPink;
+          border-radius: 50px;
+          width: 50%;
+        }
+
+        .active {
+          color: $colorWhite;
+          background-color: $colorPink;
+        }
+      }
+    }
+
+    .drugstore__cities {
+      margin-top: 30px;
+
+      &.drugstore__cities--mt {
+        margin-top: 12px;
+      }
+    }
+  }
+
+  .drugstores__search-results {
+    padding: 24px 12px;
+  }
+
+  .drugstores__name {
+    margin-right: 24px;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 8px;
+  }
+
+  .drugstores__your-city {
+    margin-bottom: 24px;
+
+    .drugstores__your-city-label {
+      font-size: 16px;
+    }
+
+    .drugstores__your-city-name {
+      font-size: 16px;
+    }
+  }
+}
+
+@include md {
+  .drugstores {
+    margin-top: 10px;
+
+    .drugstores__search-results {
+      padding: 24px 24px 40px 24px;
+    }
+
+    .drugstores__name {
+      margin-top: 10px;
+      margin-top: 0;
+      font-size: 36px;
+      margin-bottom: 16px;
+      margin-bottom: 24px;
+    }
+
+    .drugstores__your-city {
+      margin-bottom: 0;
+
+      .drugstores__your-city-label {
+        font-size: 20px;
+      }
+
+      .drugstores__your-city-name {
+        font-size: 18px;
+      }
+    }
+  }
+}

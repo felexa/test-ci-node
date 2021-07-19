@@ -1,0 +1,22 @@
+.how-to {
+  @include before-lg {
+    .how-to-section {
+      .how-to-section__title {
+        font-size: 20px;
+      }
+    }
+  }
+
+  @include before-md {
+    .how-to-section {
+      &:not(:last-of-type) {
+        margin-bottom: 32px;
+      }
+
+      .how-to-section__title {
+        font-size: 18px;
+      }
+    }
+  }
+}
+

@@ -1,0 +1,60 @@
+.promo-code {
+  .promo-code__header {
+    margin-bottom: 96px;
+  }
+
+  .promo-code__body {
+    .promo-code__instruction {
+      .instruction__how-get {
+        margin-top: 32px;
+
+        .how-get__list {
+          margin: 0;
+          padding: 0;
+        }
+
+        .how-get__title {
+          margin-bottom: 24px;
+          font-size: 20px;
+        }
+
+        .how-get__item {
+          display: flex;
+          align-items: center;
+
+          & + .how-get__item {
+            margin-top: 40px;
+          }
+        }
+
+        .how-get__number {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-shrink: 0;
+          width: 40px;
+          height: 40px;
+          margin-right: 16px;
+          border: 1px solid $colorBlack;
+          border-radius: 50%;
+          font-size: 20px;
+        }
+
+        .how-get__description {
+          font-size: 18px;
+          line-height: 1.5;
+          text-align: left;
+          a {
+            text-decoration: none;
+          }
+        }
+      }
+    }
+
+    .instruction__feature {
+      margin-top: 40px;
+    }
+  }
+}
+
+@import "mediaQueries";

@@ -1,0 +1,21 @@
+.questions {
+  @media screen and (max-width: $maxLGResolution) {
+    .questions__item {
+      padding: 14px 0;
+    }
+
+    .item__question {
+      font-size: 20px;
+    }
+  }
+
+  @media screen and (max-width: $maxXSResolution) {
+    .item__question {
+      font-size: 16px;
+    }
+
+    .questions__item {
+      padding: 10px 0 16px 0;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.get-bonus {
+  @include md {
+    .get-bonus__body {
+      .get-bonus__instruction {
+        .instruction__review-example {
+          max-width: 1020px;
+          margin: 30px auto 0 auto;
+        }
+      }
+    }
+  }
+
+  @include lg {
+    margin-top: 60px;
+
+    .get-bonus__header {
+      .get-bonus__promo {
+        .promo__description {
+          font-size: 22px;
+        }
+
+        .promo__next-point {
+          font-size: 22px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+@import "./src/styles/variables/main";
+@import "./src/styles/mixin/main";
+@import "./src/styles/helpers/main";
+
+@import "./src/desktop/components/accordion/styles/main";
+@import "./src/desktop/components/faq/styles";
+
+
+
+.insurance {
+  $colorPurple: #594FBB;
+  $colorLightPurple: #F2F2FA;
+  $colorExtraLightGray: rgba(136, 143, 154, 0.16);
+
+  @import "header/main";
+  @import "program/main";
+  @import "advantages/main";
+  @import "filling/main";
+  @import "terms/main";
+
+  margin-top: -16px;
+  p {
+    margin: 0;
+  }
+
+  .section {
+    margin-top: 60px;
+  }
+
+  .section__title {
+    margin: 0 0 32px 0;
+    font-size: 26px;
+    font-weight: 500;
+    color: $colorBlack;
+    text-align: center;
+  }
+}
+
+@import "mediaQueries.scss";

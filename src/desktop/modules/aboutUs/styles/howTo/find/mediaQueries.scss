@@ -1,0 +1,20 @@
+.find {
+  @include before-xl {
+    .find__item {
+      flex-direction: column;
+
+      .item__description {
+        margin-right: 0;
+        margin-bottom: 12px;
+      }
+    }
+  }
+
+  @include before-md {
+    .find__item {
+      .item__preview {
+        width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.bonuses-airdrop {
+  @include lg {
+    margin: -18px 0 -100px 0;
+
+    .section {
+      padding: 100px 0;
+
+      .section__title {
+        margin: 0 0 24px 0;
+        font-size: 48px;
+      }
+    }
+  }
+}

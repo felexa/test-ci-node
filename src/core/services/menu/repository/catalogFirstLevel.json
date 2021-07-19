@@ -1,0 +1,152 @@
+[
+  {
+    "id": 2,
+    "name": "Медикаменты",
+    "url": "https:\/\/www.apteka24.ua\/medikamenty\/",
+    "icon": "\/upload\/uf\/2bb\/2bbcd6085a4c2be8423ed347ac8d0f6f.svg",
+    "promo": {
+      "url": "",
+      "preview": "@Image"
+    },
+    "popular": {
+      "title": "Популярные категории",
+      "items": []
+    },
+    "subItems": []
+  },
+  {
+    "id": 1144,
+    "name": "Продукция Coloplast",
+    "url": "https:\/\/www.apteka24.ua\/coloplast\/",
+    "icon": "\/upload\/uf\/99b\/99b95d691ba0d5762fdd8559ffdb9632.png",
+    "promo": {
+      "url": "",
+      "preview": "@Image"
+    },
+    "popular": {
+      "title": "Популярные категории",
+      "items": []
+    },
+    "subItems": []
+  },
+  {
+    "id": 52,
+    "name": "БАД и витамины",
+    "url": "https:\/\/www.apteka24.ua\/bad\/",
+    "icon": "\/upload\/uf\/937\/937beebe472f1bba57c07819ee28079e.svg",
+    "promo": {
+      "url": "",
+      "preview": "@Image"
+    },
+    "popular": {
+      "title": "Популярные категории",
+      "items": []
+    },
+    "subItems": []
+  },
+  {
+    "id": 8,
+    "name": "Медицинские товары",
+    "url": "https:\/\/www.apteka24.ua\/medicinskaja-tehnika\/",
+    "icon": "\/upload\/uf\/a2c\/a2c75872d550b96c21dc69adff19248a.svg",
+    "promo": {
+      "url": "",
+      "preview": "@Image"
+    },
+    "popular": {
+      "title": "Популярные категории",
+      "items": []
+    },
+    "subItems": []
+  },
+  {
+    "id": 15,
+    "name": "Антибиотики",
+    "url": "https:\/\/www.apteka24.ua\/antibiotiki\/",
+    "icon": "\/upload\/uf\/aa1\/aa127f44a3de745f88bcbffaefbe94db.svg",
+    "promo": {
+      "url": "",
+      "preview": "@Image"
+    },
+    "popular": {
+      "title": "Популярные категории",
+      "items": []
+    },
+    "subItems": []
+  },
+  {
+    "id": 197,
+    "name": "Товары для косметологов",
+    "url": "https:\/\/www.apteka24.ua\/kosmetologiya\/",
+    "icon": "\/upload\/uf\/7e7\/7e7b2ed1e5b57aef9589f162ae9df435.svg",
+    "promo": {
+      "url": "",
+      "preview": "@Image"
+    },
+    "popular": {
+      "title": "Популярные категории",
+      "items": []
+    },
+    "subItems": []
+  },
+  {
+    "id": 189,
+    "name": "Спортивное питание",
+    "url": "https:\/\/www.apteka24.ua\/sportivnoe-pitanie\/",
+    "icon": "\/upload\/uf\/62a\/62a4f8e9513715160265f95bb28a457e.svg",
+    "promo": {
+      "url": "",
+      "preview": "@Image"
+    },
+    "popular": {
+      "title": "Популярные категории",
+      "items": []
+    },
+    "subItems": []
+  },
+  {
+    "id": 14,
+    "name": "Товары для мам и детей",
+    "url": "https:\/\/www.apteka24.ua\/mama-i-malysh\/",
+    "icon": "\/upload\/uf\/bc6\/bc633c244f2e0fdc4111e1f901791f1b.svg",
+    "promo": {
+      "url": "",
+      "preview": "@Image"
+    },
+    "popular": {
+      "title": "Популярные категории",
+      "items": []
+    },
+    "subItems": []
+  },
+  {
+    "id": 975,
+    "name": "Оптика",
+    "url": "https:\/\/www.apteka24.ua\/optika\/",
+    "icon": "\/upload\/uf\/535\/535657f2d7c7bd2813871e7e11e6db53.svg",
+    "promo": {
+      "url": "",
+      "preview": "@Image"
+    },
+    "popular": {
+      "title": "Популярные категории",
+      "items": []
+    },
+    "subItems": []
+  },
+  {
+    "id": 48,
+    "name": "Косметика и гигиена",
+    "url": "https:\/\/www.apteka24.ua\/kosmetika-i-gigiena\/",
+    "icon": "\/upload\/uf\/e69\/e699ea70bd9c07cf471d1032248cd860.svg",
+    "promo": {
+      "url": "",
+      "preview": "@Image"
+    },
+    "popular": {
+      "title": "Популярные категории",
+      "items": []
+    },
+    "subItems": []
+  }
+]

@@ -1,0 +1,84 @@
+.drugstore__search {
+  position: relative;
+  width: 100%;
+  margin: 24px 0 0 0;
+  padding: 0;
+
+  .to-search {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    padding: 0;
+    margin-left: 0;
+    height: 100%;
+    width: 30px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 25px;
+    color: $colorGray1;
+  }
+
+  .clean-search {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    padding: 0;
+    margin-left: 0;
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 25px;
+    color: $colorGray1;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    &:hover {
+      color: $colorPink;
+    }
+  }
+
+  input {
+    width: 100%;
+    padding: 11px 36px 11px 45px;
+    border: 1px solid $borderColorBase;
+    outline: none;
+    overflow: hidden;
+    border-radius: 21px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: $formHoverColor;
+    font-size: $fontSizeMedium;
+    font-family: $fontFamilyBase;
+    line-height: 19px;
+    color: $colorBlack;
+
+    &::placeholder {
+      color: $colorGray;
+      font-size: 14px;
+    }
+
+    &:focus {
+      background: $colorWhite;
+    }
+  }
+}
+
+@include md {
+  .drugstore__search {
+    margin: 35px 0 0 0;
+
+    .to-search {
+      right: 35px;
+    }
+
+    input::placeholder {
+      font-size: 16px;
+    }
+  }
+}

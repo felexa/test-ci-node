@@ -1,0 +1,96 @@
+.get-bonus {
+  margin-top: 25px;
+
+  .get-bonus__header {
+    margin-bottom: 105px;
+
+    .get-bonus__promo {
+      position: relative;
+
+      .promo__description {
+        max-width: 585px;
+        margin: 0 auto 24px auto;
+        font-size: 20px;
+        line-height: 1.7;
+
+        img {
+          transform: translateY(7px);
+        }
+      }
+
+      .promo__code {
+        margin-bottom: 32px;
+
+        input {
+          color: $colorBlack;
+          width: 100%;
+          max-width: 240px;
+          height: 54px;
+          border-radius: 16px;
+          font-size: 18px;
+          text-align: center;
+          border: 1px dashed lighten($colorGray, 40%);
+          background: $colorGray2;
+          font-family: $fontFamilyBase;
+          outline: none;
+          box-shadow: none;
+          -webkit-box-shadow: none;
+          -webkit-appearance: none;
+
+          &:focus {
+            outline: none;
+            box-shadow: none;
+          }
+
+          &:disabled {
+            color: $colorBlack !important;
+            -webkit-text-fill-color: $colorBlack !important;
+          }
+        }
+
+        button {
+          width: 90px;
+          height: 54px;
+          margin-left: 12px;
+          border: none;
+          outline: none;
+          border-radius: 16px;
+          background: url(build-image-url("/landings/loyalty-program/icon-copy.svg")) no-repeat center, $redGradient;
+          cursor: pointer;
+
+          &:active {
+            transform: scale(0.95);
+          }
+        }
+      }
+
+      .promo__next-point {
+        font-size: 20px;
+      }
+    }
+  }
+
+  .get-bonus__body {
+    .get-bonus__instruction {
+      .instruction__review-example {
+        max-width: 320px;
+        margin: 40px auto 0 auto;
+
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+
+    .get-bonus__cashback {
+      margin-top: 105px;
+
+      .cashback__note {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+@import "mediaQueries";

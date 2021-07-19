@@ -1,0 +1,57 @@
+.step {
+  .step__body,
+  .step__footer {
+    margin-top: 15px;
+  }
+
+  .step__header {
+    text-align: center;
+    font-size: 22px;
+    line-height: 150%;
+  }
+}
+
+.step.step--login {
+  .step__footer {
+    margin-top: 38px;
+  }
+}
+
+.step.step--otp {
+  .step__header {
+    margin-bottom: 32px;
+  }
+
+  .step__repeat-otp {
+    margin: 24px 0 0 0;
+    font-size: 14px;
+    line-height: 1.7;
+    
+    & > span {
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+
+  .timer {
+    .timer__days,
+    .timer__days + .timer__separator {
+      display: none;
+    }
+
+    .timer__hours,
+    .timer__minutes,
+    .timer__seconds {
+      > span {
+        display: none;
+      }
+    }
+  }
+
+  .step__to-back {
+    margin-top: 16px;
+  }
+}
+
+@import "mediaQueries";

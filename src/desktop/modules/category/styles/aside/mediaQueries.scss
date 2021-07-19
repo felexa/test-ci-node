@@ -1,0 +1,13 @@
+@include md {
+  .aside {
+    .aside__category {
+      font-weight: 500;
+    }
+
+    .aside__group {
+      & + .aside__group {
+        margin-top: 24px;
+      }
+    }
+  }
+}

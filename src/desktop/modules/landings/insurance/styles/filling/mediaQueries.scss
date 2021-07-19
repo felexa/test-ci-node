@@ -1,0 +1,140 @@
+.filling {
+  @include md {
+    .filling__header {
+      margin-bottom: 40px;
+    }
+
+    .filling__title {
+      margin-bottom: 16px;
+    }
+
+    .filling__description {
+      max-width: 957px;
+      margin: 0 auto;
+      font-size: 20px;
+    }
+
+    .filling__body {
+      margin: 0;
+    }
+
+    .filling__item {
+      .item__header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 32px 82px 34px 82px;
+
+        .item__title {
+          font-size: 24px;
+        }
+      }
+
+      .item__body {
+        padding: 24px 32px 16px 32px;
+        border-radius: 0;
+
+        .item__subtitle {
+          font-size: 20px;
+          margin-bottom: 25px;
+        }
+
+        .item__list {
+          .list__point {
+            font-size: 16px;
+
+            & + .list__point {
+              margin-top: 32px;
+            }
+
+            i {
+              width: 22px;
+              height: 22px;
+              margin-top: 0;
+            }
+          }
+        }
+
+        .item__price {
+          margin: 16px 0 0 0;
+          text-align: center;
+          font-size: 26px;
+
+          &--total {
+            margin: 20px 0 0 0;
+          }
+        }
+      }
+    }
+
+    .filling__conditions {
+      .conditions__item {
+        justify-content: space-between;
+        .item__name {
+          max-width: none;
+        }
+      }
+    }
+
+    .filling__footer {
+      margin-top: 24px;
+    }
+
+    .filling__instruction {
+      max-width: 965px;
+      margin: 0 auto;
+      font-size: 20px;
+    }
+  }
+
+  @include lg {
+    .filling__item {
+      box-shadow: none;
+      border-radius: 0;
+
+      .item__header{
+        border-radius: 0;
+        min-height: 160px;
+        margin: 0;
+        border-radius: 0;
+      }
+
+      & + .filling__item {
+        margin-top: 0;
+        border-left: 1px solid $colorExtraLightGray;
+      }
+    }
+    .filling__conditions {
+      padding: 26px;
+
+      .conditions__item {
+        justify-content: center;
+        font-size: 18px;
+
+        .item__name {
+          margin-right: 6px;
+        }
+
+        .item__icon {
+          margin-right: 14px;
+        }
+      }
+    }
+  }
+
+  @include xl {
+    .filling__item {
+      .item__header{
+        min-height: 128px;
+      }
+    }
+
+    .filling__conditions {
+      .conditions__item {
+        .item__icon {
+          transform: translateY(-1px);
+        }
+      }
+    }
+  }
+}

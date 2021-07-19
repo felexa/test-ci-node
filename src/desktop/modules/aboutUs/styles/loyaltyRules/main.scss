@@ -1,0 +1,138 @@
+.loyalty-rules,
+.loyalty-bonus-rules {
+  color: $colorBlack;
+  line-height: 150%;
+
+  h2,
+  h3,
+  p.warning-text {
+    font-family: $fontFamilySans;
+    font-weight: 500;
+    font-size: 24px;
+    margin: 32px 0 12px;
+    width: 100%;
+    color: inherit;
+  }
+
+  h4 {
+    font-family: $fontFamilySans;
+    font-weight: 500;
+    font-size: 18px;
+    color: $colorBlack;
+    margin: 24px 0 12px;
+    width: 100%;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 150%;
+
+    &:not(:last-child) {
+      margin-bottom: 8px;
+    }
+  }
+
+  ul {
+    list-style: none;
+    margin: 8px 0 16px 0;
+
+    li {
+      padding: 0 0 0 20px;
+      position: relative;
+      width: 100%;
+      color: $colorBlack;
+      font-size: 14px;
+
+      &::before {
+        content: "";
+        display: block;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: #f64c6b;
+        position: absolute;
+        top: 6px;
+        left: 0;
+      }
+
+      &:not(:last-child) {
+        margin-bottom: 4px;
+      }
+    }
+  }
+
+  ol {
+    padding-left: 0px;
+    counter-reset: item;
+    list-style-position: inside;
+
+    li {
+      font-size: 14px;
+
+      &:not(:last-child) {
+        margin-bottom: 4px;
+      }
+    }
+
+    & > li {
+      display: block;
+
+      &::before {
+        content: counters(item, ".") ". ";
+        counter-increment: item;
+        font-weight: 500;
+      }
+
+      p:first-child {
+        display: inline;
+      }
+    }
+  }
+
+  &.rules {
+    .rules__description {
+      margin-bottom: 32px;
+    }
+
+    .rules__list {
+      padding-left: 0;
+
+      & > li {
+        font-size: 24px;
+
+        &:not(:last-child) {
+          margin-bottom: 32px;
+        }
+
+        & > ul,
+        & > ol {
+          margin-top: 12px;
+        }
+      }
+    }
+
+    .rules__title {
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 1.2;
+    }
+  }
+
+  .bonus-cashback {
+    display: flex;
+    margin: 6px 0;
+    align-items: center;
+
+    span {
+      display: inline-block;
+      margin-left: 6px;
+      border-bottom: 1px dashed $colorOrange;
+      color: $colorOrange;
+      font-weight: 700;
+    }
+  }
+
+  .bonus-pay {
+    margin: 6px 0;
+  }
+}

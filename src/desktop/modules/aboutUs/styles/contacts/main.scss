@@ -1,0 +1,7 @@
+.contacts {
+  @import "clients/main.scss";
+  @import "correspondence/main.scss";
+  @import "otherContacts/main.scss";
+}
+
+@import "mediaQueries.scss";

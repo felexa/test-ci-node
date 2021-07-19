@@ -1,0 +1,158 @@
+@import "./src/styles/mixin/main";
+@import "./src/styles/variables/main";
+
+.instruction {
+  padding-bottom: 4px;
+
+  .panel {
+    .panel__header {
+      margin-bottom: 0 !important;
+      padding: 22px 16px;
+      justify-content: space-between;
+
+      .icon {
+        margin-right: 16px;
+      }
+
+      .panel__title {
+        h3 {
+          font-size: 17px;
+          line-height: 21px;
+          font-weight: 500;
+          color: $linkColor;
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    .panel__body {
+      line-height: 25.5px;
+      font-size: 17px;
+      padding: 0 16px 19px 16px;
+    }
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    &:first-child {
+      border-top: none;
+    }
+  }
+
+  .panel.panel--active {
+    .panel__title {
+      h3 {
+        color: $colorBlack;
+      }
+    }
+  }
+
+  .instruction__header {
+    padding: 24px 16px 0 16px;
+
+    h2 {
+      font-size: 20px;
+      font-weight: 500;
+      margin-bottom: 0;
+    }
+  }
+
+  .instruction__navigation {
+    display: none;
+    position: sticky;
+    top: 0;
+    list-style: none;
+    padding: 24px;
+    width: 320px;
+    margin: 0;
+    margin-right: 32px;
+
+    .instruction__navigation-item {
+      margin-bottom: 24px;
+
+      &.active {
+        a {
+          color: $colorBlack;
+        }
+      }
+
+      a {
+        text-decoration: none;
+        color: $linkColor;
+        font-size: $fontSizeMedium;
+        line-height: 24px;
+        cursor: pointer;
+      }
+    }
+
+    .instruction__navigation-item:last-child {
+      margin-bottom: 0;
+    }
+
+    .instruction__navigation-item:hover {
+      font-weight: 500;
+    }
+  }
+
+  .instruction__body {
+    color: $colorBlack;
+    line-height: 21px;
+  }
+
+  table {
+    border-collapse: collapse;
+    td {
+      border: 1px solid $colorBlack;
+      padding: 10px;
+    }
+  }
+
+  p {
+    margin: 0;
+  }
+}
+
+@include md {
+  .instruction {
+    padding-bottom: 0;
+
+    .instruction__header {
+      padding: 0;
+
+      h2 {
+        font-size: 24px;
+      }
+    }
+
+    .footnote {
+      margin-bottom: 0;
+      text-align: right;
+    }
+
+    .instruction__navigation {
+      display: block;
+      top: 100px;
+    }
+
+    .instruction__body {
+      .instruction__title {
+        h3 {
+          font-size: 18px;
+          line-height: 24px;
+          font-weight: 500;
+          color: $colorBlack;
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}
+
+@include lg {
+  .instruction {
+    .instruction__navigation {
+      top: 10px;
+    }
+  }
+}

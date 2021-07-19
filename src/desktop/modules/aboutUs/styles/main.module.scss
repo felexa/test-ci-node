@@ -1,0 +1,80 @@
+@import "./src/styles/variables/main";
+@import "./src/styles/mixin/main";
+@import "./src/styles/helpers/main";
+
+@import "./src/desktop/components/error/style";
+
+$box-shadow-primary: 0px 0px 3px rgba(45, 62, 79, 0.08),
+                     0px 1px 4px rgba(57, 72, 86, 0.12);
+
+.modal.certificate {
+  .modal__body {
+    overflow-x: auto;
+  }
+}
+
+.about-us {
+  @import "about/main";
+  @import "aside/main";
+  @import "agreement/main";
+  @import "delivery/main";
+  @import "contacts/main";
+  @import "editorialPolicy/main";
+  @import "massMedia/main";
+  @import "orderReturn/main";
+  @import "mission/main";
+  @import "partners/main";
+  @import "team/main";
+  @import "terms/main";
+  @import "warranty/main";
+  @import "publishingPolicy/main";
+  @import "marketingPolicy/main";
+  @import "howTo/main";
+  @import "loyaltyRules/main";
+  @import "medicalExperts/main";
+
+  h1 {
+    font-family: $fontFamilySans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    color: $colorBlack;
+    margin: 32px 0 24px 0;
+    max-width: 100%;
+
+    @media screen and (max-width: $maxSMResolution) {
+      font-size: 28px;
+    }
+
+    @media screen and (max-width: $minMDResolution) {
+      margin: 24px 16px 16px 16px;
+      font-size: 24px;
+    }
+  }
+
+  p {
+    margin: 0;
+    padding: 0;
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  .about-us__body {
+    max-width: 1076px;
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+    box-shadow: $box-shadow-primary;
+    border-radius: 10px;
+    background: $colorWhite;
+
+    a {
+      text-decoration: none;
+    }
+  }
+}
+
+@import "mediaQueries";

@@ -1,0 +1,29 @@
+.trademarks {
+  @include sm {
+    &.collapsed {
+      .trademarks__body {
+        max-height: 150px;
+      }
+    }
+
+    .trademarks__item {
+      margin-bottom: 16px;
+    }
+  }
+
+  @include xl {
+    .trademarks__title {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+  }
+
+  @include before-md {
+    .trademarks__item{
+      flex: 0 1 auto;
+    }
+    .trademarks__toggle {
+      padding: 12px 24px;
+    }
+  }
+}

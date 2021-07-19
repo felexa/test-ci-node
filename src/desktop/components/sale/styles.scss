@@ -1,0 +1,40 @@
+@import "./src/styles/variables/main";
+
+.sale {
+  display: inline-flex;
+  font-size: $fontSizeBase;
+  line-height: 1.2;
+  white-space: nowrap;
+
+  .sale__relative,
+  .sale__absolute {
+    padding: 4px 7px;
+  }
+
+  .sale__relative {
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    font-weight: bold;
+    font-size: 100%;
+    background-color: $colorRed;
+  }
+
+  .sale__relative-only {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
+
+  .sale__absolute {
+    border-top: 1px solid $borderColorBase;
+    border-right: 1px solid $borderColorBase;
+    border-bottom: 1px solid $borderColorBase;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-size: 86%;
+
+    .sale__title,
+    .sale__value {
+      margin-right: 3px;
+    }
+  }
+}

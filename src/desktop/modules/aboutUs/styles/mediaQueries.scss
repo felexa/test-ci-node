@@ -1,0 +1,19 @@
+.about-us {
+  @media screen and (max-width: $minXLResolution) {
+    .about-us__body {
+      padding: 24px 24px 40px 24px;
+    }
+  }
+
+  @media screen and (max-width: $maxMDResolution) {
+    .about-us__aside {
+      margin-top: 32px;
+    }
+  }
+
+  @media screen and (max-width: $maxXSResolution) {
+    .about-us__body {
+      padding: 24px 16px 30px 16px;
+    }
+  }
+}

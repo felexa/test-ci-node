@@ -1,0 +1,35 @@
+.prices {
+  margin-top: 40px;
+  margin-bottom: -10px;
+
+  .rubric.rubric--product {
+    margin-top: 0;
+  }
+
+  .rubric__header {
+    display: none;
+  }
+
+  .prices__header {
+    margin-bottom: 20px;
+  }
+
+  .prices__title {
+    margin: 0;
+    font-weight: 500;
+    font-size: 28px;
+    color: $colorBlack;
+  }
+}
+
+.prices {
+  @media screen and (max-width: $maxMDResolution) {
+    .prices__header {
+      margin-bottom: 16px;
+    }
+
+    .prices__title {
+      font-size: 22px;
+    }
+  }
+}

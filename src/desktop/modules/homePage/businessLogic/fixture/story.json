@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "preview": {
+            "src": {
+                "medium": "https://picsum.photos/260?v=1"
+            }
+        },
+        "url": "/"
+    },
+    {
+        "id": 2,
+        "preview": {
+            "src": {
+                "medium": "https://picsum.photos/260?v=2"
+            }
+        },
+        "url": "/"
+    },
+    {
+        "id": 3,
+        "preview": {
+            "src": {
+                "medium": "https://picsum.photos/260?v=3"
+            }
+        },
+        "url": "/"
+    },
+    {
+        "id": 4,
+        "preview": {
+            "src": {
+                "medium": "https://picsum.photos/260?v=4"
+            }
+        },
+        "url": "/"
+    },
+    {
+        "id": 5,
+        "preview": {
+            "src": {
+                "medium": "https://picsum.photos/260?v=5"
+            }
+        },
+        "url": "/"
+    }
+]

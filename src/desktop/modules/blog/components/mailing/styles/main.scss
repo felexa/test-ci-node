@@ -1,0 +1,44 @@
+.mailing {
+  .mailing__content {
+    background-color: $bodyBackgroundBase;
+  }
+
+  .mailing__header {
+    max-width: 550px;
+    margin-bottom: 16px;
+
+    .mailing__title {
+      font-size: 24px;
+    }
+  }
+
+  .mailing__body {
+    width: 655px;
+
+    .mailing__subscribe {
+      input[type="text"] {
+        width: calc(50% - 8px);
+        height: 48px;
+      }
+
+      button {
+        width: calc(50% - 8px);
+        height: 48px;
+      }
+    }
+  }
+
+  .mailing__footer {
+    width: 300px;
+
+    .mailing__preview {
+      img {
+        width: 100%;
+        display: block;
+        //padding-bottom: 41%;
+      }
+    }
+  }
+
+  @import "mediaQueries";
+}

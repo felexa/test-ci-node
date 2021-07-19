@@ -1,0 +1,41 @@
+.how-to {
+  @import "process/main";
+  @import "find/main";
+  @import "buy/main";
+  @import "payment/main";
+
+  color: $colorBlack;
+
+  .how-to__header {
+    p {
+      margin: 0 0 12px 0;
+      line-height: 150%;
+    }
+  }
+
+  .how-to-section {
+    &:not(:last-of-type) {
+      margin-bottom: 40px;
+    }
+
+    p {
+      margin: 0 0 16px 0;
+      line-height: 150%;
+    }
+
+    .how-to-section__title {
+      margin-bottom: 16px;
+      font-size: 24px;
+      color: $colorBlack;
+      font-weight: 500;
+    }
+  }
+
+  p,
+  ul {
+    margin: 0 0 16px 0;
+    padding: 0;
+  }
+}
+
+@import "mediaQueries";

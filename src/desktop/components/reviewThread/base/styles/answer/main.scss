@@ -1,0 +1,85 @@
+@import "./src/styles/variables/main";
+@import "./src/desktop/components/rating/styles";
+
+.thread-review__answer.answer {
+  position: relative;
+  margin-top: 16px;
+  margin-left: 45px;
+
+  &:before {
+    background: transparent;
+  }
+
+  .thread-review__company-agent {
+    cursor: pointer;
+    min-width: 18px;
+    max-width: 18px;
+    height: 18px;
+    margin-left: 6px;
+
+    img {
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
+
+  .answer__body {
+    margin-left: 8px;
+
+    .answer__item {
+      position: relative;
+
+      & + .answer__item {
+        margin-top: 16px;
+      }
+
+      .item__body {
+        width: 100%;
+        padding: 16px;
+        border-radius: 16px;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid $borderColorBase;
+      }
+
+      .item__date {
+        margin-top: 5px;
+      }
+
+      .item__comment {
+        margin-top: 8px;
+        color: $colorBlack;
+      }
+    }
+
+    .rating {
+      display: none;
+    }
+
+    .action-bar {
+      margin-top: 12px;
+    }
+
+    .avatar {
+      width: 24px !important;
+      height: 24px !important;
+      position: absolute;
+      top: 10px;
+      left: -35px;
+      font-size: 15px;
+    }
+  }
+}
+
+@include md {
+  .thread-review__answer.answer {
+    .answer__body {
+      .avatar {
+        width: 36px !important;
+        height: 36px !important;
+        left: -47px;
+        font-size: 20px;
+      }
+    }
+  }
+}

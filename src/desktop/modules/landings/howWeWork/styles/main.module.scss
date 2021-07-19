@@ -1,0 +1,144 @@
+@import "./src/styles/variables/main";
+@import "./src/styles/mixin/main";
+@import "./src/styles/helpers/utilities/image";
+
+@import "./src/desktop/components/rubric/review/project/styles/main";
+@import "./src/desktop/components/accordion/styles/main";
+@import "./src/desktop/components/faq/styles";
+
+$colorLightBlue: #f1f5fe;
+$colorBlue: #a3bef4;
+$colorGrayLight: #f1eded;
+
+.how-it-works {
+  $colorGrayLight: rgba(245, 247, 250, 0.2);
+  $pinkGradient: linear-gradient(269.88deg, #F4845C 0.16%, #ED3B68 93.26%), #FF3366;
+  $blueGradient: radial-gradient(54.31% 90.84% at 72.19% 35.95%, #416EC9 0%, #0C3483 100%),
+                  linear-gradient(102.12deg, #1B79DD 23.97%, #3AB3EC 91.94%),
+                  linear-gradient(79.13deg, #91B8F3 10.29%, #C0E7FC 106.13%);
+
+  @import "banner/main";
+  @import "features/main";
+  @import "achievements/main";
+  @import "review/main";
+  @import "findDrugs/main";
+  @import "howWorks/main";
+  @import "delivery/main.scss";
+
+
+
+  margin-top: -18px;
+  overflow-x: hidden;
+  background-color: $colorWhite;
+
+  .how-it-works__header {
+    margin-bottom: 97px;
+  }
+
+  .how-it-works-section {
+    margin-bottom: 32px;
+  }
+
+  .how-it-works-section__title {
+    margin-bottom: 32px;
+    font-size: 26px;
+    text-align: left;
+  }
+
+  .how-it-works__bottom-group {
+    background-color: $bodyBackgroundBase;
+    padding-top: 40px;
+  }
+
+  .thread-review {
+    .thread-review__header {
+      margin-bottom: 16px;
+    }
+  }
+
+  .features-item {
+    flex-direction: row-reverse;
+    & + .features-item {
+      margin-top: 60px;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    p + p {
+      margin-top: 1em;
+    }
+
+    .item__title {
+      font-size: 22px;
+      margin-bottom: 12px;
+      color: $colorBlack;
+      line-height: 1.4;
+    }
+
+    .item__description {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    .item__preview {
+      max-width: 360px;
+      margin: 0 auto 24px auto;
+
+
+      img {
+        display: block;
+        width: 100%;
+        height: auto;
+        border-radius: 16px;
+      }
+    }
+  }
+
+  .how-it-works__bottom-group {
+    .faq {
+      p {
+        margin: 0;
+      }
+
+      p + p {
+        margin-top: 1em;
+      }
+
+      .faq__body {
+        margin: 0;
+        padding: 0 12px;
+
+        .panel{
+          .panel__title{
+            display: flex;
+            align-items: center;
+          }
+
+          .panel__header {
+            align-items: center;
+
+            .icon {
+              bottom: 0;
+              left: 0;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              min-height: 37px;
+              min-width: 37px;
+            }
+          }
+        }
+      }
+
+      .accordion {
+        .panel:last-child {
+          border-bottom: none;
+        }
+      }
+    }
+  }
+}
+
+@import "mediaQueries";

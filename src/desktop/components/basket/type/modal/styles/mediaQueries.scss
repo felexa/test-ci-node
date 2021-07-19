@@ -1,0 +1,101 @@
+.basket {
+  @include before-xl {
+    .item {
+      .item__name {
+        font-size: 14px;
+      }
+    }
+  }
+
+  @include before-md {
+    padding: 0;
+
+    .item {
+      padding: 16px;
+
+      & + .item {
+        margin-top: 12px;
+      }
+
+      .item__preview {
+        width: 70px;
+        height: 70px;
+      }
+
+      .item__quantity {
+        input {
+          height: 32px;
+        }
+      }
+
+      .item__increase,
+      .item__decrease {
+        height: 32px;
+      }
+
+      .price {
+        font-size: 18px;
+      }
+    }
+
+    .basket__total,
+    .basket__to-checkout {
+      max-width: 100%;
+    }
+
+    .recommendation {
+      .recommendation__title {
+        font-size: 20px;
+      }
+    }
+  }
+
+  @include before-sm {
+    .modal__title {
+      font-size: 22px;
+    }
+
+    .modal__close {
+      top: 24px;
+      right: 14px;
+    }
+
+    .basket__header,
+    .basket__body,
+    .basket__footer {
+      padding: 12px;
+    }
+
+    .basket__header {
+      padding-top: 24px;
+    }
+
+    .basket__footer {
+      padding-bottom: 24px;
+    }
+
+    .item {
+      .item__restriction {
+        padding: 72px 16px 16px 16px;
+      }
+
+      .item__preview {
+        width: 60px;
+        height: 60px;
+      }
+
+      .item__name {
+        line-height: 16px;
+      }
+
+      .item__code {
+        line-height: 1;
+      }
+    }
+
+    .basket__total,
+    .basket__to-checkout {
+      max-width: 100%;
+    }
+  }
+}

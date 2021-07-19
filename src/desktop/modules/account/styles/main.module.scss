@@ -1,0 +1,181 @@
+@import "./src/styles/variables/main";
+@import "./src/styles/mixin/main";
+
+@import "./src/core/components/select/styles/main";
+
+@import "./src/desktop/components/status/style";
+@import "./src/desktop/components/review/styles/main";
+@import "./src/desktop/components/reviewThread/base/styles/main";
+
+.protected-element--account {
+  min-height: 400px;
+}
+
+.order-history {
+  .order-history__items {
+    position: relative;
+
+    &.complete {
+      &:before {
+        border-color: $colorGreen;
+      }
+    }
+
+    &:before {
+      content: "";
+      position: absolute;
+      top: 15px;
+      left: 7px;
+      width: 1px;
+      height: calc(100% - 40px);
+      border-left: 1px solid $borderColorBase;
+    }
+  }
+
+  .item {
+    height: 40px;
+
+    //> div:last-child {
+    //  height: 40px;
+    //}
+
+    &.complete {
+      &[data-status-id="O"] {
+        .icon {
+          color: $colorWhite;
+        }
+      }
+
+      .icon {
+        color: $colorGreen;
+        background: $colorGreen;
+      }
+
+      .item__name {
+        color: $colorGreen;
+      }
+    }
+
+    &.active {
+      .icon {
+        color: $colorYellow;
+        background: $colorYellow;
+      }
+
+      .item__name {
+        font-weight: 500;
+      }
+    }
+
+    &.abort {
+      &[data-status-id="A"] {
+        .icon {
+          color: $colorWhite;
+        }
+      }
+
+      .icon {
+        background: $colorRed;
+      }
+
+      .icon,
+      .item__name {
+        color: $colorRed;
+      }
+    }
+
+    & + .item {
+      margin-top: 5px;
+    }
+
+    .icon {
+      border-radius: 100%;
+      font-size: 16px;
+      color: $colorGray1;
+      background: $colorGray1;
+    }
+
+    .item__date {
+      margin: 0 24px 0 20px;
+      display: block;
+      font-size: 12px;
+    }
+
+    .item__name {
+      margin: 0 0 0 20px;
+      color: $colorGray;
+    }
+  }
+}
+
+.account.account--full {
+  $colorYellowAside: #ffcc30;
+  $colorYellowSticker: #ffab07;
+  $colorGrayAside: #aebcd0;
+  $linkHoverColor: #345c8b0a;
+  $colorTransparentWhiteBonus: rgba(255, 255, 255, 0.2);
+  $shadowColorBonus: rgba(0, 0, 0, 0.06);
+
+  @import "./aside/main";
+  @import "./review/main";
+  @import "./bonus/main";
+  @import "./profile/main";
+  @import "./wishList/main";
+  @import "./order/main";
+
+  .account__body {
+    &.loading {
+      .account-section {
+        min-height: 452px;
+      }
+
+      &:before {
+        background: transparent;
+      }
+    }
+  }
+
+  .account-section {
+    padding: 24px 12px;
+
+    .account-section__title {
+      font-size: 22px;
+    }
+  }
+}
+
+@include before-md {
+  .account.account--full {
+    .account__body {
+      &.loading {
+        .account-section {
+          min-height: 300px;
+        }
+
+        &:before {
+          background: transparent;
+        }
+      }
+    }
+  }
+}
+
+@include md {
+  .account.account--full {
+    .account-section {
+      padding: 24px;
+    }
+  }
+}
+
+@include lg {
+  .account.account--full {
+    .account-section {
+      padding: 32px 40px;
+
+      .account-section__title {
+        font-size: 28px;
+      }
+    }
+  }
+}

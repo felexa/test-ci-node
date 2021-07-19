@@ -1,0 +1,26 @@
+.gallery-immersive {
+    margin: 0 auto;
+    padding: 16px;
+
+  img {
+    border: 1px solid $borderColorBase;
+    border-radius: 10px;
+    margin: 0 5px 10px 5px;
+  }
+
+  img:hover {
+    border: 1px solid $colorPink;
+    cursor: pointer;
+  }
+}
+
+@include md {
+  .gallery-immersive {
+    display: block;
+    padding: 0;
+
+    img {
+      margin: 0 10px 15px 10px;
+    }
+  }
+}

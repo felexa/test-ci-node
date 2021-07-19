@@ -1,0 +1,30 @@
+.company {
+  @include md {
+    .company__section {
+      position: relative;
+      width: 50%;
+      padding: 40px 10px 40px 40px;
+    }
+
+    .company__banner {
+      width: 50%;
+    }
+
+    .company__logo {
+      margin-bottom: 34px;
+      max-width: none;
+    }
+
+    .company__title {
+      margin-bottom: 32px;
+      font-size: 32px;
+    }
+
+    .contact {
+      .contact__group + .contact__group {
+        margin-top: 16px;
+      }
+    }
+  }
+}
+

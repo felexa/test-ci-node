@@ -1,0 +1,128 @@
+.consultation {
+  $blueGradient: linear-gradient(89.05deg, #333266 0%, #2270EE 100%), #FFFFFF;
+  $colorBlue: rgba(44, 165, 224, 1);
+  $colorPurple: rgba(135, 99, 189, 1);
+
+  background: $blueGradient;
+
+  .consultation__header {
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid $colorTransparentWhite2;
+  }
+
+  .consultation__pharmacist-photo {
+    display: block;
+    border-radius: 50%;
+  }
+
+  .consultation__title {
+    margin-left: 16px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.3;
+  }
+
+  .consultation__description {
+    display: none;
+  }
+
+  .consultation__description {
+    margin-bottom: 18px;
+    font-size: 16px;
+    line-height: 1.4;
+  }
+
+  .consultation__social {
+    margin-bottom: 16px;
+
+    .social__link {
+      display: flex;
+      align-items: center;
+      width: 126px;
+      height: 42px;
+      padding: 2px;
+      border-radius: 17px;
+      background-color: tomato;
+      text-decoration: none;
+    }
+
+    .social__name {
+      width: 100%;
+      font-size: 13px;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+
+    .social__link--telegram {
+      background-color: lighten($colorBlue, 30%);
+
+      .social__name {
+        color: $colorBlue;
+      }
+    }
+
+    .social__link--viber {
+      background-color: lighten($colorPurple, 30%);
+
+      .social__name {
+        color: $colorPurple;
+      }
+    }
+
+    a + a {
+      margin-left: 12px;
+    }
+  }
+
+  .consultation__working-time {
+    color: $colorWhite1;
+  }
+
+  @include md {
+    padding: 24px;
+
+    .consultation__header {
+      padding-bottom: 0;
+      margin-bottom: 0;
+      border-bottom: none;
+    }
+
+    .consultation__body {
+      margin-left: 16px;
+    }
+
+    .consultation__pharmacist-photo {
+      width: 100px;
+      height: 100px;
+      margin-bottom: 0;
+    }
+
+    .consultation__title {
+      margin-bottom: 12px;
+      margin-left: 24px;
+      font-size: 30px;
+    }
+
+    .consultation__description {
+      display: block;
+      margin-bottom: 0;
+      margin-top: 12px;
+      font-size: 18px;
+      font-weight: 400;
+    }
+
+    .consultation__social {
+      margin-bottom: 22px;
+
+      a + a {
+        margin-left: 20px;
+      }
+    }
+
+    .consultation__working-time {
+      text-align: right;
+    }
+  }
+}

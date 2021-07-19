@@ -1,0 +1,29 @@
+.sticker-outlined {
+  color: $colorBlack;
+  display: flex;
+  align-items: center;
+
+  span {
+    font-size: 12px;
+  }
+
+  .sticker-outlined__label {
+    display: block;
+    width: 8px;
+    height: 8px;
+    margin-right: 4px;
+    border-radius: 50%;
+  }
+
+  .sticker-outlined__label--accepted {
+    background-color: $colorGreen;
+  }
+
+  .sticker-outlined__label--modaration {
+    background-color: $colorYellowSticker;
+  }
+
+  .sticker-outlined__label--reject {
+    background-color: $colorGray1;
+  }
+}

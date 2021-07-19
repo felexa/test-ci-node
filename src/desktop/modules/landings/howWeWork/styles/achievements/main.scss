@@ -1,0 +1,48 @@
+.achievements {
+  background-color: $colorWhite;
+  padding: 32px 24px;
+
+  .achievements__item {
+    position: relative;
+    padding-left: 21px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      width: 3px;
+      background-color: $colorGray;
+      opacity: 0.16;
+      border-radius: 3px;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 50%;
+      left: -1px;
+      width: 5px;
+      background-color: $colorPink;
+      border-radius: 5px;
+    }
+
+    .item__title {
+      font-size: 18px;
+      margin-bottom: 5px;
+    }
+
+    .item__value {
+      font-size: 24px;
+      line-height: 1;
+    }
+  }
+
+  .achievements__item + .achievements__item {
+    margin-top: 32px;
+  }
+}
+
+@import "mediaQueries";

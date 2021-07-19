@@ -1,0 +1,17 @@
+.vendor-card--farkos {
+  @include sm {
+    .advantages-product__title {
+      font-size: 24px;
+    }
+  }
+
+  @include md {
+    .vendor-card__section {
+      margin-top: 60px;
+    }
+  }
+
+  @include lg {
+    margin-top: 6px;
+  }
+}

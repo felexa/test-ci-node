@@ -1,0 +1,54 @@
+.conditions {
+  padding: 50px 0 40px 0;
+  background: $redBlueGradient;
+
+  .conditions__header {
+    margin-bottom: 24px;
+
+    .conditions__title {
+      font-size: 40px;
+      font-weight: 500;
+      text-align: center;
+
+      span {
+        display: block;
+        white-space: nowrap;
+        color: $colorPink;
+        font-size: 50px;
+        font-weight: 900;
+      }
+    }
+  }
+
+  .conditions__body {
+    .conditions__description {
+      font-size: 21px;
+      text-align: center;
+
+      b {
+        font-weight: 900;
+      }
+    }
+  }
+
+  .conditions__preview {
+    margin-top: 37px;
+    text-align: center;
+
+    img {
+      width: 100%;
+      height: auto;
+      max-width: 520px;
+    }
+  }
+
+  .conditions__validity {
+    line-height: 1.5;
+
+    a {
+      text-decoration: none;
+    }
+  }
+}
+
+@import "mediaQueries";

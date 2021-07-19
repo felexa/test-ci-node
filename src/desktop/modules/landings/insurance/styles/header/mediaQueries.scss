@@ -1,0 +1,64 @@
+.insurance__header {
+  @include md {
+    padding: 60px 0 0 0;
+    background:  url(build-image-url("/landings/insurance/head-bg.png")) no-repeat center;
+    background-size: cover;
+
+    .header__title {
+      font-size: 36px;
+      margin-bottom: 24px;
+    }
+
+    .header__description {
+      margin-bottom: 40px;
+      font-size: 22px;
+      line-height: 1.5;
+    }
+
+    .header__redirect-to-form {
+      display: inline-block;
+      width: 250px;
+      margin-bottom: 45px;
+    }
+
+    .header__image {
+      position: relative;
+
+      img {
+        position: absolute;
+        bottom: 0;
+        margin-top: -20px;
+        margin-left: auto;
+      }
+    }
+  }
+
+  @include lg {
+    padding: 130px 0 0 0;
+
+    .header__image {
+      margin-top: 0px;
+    }
+
+    .header__title {
+      font-size: 48px;
+      margin-bottom: 24px;
+    }
+
+    .header__description {
+      font-size: 26px;
+    }
+
+    .header__redirect-to-form {
+      margin-bottom: 60px;
+    }
+  }
+
+  @media screen and (min-width: 1600px) and (max-width: 2000px) {
+    .header__image {
+      img {
+        transform: translateX(50px);
+      }
+    }
+  }
+}

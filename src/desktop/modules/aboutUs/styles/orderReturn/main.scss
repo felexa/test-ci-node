@@ -1,0 +1,58 @@
+.order-return {
+  @import "utilities";
+
+  color: $colorBlack;
+
+  p {
+    margin: 0 0 14px 0;
+    line-height: 150%;
+  }
+
+  h2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    margin: 0 0 14px 0;
+    padding: 0;
+    text-align: left;
+    color: $colorBlack;
+  }
+
+  h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 20px 0 10px 0;
+    text-align: left;
+    color: $colorBlack;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 16px 0;
+    padding: 0;
+
+    li {
+      padding: 0 0 0 20px;
+      position: relative;
+      text-align: justify;
+      width: 100%;
+
+      &::before {
+        content: '';
+        display: block;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: #F64C6B;
+        position: absolute;
+        top: 6px;
+        left: 0;
+      }
+
+      &:not(:last-child) {
+        margin-bottom: 4px;
+      }
+    }
+  }
+}

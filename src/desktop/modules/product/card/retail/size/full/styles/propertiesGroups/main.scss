@@ -1,0 +1,43 @@
+.properties-groups {
+  .properties-groups__header {
+    span {
+      margin-right: 5px;
+      line-height: 14px;
+    }
+
+    .notice {
+      transform: translateY(-3px);
+    }
+  }
+
+  &.properties-groups--collapsible {
+    .properties-groups__body {
+      max-height: 350px;
+      overflow: hidden;
+      position: relative;
+      @include white-gradient(40px, 0);
+    }
+  }
+
+  .properties-groups__footer {
+    a {
+      cursor: pointer;
+    }
+  }
+
+  @media screen and (max-width: $maxXSResolution) {
+    &.properties-groups--collapsible {
+      .properties-groups__body {
+        max-height: 100%;
+
+        &::before {
+          display: none;
+        }
+      }
+    }
+
+    .properties-groups__footer {
+      display: none;
+    }
+  }
+}

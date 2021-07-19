@@ -1,0 +1,118 @@
+.filter {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: $bodyBackgroundBase;
+  position: relative;
+  z-index: 1000;
+
+  &.filter-mobile {
+    .filter__active-filters {
+      margin: 12px 12px 0 12px;
+    }
+  }
+
+  .filter__header {
+    padding: 14px 16px;
+    border-bottom: 1px solid $colorLightGray;
+    background-color: $colorWhite;
+
+    .filter__title {
+      font-size: 18px;
+      margin: 0;
+      font-weight: 500;
+
+      .badge {
+        background-color: $colorPink;
+        font-size: 12px;
+        min-width: 20px;
+        padding: 4px;
+      }
+
+      .icon {
+        cursor: pointer;
+        color: $colorGray;
+        font-size: 24px;
+      }
+    }
+  }
+
+  .filter__body {
+    flex-grow: 1;
+    overflow-y: auto;
+
+    .filter__items {
+      .item {
+        padding: 14px 16px;
+      }
+
+      .item + .item {
+        border-top: 1px solid $colorLightGray;
+      }
+
+      .item__title {
+        font-size: 16px;
+      }
+    }
+  }
+
+  .filter__footer {
+    padding: 12px 16px;
+    border-top: 1px solid $colorLightGray;
+    background-color: $colorWhite;
+
+    .filter__found-products {
+      font-size: 12px;
+    }
+
+    .filter__controls {
+      button {
+        width: 50%;
+        padding: 8px 12px;
+
+        &:first-child {
+          margin-right: 8px;
+        }
+      }
+    }
+  }
+
+  @include before-md {
+      .filter__body {
+        .filter__items {
+          .item {
+            box-shadow: none;
+            border-radius: 0;
+          }
+        }
+      }
+  }
+
+  @include md {
+    height: auto;
+    background-color: transparent;
+
+    .filter__body {
+      overflow-y: visible;
+
+      .filter__items {
+        .item {
+          padding: 8px;
+          background-color: $colorWhite;
+
+          .accordion {
+            padding: 32px 0 16px 0;
+
+            .panel:last-child {
+              border-bottom: none;
+            }
+          }
+        }
+
+        .item + .item {
+          border-top: none;
+        }
+      }
+    }
+  }
+}

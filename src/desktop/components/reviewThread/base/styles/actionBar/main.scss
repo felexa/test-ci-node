@@ -1,0 +1,88 @@
+.action-bar {
+  margin-top: 0;
+  display: flex;
+  justify-content: space-between;
+
+  .action-bar__to-answer,
+  .action-bar__to-all-answers,
+  .action-bar__toggle-answers {
+    font-size: 14px;
+    padding: 0;
+    color: $colorDarkGray;
+    font-weight: 500;
+
+    &:hover {
+      color: $colorPink;
+    }
+
+    .icon {
+      margin-right: 4px;
+      font-size: 20px;
+    }
+  }
+
+  .action-bar__vote-buttons {
+    display: flex;
+    align-items: center;
+
+    .vote-buttons__description {
+      margin-right: 12px;
+      color: $colorGray;
+    }
+
+    button {
+      padding: 0;
+      border: none;
+      outline: none;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      color: $colorDarkGray;
+
+      & + button {
+        margin: 0 0 0 12px;
+      }
+
+      &.active {
+        .icon-like {
+          color: $colorGreen;
+        }
+
+        .icon-dislike {
+          color: $colorRed;
+        }
+
+        .count {
+          color: $colorBlack;
+        }
+      }
+
+      &:hover {
+        .icon,
+        .count {
+          color: $colorPink !important;
+        }
+      }
+    }
+
+    .icon {
+      font-size: $fontSizeXL;
+      width: 20px;
+      height: 20px;
+    }
+
+    .count {
+      font-size: $fontSizeBase;
+      margin-left: 4px;
+    }
+  }
+}
+
+@include before-md {
+  .action-bar {
+    .vote-buttons__description {
+      display: none;
+    }
+  }
+}
+

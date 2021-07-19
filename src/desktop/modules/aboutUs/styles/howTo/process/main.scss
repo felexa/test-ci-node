@@ -1,0 +1,37 @@
+@import "./src/styles/helpers/main";
+
+.process {
+  .process__items {
+    list-style-type: none;
+  }
+
+  .process__item {
+    width: 140px;
+
+    .item__preview {
+      height: 120px;
+      width: 120px;
+      margin: 0 auto 24px auto;
+
+      img {
+        height: 100%;
+        width: 100%;
+      }
+    }
+
+    .item__description {
+      font-size: 18px;
+      color: $colorBlack;
+      line-height: 1.167;
+    }
+  }
+
+  .process__item-divider {
+    width: 12px;
+    height: 30px;
+    background: url(build-image-url("/about/howto/divider.svg")) no-repeat center/cover;
+    margin-top: 40px;
+  }
+}
+
+@import "mediaQueries";

@@ -1,0 +1,17 @@
+.avatar {
+  position: absolute;
+  top: 10px;
+  left: -40px;
+  width: 30px !important;
+  height: 30px !important;
+  margin-right: 14px;
+  border: 1px solid $borderColorBase;
+}
+
+@include md {
+  .avatar {
+        left: -46px;
+        width: 36px !important;
+        height: 36px !important;
+  }
+}

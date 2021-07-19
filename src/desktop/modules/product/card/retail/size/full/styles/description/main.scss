@@ -1,0 +1,34 @@
+@import "./src/styles/mixin/main";
+@import "./src/styles/variables/main";
+
+.description {
+  a:hover {
+    cursor: pointer;
+  }
+
+  .description__body {
+    position: relative;
+    overflow: hidden;
+    max-height: none;
+    color: $colorBlack;
+
+    &.collapsed {
+      max-height: 800px;
+
+      @include white-gradient(40px, 0);
+    }
+  }
+
+  p {
+    margin: 0;
+  }
+}
+
+@include md {
+  .description {
+    .footnote {
+      margin-bottom: 0;
+      text-align: right;
+    }
+  }
+}

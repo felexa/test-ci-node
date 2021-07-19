@@ -1,0 +1,30 @@
+.pregnancy {
+  @media screen and (max-width: $maxMDResolution) {
+    font-size: 14px;
+
+    .pregnancy__body {
+      .new-super-box-shadow {
+        padding: 24px 16px;
+      }
+    }
+
+    .pregnancy-section {
+      .pregnancy-section__title {
+        margin-bottom: 16px;
+        font-size: 20px;
+      }
+
+      & + .pregnancy-section {
+        margin-top: 32px;
+      }
+    }
+
+    .list--default {
+      grid-row-gap: 16px;
+
+      li {
+        font-size: 16px;
+      }
+    }
+  }
+}

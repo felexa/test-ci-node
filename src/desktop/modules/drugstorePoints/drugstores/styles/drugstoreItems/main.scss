@@ -1,0 +1,105 @@
+.drugstore-items {
+  width: 100%;
+  padding: 0;
+  margin-top: 24px;
+  display: block;
+  overflow-x: auto;
+
+ .drugstore-item-name {
+   font-size: $fontSizeMedium;
+ }
+
+  .drugstore__show-more {
+    margin-top: 32px;
+    margin-bottom: 8px;
+
+    button {
+      width: 230px;
+      height: 46px;
+      font-size: $fontSizeBase;
+      border: 1px solid $colorPink;
+    }
+
+    button:hover {
+      background: $colorPink;
+      color: $colorWhite;
+    }
+  }
+
+  .table {
+    width: 100%;
+    max-width: 100%;
+    border-collapse: collapse;
+
+    .drugstore-item {
+      td {
+        vertical-align: middle;
+      }
+
+      .drugstore-item__name {
+        width: 220px;
+      }
+
+      .drugstore-item__work-time,
+      .drugstore-item__phone {
+        width: 172px;
+      }
+
+      .drugstore-item__to-drug-store {
+        width: 20%;
+        text-align: right;
+        padding-right: 0;
+        text-transform: uppercase;
+
+       a {
+         width: 130px;
+         height: 36px;
+         line-height: 22px;
+       }
+      }
+    }
+
+    thead {
+      tr {
+        border-bottom: 1px solid $borderColorBase;
+
+        th {
+          vertical-align: bottom;
+          text-transform: uppercase;
+          font-weight: 400;
+          font-size: $fontSizeSmall;
+          line-height: 16px;
+          color: $colorGray;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+
+  .drugstore-item.drugstore-item--mobile {
+    padding: 12px 0 4px 0;
+    border-bottom: 1px solid $borderColorBase;
+    color: $colorBlack;
+
+    &:first-child {
+      margin-top: -12px;
+      padding-top: 0;
+    }
+
+    p {
+      margin: 12px 0;
+    }
+  }
+}
+
+
+@include md {
+  .drugstore-items {
+    margin-top: 25px;
+
+    .drugstore__show-more {
+      margin-top: 40px;
+      margin-bottom: 16px;
+    }
+  }
+}

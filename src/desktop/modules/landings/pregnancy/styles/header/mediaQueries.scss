@@ -1,0 +1,30 @@
+.pregnancy__header {
+  @media screen and (min-width: 1910px) {
+    background-position: 73% 0;
+  }
+
+  @media screen and (min-width: 2500px) {
+    background-position: 65% 0;
+  }
+
+  @media screen and (max-width: $maxLGResolution) {
+    background-position: 97% 0;
+  }
+
+  @media screen and (max-width: $maxMDResolution) {
+    padding: 26px 0 90px 0;
+
+    .pregnancy__title {
+      margin: 0 0 8px 0;
+      font-size: 24px;
+    }
+
+    .pregnancy__subtitle {
+      font-size: 14px;
+    }
+  }
+
+  @media screen and (max-width: $maxXSResolution) {
+    background: linear-gradient(132.64deg, #E88184 19.62%, #FAA1A3 88.82%), #F19596;
+  }
+}

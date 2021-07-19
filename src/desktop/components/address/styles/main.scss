@@ -1,0 +1,8 @@
+@import "./src/styles/variables/main";
+
+@import "./src/core/components/autocomplete/styles/main";
+
+.address {
+  @import "region/main";
+}
+

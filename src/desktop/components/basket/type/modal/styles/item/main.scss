@@ -1,0 +1,115 @@
+.item {
+  border: 1px solid $borderColorBase;
+  padding: 26px;
+
+  & + .item {
+    margin-top: 16px;
+  }
+
+  .item__preview {
+    width: 90px;
+    height: 90px;
+
+    a {
+      height: 100%;
+      width: 100%;
+
+      img {
+        max-width: 100%;
+        max-height: 100%;
+      }
+    }
+  }
+
+  .item__restriction {
+    position: relative;
+    padding: 16px 56px 16px 72px;
+    border: 1px solid $colorRed;
+
+    &::before {
+      content: "";
+      position: absolute;
+      display: block;
+      top: 16px;
+      left: 16px;
+      width: 40px;
+      height: 40px;
+    }
+
+    .icon-close {
+      position: absolute;
+      font-size: 24px;
+      top: 16px;
+      right: 14px;
+      cursor: pointer;
+    }
+  }
+
+  .item__restriction--prescription {
+    &::before {
+      background: url(build-image-url("/attributes/prescription-required.svg")) no-repeat center/cover;
+    }
+  }
+
+  .item__restriction--thermolabile {
+    &::before {
+      background: url(build-image-url("/attributes/temperature-required.svg")) no-repeat center/cover;
+    }
+  }
+
+  .item__delete {
+    color: $colorGray;
+    font-size: 22px;
+    padding: 0;
+  }
+
+  .item__name {
+    margin: 0 0 8px 0;
+    font-size: 16px;
+  }
+
+  .item__code {
+    margin: 0;
+  }
+
+  .item__quantity {
+    input {
+      font-size: 16px;
+      height: 40px;
+      width: 50px;
+      border-radius: 0;
+      border: 1px solid $borderColorBase;
+      text-align: center;
+      box-shadow: none;
+      padding: 6px;
+    }
+  }
+
+  .item__increase,
+  .item__decrease {
+    height: 40px;
+    width: 40px;
+    color: $colorGray1;
+    border: 1px solid $borderColorBase;
+  }
+
+  .item__decrease {
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    font-size: 20px;
+  }
+
+  .item__increase {
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    font-size: 24px;
+  }
+
+  .price {
+    font-size: 20px;
+
+    .price__currency {
+      font-size: 100%;
+    }
+  }
+}

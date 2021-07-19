@@ -1,0 +1,28 @@
+.achievements {
+  @include md {
+    padding: 32px;
+
+    .achievements__item + .achievements__item {
+      margin-top: 0;
+    }
+  }
+
+  @include lg {
+    padding: 32px 66px;
+
+    .achievements__item {
+      .item__value {
+        font-size: 32px;
+        line-height: 1.28;
+      }
+    }
+  }
+
+  @include xl {
+    padding: 39px 85px;
+
+    .achievements__item {
+      width: 25%;
+    }
+  }
+}

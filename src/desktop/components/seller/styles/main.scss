@@ -1,0 +1,27 @@
+@import "../../../../styles/variables/main";
+
+.seller {
+  border: 1px solid $borderColorBase;
+  border-radius: 10px;
+  color: $colorBlack;
+
+  .seller__name {
+    strong {
+      font-weight: 500;
+    }
+  }
+
+  .seller__body {
+    & > div {
+      height: 20px;
+    }
+  }
+
+  .seller-logo {
+    max-height: 20px;
+    width: auto;
+    height: auto;
+  }
+}
+
+@import "mediaQueries";

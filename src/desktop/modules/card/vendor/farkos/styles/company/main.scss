@@ -1,0 +1,47 @@
+.company {
+  .company__section {
+    position: relative;
+
+    &:after {
+      position: absolute;
+      z-index: 1;
+      content: "";
+      top: 0;
+      right: 0;
+      bottom: -25px;
+      left: 0;
+      background: url(build-image-url("/manufacturer/farkos/company-bg-mobile.png")) bottom right no-repeat;
+      background-size: 100% 100%;
+    }
+  }
+
+  .company__body,
+  .company__header {
+    position: relative;
+    z-index: 2;
+  }
+
+  @include md {
+    .company__section {
+      &:after {
+        right: -37px;
+        bottom: 0;
+        background: url(build-image-url("/manufacturer/farkos/company-bg-farkos.png")) top right;
+        background-size: cover;
+      }
+    }
+
+    .company__banner {
+      position: relative;
+
+      img {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        height: 100%;
+        width: auto;
+      }
+    }
+  }
+}

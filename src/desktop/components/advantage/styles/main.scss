@@ -1,0 +1,30 @@
+.advantage {
+  .advantage__item {
+    padding: 24px;
+    width: 100%;
+
+    + .advantage__item {
+    margin-top: 16px;
+    }
+  }
+
+  .item__title {
+    font-size: 18px;
+    margin-top: 14px;
+    color: $colorBlack;
+  }
+  .item__description {
+    color: $colorBlack;
+  }
+}
+
+@media screen and (min-width: $minMDResolution) {
+  .advantage {
+    .advantage__item {
+      + .advantage__item {
+        margin-left: 16px;
+        margin-top: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.new-post {
+  .schedule__items {
+    .schedule__item {
+      line-height: 150%;
+
+      &:not(:last-child) {
+        margin-bottom: 16px;
+      }
+    }
+  }
+}

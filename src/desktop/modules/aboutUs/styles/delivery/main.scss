@@ -1,0 +1,22 @@
+.delivery {
+  @import "section";
+
+  @import "./pharmacyCourier/main";
+  @import "./ukrPost/main";
+  @import "./newPost/main";
+  @import "./selfDelivery/main";
+
+  color: $colorBlack;
+
+  .delivery__warning {
+    margin-bottom: 32px;
+    line-height: 20px;
+    text-align: justify;
+  }
+
+  p {
+    line-height: 150%;
+  }
+}
+
+@import "mediaQueries";

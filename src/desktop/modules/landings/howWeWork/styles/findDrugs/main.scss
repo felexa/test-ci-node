@@ -1,0 +1,57 @@
+.find-drugs {
+  padding-top: 32px;
+  margin-bottom: 60px;
+  overflow: hidden;
+  background: radial-gradient(65.31% 25.7% at 50% 53.83%, #517DD5 0%, #0C3483 100%),
+  linear-gradient(102.12deg, #1B79DD 23.97%, #3AB3EC 91.94%),
+  linear-gradient(79.13deg, #91B8F3 10.29%, #C0E7FC 106.13%);
+
+  .find-drugs__body {
+    margin-bottom: 32px;
+  }
+
+  .find-drugs__description {
+    font-size: 20px;
+    margin-bottom: 32px;
+
+    p {
+      margin: 0;
+    }
+
+    p + p {
+      margin-top: 0.8em;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+  }
+
+  .find-drugs__to-catalog {
+    max-width: 288px;
+    margin: 0 auto;
+
+    a {
+      max-width: 288px;
+      padding: 17px 16px;
+      font-size: 18px;
+      text-transform: uppercase;
+      display: block;
+    }
+  }
+
+  .find-drugs__preview {
+    max-width: 360px;
+    margin: 0 auto;
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+      transform: translateY(2px);
+    }
+  }
+}
+
+@import "mediaQueries";
+

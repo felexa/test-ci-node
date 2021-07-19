@@ -1,0 +1,92 @@
+.properties-group {
+  padding: 16px;
+  background: $bodyBackgroundBase;
+
+  & + .properties-group {
+    margin-top: 16px;
+  }
+
+  &.properties-group--ungrouped {
+    .properties-group__body {
+      margin-top: 0;
+    }
+  }
+
+  .properties-group__header {
+    .properties-group__title {
+      font-weight: 500;
+      color: $colorBlack;
+      font-size: 14px;
+    }
+  }
+
+  .properties-group__body {
+    margin-top: 20px;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  .item {
+    &:nth-child(odd) {
+      td {
+        background-color: $colorWhite;
+      }
+
+      .item__title {
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+      }
+
+      .item__description {
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+      }
+    }
+
+    .item__icon {
+      width: 24px;
+      padding-right: 12px;
+    }
+
+    .item__title,
+    .item__description {
+      padding: 12px;
+    }
+
+    .item__title {
+      width: 35%;
+      text-align: left;
+      color: $colorGray;
+    }
+
+    .item__description {
+      position: relative;
+      color: $colorBlack;
+
+      .icon {
+        position: absolute;
+        transform: translate(10px, -1px);
+        font-size: 20px;
+        color: $colorGray;
+      }
+    }
+  }
+
+  @media screen and (max-width: $maxXSResolution) {
+    .properties-group__body {
+      overflow-y: scroll;
+    }
+
+    .item {
+      .item__description {
+        .icon {
+          transform: none;
+          right: 12px;
+        }
+      }
+    }
+  }
+}

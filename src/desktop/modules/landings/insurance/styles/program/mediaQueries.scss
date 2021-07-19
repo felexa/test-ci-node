@@ -1,0 +1,16 @@
+.insurance__program {
+  @include lg {
+    margin: 168px 0 100px 0;
+
+    .program__body {
+      padding: 96px 110px 64px;
+      font-size: 20px;
+
+      &::before {
+        top: -66px;
+        width: 114px;
+        height: 132px;
+      }
+    }
+  }
+}

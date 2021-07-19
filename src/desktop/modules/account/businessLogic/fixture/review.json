@@ -1,0 +1,94 @@
+[
+    {
+        "id": "a0c21306-b64c-11ea-96c2-0635d0043582",
+        "name": "L-цет 5 мг №30 таблетки",
+        "preview": {
+            "alt": "L-цет 5 мг №30 таблетки",
+            "src": {
+                "large": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/products/fdd46a81-b6fd-11ea-96c2-0635d0043582-large.jpeg",
+                "medium": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/products/fdd46a81-b6fd-11ea-96c2-0635d0043582-medium.jpeg",
+                "original": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/products/fdd46a81-b6fd-11ea-96c2-0635d0043582.jpeg",
+                "small": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/products/fdd46a81-b6fd-11ea-96c2-0635d0043582-small.jpeg"
+            }
+        },
+        "title": "L-цет 5 мг №30 таблетки",
+        "reviews": [
+            {
+                "author": {
+                    "name": "Дмитро"
+                },
+                "bought": true,
+                "commentTotal": 0,
+                "comments": [],
+                "date": "20.07.2020",
+                "id": "d1ca9be9-cab1-11ea-91bb-0683b26d06ee",
+                "rating": 5,
+                "text": "Врач назначил этот препарат."
+            },
+            {
+                "author": {
+                    "name": "Дмитро"
+                },
+                "bought": true,
+                "commentTotal": 0,
+                "comments": [],
+                "date": "20.07.2020",
+                "id": "d1ca9be9-cab1-11ea-91bb-0683b26d06ee",
+                "rating": 5,
+                "text": "Врач назначил этот препарат."
+            }
+        ]
+    },
+    {
+        "id": "a0c21306-b64c-11ea-96c2-0635d0043582",
+        "name": "L-цет 5 мг №30 таблетки",
+        "preview": {
+            "alt": "L-цет 5 мг №30 таблетки",
+            "src": {
+                "large": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/products/fdd46a81-b6fd-11ea-96c2-0635d0043582-large.jpeg",
+                "medium": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/products/fdd46a81-b6fd-11ea-96c2-0635d0043582-medium.jpeg",
+                "original": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/products/fdd46a81-b6fd-11ea-96c2-0635d0043582.jpeg",
+                "small": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/products/fdd46a81-b6fd-11ea-96c2-0635d0043582-small.jpeg"
+            }
+        },
+        "title": "L-цет 5 мг №30 таблетки",
+        "reviews": [
+            {
+                "author": {
+                    "name": "Дмитро"
+                },
+                "bought": true,
+                "commentTotal": 0,
+                "comments": [],
+                "date": "20.07.2020",
+                "id": "d1ca9be9-cab1-11ea-91bb-0683b26d06ee",
+                "rating": 5,
+                "text": "Врач назначил этот препарат."
+            },
+            {
+                "author": {
+                    "name": "Дмитро"
+                },
+                "bought": true,
+                "commentTotal": 0,
+                "comments": [],
+                "date": "20.07.2020",
+                "id": "d1ca9be9-cab1-11ea-91bb-0683b26d06ee",
+                "rating": 5,
+                "text": "Врач назначил этот препарат."
+            },
+            {
+                "author": {
+                    "name": "Дмитро"
+                },
+                "bought": true,
+                "commentTotal": 0,
+                "comments": [],
+                "date": "20.07.2020",
+                "id": "d1ca9be9-cab1-11ea-91bb-0683b26d06ee",
+                "rating": 5,
+                "text": "Врач назначил этот препарат."
+            }
+        ]
+    }
+]

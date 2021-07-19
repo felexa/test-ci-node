@@ -1,0 +1,46 @@
+.find {
+  .find__item {
+    display: flex;
+
+    &:not(:last-child) {
+      margin-bottom: 15px;
+    }
+
+    .item__description {
+      position: relative;
+      padding-left: 34px;
+      margin-right: 15px;
+      margin-bottom: 12px;
+
+      .icon-done {
+        position: absolute;
+        left: 0;
+        top: 0;
+        border: 1px solid $colorPink;
+        border-radius: 50%;
+        font-size: 20px;
+        color: $colorPink;
+      }
+
+      b {
+        font-weight: 500;
+      }
+    }
+
+    .item__preview {
+      width: 530px;
+      border-radius: 10px;
+      overflow: hidden;
+      flex-shrink: 0;
+
+      img {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
+
+@import "mediaQueries";
+

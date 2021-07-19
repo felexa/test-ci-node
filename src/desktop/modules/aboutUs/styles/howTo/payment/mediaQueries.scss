@@ -1,0 +1,12 @@
+  .payment {
+  @media screen and (min-width: $maxXSResolution) {
+    .payment__description {
+      width: 50%;
+    }
+
+    .payment__preview {
+      margin-left: 16px;
+      width: 50%;
+    }
+  }
+}

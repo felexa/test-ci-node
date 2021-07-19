@@ -1,0 +1,77 @@
+@include before-xl {
+  .categories {
+    .categories__title {
+      font-size: 24px;
+      margin-bottom: 12px;
+    }
+
+    .categories__items {
+      margin: -6px;
+    }
+
+    .categories__item {
+      padding: 6px;
+
+      a {
+        height: 54px;
+        font-size: 14px;
+        background-size: 54px 100%;
+      }
+    }
+  }
+}
+
+@include before-lg {
+  .categories {
+    .categories__title {
+      font-size: 22px;
+    }
+
+    .categories__items {
+      margin: -8px;
+    }
+
+    .categories__item {
+      width: 33.33%;
+      padding: 8px;
+
+      a {
+        height: 64px;
+        font-size: 16px;
+        background-size: 65px 100%;
+      }
+    }
+  }
+}
+
+@include before-md {
+  .categories {
+    .categories__header {
+      display: none;
+    }
+
+    .categories__body {
+      padding: 0 12px;
+    }
+
+    .categories__items {
+      flex-direction: column;
+      margin: 0;
+    }
+
+    .categories__item {
+      width: 100%;
+      padding: 0 0 16px;
+
+      a {
+        height: 68px;
+        font-size: 18px;
+        background-size: 95px 100%;
+      }
+    }
+
+    .categories__show-all {
+      font-size: 16px;
+    }
+  }
+}

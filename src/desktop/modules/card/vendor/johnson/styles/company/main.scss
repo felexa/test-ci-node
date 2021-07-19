@@ -1,0 +1,33 @@
+.company.company--johnson {
+  padding-bottom: 32px;
+  background: $colorDarkRed;
+
+  .company__logo {
+    display: none;
+  }
+
+  .company__section {
+    background: transparent;
+    padding: 24px 0 26px 0px;
+  }
+
+  .company__banner {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .contacts {
+    .contacts__item + .contacts__item {
+      margin-top: 16px;
+    }
+
+    .item__title {
+      margin-bottom: 0;
+      text-transform: none;
+      font-weight: 400;
+      font-size: 16px;
+    }
+  }
+}
+
+@import "mediaQueries";

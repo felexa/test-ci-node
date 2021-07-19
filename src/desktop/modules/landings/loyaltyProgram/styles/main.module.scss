@@ -1,0 +1,156 @@
+@import "./src/styles/variables/main";
+@import "./src/styles/mixin/main";
+@import "./src/styles/helpers/main";
+
+
+@import "./src/desktop/components/accordion/styles/main";
+@import "./src/desktop/components/faq/styles";
+
+.loyalty-program {
+  $redGradient: linear-gradient(254.35deg, #FF9944 17.21%, #FC6076 107.97%),
+  linear-gradient(276.66deg, #FE9A8B -0.78%, #F8777D 63.94%, #EB546F 157.65%),
+  linear-gradient(317.91deg, #F5C8F5 5.08%, #DADDFA 51.03%, #F1F4F9 100%),
+  linear-gradient(299.68deg, #C2E9FB 11.47%, #A1C4FD 92.05%), #FF3366;
+
+  $blueGradient: linear-gradient(110.59deg, #7CB9F1 9.85%, #5C59DB 104.33%),
+  linear-gradient(116.16deg, #448FFF 10.86%, #8C31FF 89.93%);
+
+  $greyGradient:  linear-gradient(0deg, #EEF1F5, #EEF1F5),
+  linear-gradient(0deg, #F3E7E9 7.57%, #E3EEFF 91.28%),
+  linear-gradient(157.18deg, #FFF1EA 20.95%, #EAEDFF 93.13%);
+
+  @import "banner/main";
+  @import "getBonus/main";
+  @import "spendBonus/main";
+  @import "promoCode/main";
+  @import "lawyer/main";
+
+  background-color: $colorWhite;
+  margin: -16px 0 -60px 0;
+  padding: 0 0 80px 0;
+
+  body {
+    background-color: $colorWhite;
+  }
+  .section {
+    .section__title {
+      margin: 0 0 24px 0;
+      font-size: 32px;
+      font-weight: 900;
+      text-align: center;
+      color: $colorBlack;
+    }
+  }
+
+  .content-box {
+    position: relative;
+    padding: 70px 16px 32px 16px;
+    margin-left: -3px;
+    margin-right: -3px;
+
+    .content-box__preview {
+      position: absolute;
+      top: -45px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: block;
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      background: $blueGradient;
+    }
+
+    p {
+      margin: 0;
+      font-size: 18px;
+      line-height: 1.66;
+
+      & + p {
+        margin-top: 1em;
+      }
+    }
+  }
+
+  .faq {
+    max-width: none;
+    margin: 0;
+    margin-top: 70px;
+
+    h2 {
+      font-size: 32px;
+      font-weight: 900;
+      margin-bottom: 16px;
+      text-align: center;
+
+
+    }
+
+    @include lg {
+      margin-top: 100px;
+
+      h2 {
+        font-size: 36px;
+        margin: 0 0 40px 0;
+      }
+    }
+
+    .accordion {
+      .panel {
+        &:last-child {
+          border-bottom: none;
+        }
+
+        .panel__header {
+          min-height: 70px;
+          align-items: center;
+
+          .icon-minus {
+            transform: translateY(-3px);
+          }
+        }
+      }
+    }
+  }
+
+  .new-super-box-shadow {
+    box-shadow: 0px 40px 30px rgba(78, 101, 134, 0.06), 0px 10px 30px rgba(57, 69, 86, 0.1)
+  }
+
+  .notice {
+    opacity: 0;
+    position: fixed;
+    z-index: 100;
+    left: 50%;
+    bottom: 50px;
+    transform: translateX(-50%);
+    padding: 16px 24px;
+    border-radius: 16px;
+    font-size: 18px;
+    text-align: center;
+    background: $colorGreen;
+    transition: .3s;
+
+    .icon {
+      border: 1px solid $colorWhite;
+      border-radius: 50%;
+      margin-right: 8px;
+      color: $colorGreen;
+      background-color: $colorWhite;
+    }
+
+    &.active {
+      opacity: 1;
+    }
+
+    @include before-sm {
+      position: absolute;
+      //top: 0;
+      bottom: -20px;
+      width: 90%;
+
+    }
+  }
+}
+
+@import "mediaQueries";
+

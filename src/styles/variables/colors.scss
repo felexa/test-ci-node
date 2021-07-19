@@ -1,0 +1,46 @@
+$colorWhite: rgba(255, 255, 255, 1);
+$colorWhite1: rgba(255, 255, 255, 0.8);
+$colorWhite2: rgba(255, 255, 255, 0.7);
+
+$colorTransparentWhite: rgba(255, 255, 255, 0.6);
+
+$colorTransparentWhite2: rgba(255, 255, 255, 0.2);
+
+
+$colorBlack: #212121;
+$colorDark: lighten($colorBlack, 13%);
+$colorDark1: #212E42;
+
+$colorGray: rgba(57, 69, 86, 0.6);
+$colorGray1: #909AAA;
+$colorGray2: #f9f9fb;
+
+$colorDarkGray: #5F7390;
+
+$colorOrange: #FF5C00;
+
+$colorRed: #F33434;
+$colorLightRed: #F64C4C;
+
+$colorPink: #FF3366;
+$colorYellow: #FFC107;
+
+$colorGreen: #00a046;
+$colorLightGreen: rgba(0, 160, 70, 0.08);
+
+$colorBlue: #2270EE;
+
+$linkColor: $colorBlue;
+$linkColorHover: $colorBlue;
+
+$headersColor: #3a5565;
+
+$errorColorBase: $colorRed;
+
+$headerColor: #394556;
+//$bodyBackgroundBase: #FAFAFB;
+$bodyBackgroundBase: #F5F7FA;
+
+$borderColorBase: rgba(136, 143, 154, 0.16);
+
+$formHoverColor: $colorGray2; //rgba(52, 92, 139, 0.04);//todo rename variable

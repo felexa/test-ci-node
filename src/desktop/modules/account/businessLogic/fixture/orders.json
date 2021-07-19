@@ -1,0 +1,1130 @@
+[
+    {
+        "id": "asdasdsadd",
+        "orderId": "1231",
+        "status": {
+            "id": "N",
+            "name": "Принят в обработку"
+        },
+        "statuses": [
+            {
+                "id": "N",
+                "name": "Принят в обработку",
+                "completed": true,
+                "createdAt": "Thu Oct 29 2020 18:13:06 GMT+0200 (Восточная Европа, стандартное время)"
+            },
+            {
+                "id": "D",
+                "name": "Комплектуется",
+                "active": true,
+                "completed": false,
+                "createdAt": "Thu Oct 30 2020 14:33:56 GMT+0200 (Восточная Европа, стандартное время)"
+            },
+            {
+                "id": "F",
+                "name": "В пути",
+                "completed": false,
+                "createdAt": ""
+            },
+            {
+                "id": "C",
+                "name": "В аптеке",
+                "completed": false,
+                "createdAt": "Thu Oct 31 2020 14:33:56 GMT+0200 (Восточная Европа, стандартное время)"
+            },
+            {
+                "id": "O",
+                "name": "Получен",
+                "completed": false,
+                "createdAt": "Thu Oct 31 2020 14:33:56 GMT+0200 (Восточная Европа, стандартное время)"
+            }
+        ],
+        "createdAt": "Mon Oct 19 2020 19:00:47 GMT+0300 (Восточная Европа, летнее время)",
+        "customer": {
+            "name": "Valerij",
+            "phone": "380636598351",
+            "email": "test@gmail.com"
+        },
+        "delivery": {
+            "TTN": "12312312312312321",
+            "type": "17",
+            "address": "Днепр, ул. Гладкова 45, кв. 111",
+            "price": {
+                "current": 25
+            }
+        },
+        "payment": {
+            "type": 1
+        },
+        "basket": {
+            "items": [
+                {
+                    "id": 1,
+                    "product": {
+                        "id": "4904bcee-b7ff-11ea-96c2-0635d0043582",
+                        "active": true,
+                        "sku": "303.0019",
+                        "url": "/etatsizin-0-05-n50/",
+                        "name": "Этацизин 50 мг №50 таблетки",
+                        "alias": "etatsizin-0-05-n50",
+                        "brand": {
+                            "id": "03160ec1-b6fe-11ea-96c2-0635d0043582",
+                            "name": "Olainfarm",
+                            "alias": "olainfarm"
+                        },
+                        "preview": {
+                            "src": {
+                                "original": "https://i.apteka24.ua/products/1c3d1683-badc-11ea-96c2-0635d0043582-medium.jpeg"
+                            },
+                            "alt": "Этацизин 50 мг №50 таблетки",
+                            "title": "Этацизин 50 мг №50 таблетки"
+                        },
+                        "price": {
+                            "currency": "UAH",
+                            "current": 250000,
+                            "old": 255000,
+                            "date": "2020-09-28T09:44:03+00:00"
+                        },
+                        "sale": {
+                            "percent": 2,
+                            "value": 5000
+                        },
+                        "promotions": [],
+                        "review": {
+                            "id": "4904bcee-b7ff-11ea-96c2-0635d0043582",
+                            "rating": {
+                                "min": 0,
+                                "max": 5,
+                                "value": 4.14
+                            },
+                            "comments": 14,
+                            "questions": 0
+                        },
+                        "status": {
+                            "id": "in-stock",
+                            "name": "В наличии",
+                            "type": "available"
+                        },
+                        "seller": {
+                            "id": "448b2b16-b17d-11ea-927d-0242c0a89004",
+                            "name": "Аптека24",
+                            "alias": "badm",
+                            "logo": {
+                                "src": {
+                                    "original": "https://www.apteka24.ua/upload/uf/f10/f10814064e1b4d92b0ca8474030c88d7.png"
+                                },
+                                "alt": "Аптека24",
+                                "title": "Аптека24"
+                            }
+                        },
+                        "attributes": [
+                            {
+                                "id": "085f75a5-9395-11ea-afea-0242ac140003",
+                                "name": "Производитель",
+                                "alias": "maker",
+                                "type": "string",
+                                "values": [
+                                    {
+                                        "value": "АО \"Олайнфарм\", Латвия"
+                                    }
+                                ],
+                                "value": "АО \"Олайнфарм\", Латвия"
+                            },
+                            {
+                                "id": "c1e538b1-911d-11ea-bc4c-0242ac140002",
+                                "name": "Форма выпуска",
+                                "alias": "production-form",
+                                "type": "string",
+                                "values": [
+                                    {
+                                        "value": "Таблетки"
+                                    }
+                                ],
+                                "value": "Таблетки"
+                            }
+                        ],
+                        "delivery": {
+                            "externalServices": false,
+                            "a24Pharmacies": true,
+                            "a24Courier": true,
+                            "partnerPharmacies": false
+                        },
+                        "remoteId": "1923"
+                    },
+                    "price": {
+                        "current": 1500
+                    },
+                    "quantity": 3
+                },
+                {
+                    "id": 2,
+                    "product": {
+                        "id": "2a8ace3e-bae2-11ea-96c2-0635d0043582",
+                        "active": true,
+                        "sku": "5232002",
+                        "url": "/mochepriemnik-s-t-kranom-2l-voles-ster-v-up/",
+                        "name": "Мочеприемник с Т-краном 2 л Волес стерильный фывфывфыв",
+                        "alias": "mochepriemnik-s-t-kranom-2l-voles-ster-v-up",
+                        "brand": {
+                            "id": "058923c2-bad6-11ea-96c2-0635d0043582",
+                            "name": "Jiangsu Yuyue",
+                            "alias": "jiangsu-yuyue"
+                        },
+                        "preview": {
+                            "src": {
+                                "original": "https://i.apteka24.ua/products/a459a75d-f8db-11ea-b70f-064212086763-medium.jpeg"
+                            },
+                            "alt": "Мочеприемник с Т-краном 2 л Волес стерильный фывфывфыв",
+                            "title": "Мочеприемник с Т-краном 2 л Волес стерильный фывфывфыв"
+                        },
+                        "price": {
+                            "currency": "UAH",
+                            "current": 13.3,
+                            "date": "2020-09-28T13:24:02+00:00"
+                        },
+                        "promotions": [],
+                        "review": {
+                            "id": "2a8ace3e-bae2-11ea-96c2-0635d0043582",
+                            "rating": {
+                                "min": 0,
+                                "max": 5,
+                                "value": 4.15
+                            },
+                            "comments": 39,
+                            "questions": 0
+                        },
+                        "status": {
+                            "id": "in-stock",
+                            "name": "В наличии",
+                            "type": "available"
+                        },
+                        "seller": {
+                            "id": "448b2b16-b17d-11ea-927d-0242c0a89004",
+                            "name": "Аптека24",
+                            "alias": "badm",
+                            "logo": {
+                                "src": {
+                                    "original": "https://i.apteka24.ua/products/1c3d1683-badc-11ea-96c2-0635d0043582-medium.jpeg"
+                                },
+                                "alt": "Аптека24",
+                                "title": "Аптека24"
+                            }
+                        },
+                        "attributes": [],
+                        "delivery": {
+                            "externalServices": true,
+                            "a24Pharmacies": true,
+                            "a24Courier": true,
+                            "partnerPharmacies": true
+                        },
+                        "remoteId": "21466"
+                    },
+                    "price": {
+                        "current": 1500
+                    },
+                    "quantity": 3
+                },
+                {
+                    "id": 3,
+                    "product": {
+                        "id": "4cbdf783-b195-11ea-927d-0242c0a89004",
+                        "active": true,
+                        "sku": "171.0541",
+                        "url": "/spirt-etil-96-100ml-fl/",
+                        "name": "Спирт этиловый 96% 100 мл раствор флакон",
+                        "alias": "spirt-etil-96-100ml-fl",
+                        "brand": {
+                            "id": "4741835f-b17d-11ea-927d-0242c0a89004",
+                            "name": "Здоровье",
+                            "alias": "zdorove",
+                            "logo": {
+                                "src": {
+                                    "original": "https://i.apteka24.ua/brands/162534a4-e93d-11ea-9344-0635d0043582.jpeg",
+                                    "large": "https://i.apteka24.ua/brands/162534a4-e93d-11ea-9344-0635d0043582-large.jpeg",
+                                    "medium": "https://i.apteka24.ua/brands/162534a4-e93d-11ea-9344-0635d0043582-medium.jpeg",
+                                    "small": "https://i.apteka24.ua/brands/162534a4-e93d-11ea-9344-0635d0043582-small.jpeg"
+                                },
+                                "alt": "Здоровье",
+                                "title": "Здоровье"
+                            }
+                        },
+                        "preview": {
+                            "src": {
+                                "original": "https://i.apteka24.ua/products/b784f092-f8de-11ea-b70f-064212086763-medium.png"
+                            },
+                            "alt": "Спирт этиловый 96% 100 мл раствор флакон",
+                            "title": "Спирт этиловый 96% 100 мл раствор флакон"
+                        },
+                        "price": {
+                            "currency": "UAH",
+                            "current": 30.7,
+                            "date": "2020-09-18T10:26:11+00:00"
+                        },
+                        "promotions": [],
+                        "review": {
+                            "id": "4cbdf783-b195-11ea-927d-0242c0a89004",
+                            "rating": {
+                                "min": 0,
+                                "max": 5,
+                                "value": 4
+                            },
+                            "comments": 2,
+                            "questions": 0
+                        },
+                        "status": {
+                            "id": "in-stock",
+                            "name": "В наличии",
+                            "type": "available"
+                        },
+                        "seller": {
+                            "id": "448b2b16-b17d-11ea-927d-0242c0a89004",
+                            "name": "Аптека24",
+                            "alias": "badm",
+                            "logo": {
+                                "src": {
+                                    "original": "https://www.apteka24.ua/upload/uf/f10/f10814064e1b4d92b0ca8474030c88d7.png",
+                                    "large": "",
+                                    "medium": "https://i.apteka24.ua/vendors/448b3573-b17d-11ea-927d-0242c0a89004-medium.png",
+                                    "small": "https://i.apteka24.ua/vendors/448b3573-b17d-11ea-927d-0242c0a89004-small.png"
+                                },
+                                "alt": "Аптека24",
+                                "title": "Аптека24"
+                            }
+                        },
+                        "attributes": [
+                            {
+                                "id": "085f75a5-9395-11ea-afea-0242ac140003",
+                                "name": "Производитель",
+                                "alias": "maker",
+                                "type": "string",
+                                "values": [
+                                    {
+                                        "value": "ТОВ\"Фармацевтична компанiя \"Здоров я\", Україна"
+                                    }
+                                ],
+                                "value": "ТОВ\"Фармацевтична компанiя \"Здоров я\", Україна"
+                            },
+                            {
+                                "id": "c1e538b1-911d-11ea-bc4c-0242ac140002",
+                                "name": "Форма выпуска",
+                                "alias": "production-form",
+                                "type": "string",
+                                "values": [
+                                    {
+                                        "value": "Раствор"
+                                    }
+                                ],
+                                "value": "Раствор"
+                            }
+                        ],
+                        "delivery": {
+                            "externalServices": false,
+                            "a24Pharmacies": true,
+                            "a24Courier": true,
+                            "partnerPharmacies": false
+                        },
+                        "remoteId": "786751"
+                    },
+                    "price": {
+                        "current": 1500
+                    },
+                    "quantity": 3
+                },
+                {
+                    "id": 4,
+                    "product": {
+                        "id": "4cbdf783-b195-11ea-927d-0242c0a89004",
+                        "active": true,
+                        "sku": "171.0541",
+                        "url": "/spirt-etil-96-100ml-fl/",
+                        "name": "Спирт этиловый 96% 100 мл раствор флакон",
+                        "alias": "spirt-etil-96-100ml-fl",
+                        "brand": {
+                            "id": "4741835f-b17d-11ea-927d-0242c0a89004",
+                            "name": "Здоровье",
+                            "alias": "zdorove",
+                            "logo": {
+                                "src": {
+                                    "original": "https://i.apteka24.ua/brands/162534a4-e93d-11ea-9344-0635d0043582.jpeg",
+                                    "large": "https://i.apteka24.ua/brands/162534a4-e93d-11ea-9344-0635d0043582-large.jpeg",
+                                    "medium": "https://i.apteka24.ua/brands/162534a4-e93d-11ea-9344-0635d0043582-medium.jpeg",
+                                    "small": "https://i.apteka24.ua/brands/162534a4-e93d-11ea-9344-0635d0043582-small.jpeg"
+                                },
+                                "alt": "Здоровье",
+                                "title": "Здоровье"
+                            }
+                        },
+                        "preview": {
+                            "src": {
+                                "original": "https://i.apteka24.ua/products/b784f092-f8de-11ea-b70f-064212086763-medium.png"
+                            },
+                            "alt": "Спирт этиловый 96% 100 мл раствор флакон",
+                            "title": "Спирт этиловый 96% 100 мл раствор флакон"
+                        },
+                        "price": {
+                            "currency": "UAH",
+                            "current": 30.7,
+                            "date": "2020-09-18T10:26:11+00:00"
+                        },
+                        "promotions": [],
+                        "review": {
+                            "id": "4cbdf783-b195-11ea-927d-0242c0a89004",
+                            "rating": {
+                                "min": 0,
+                                "max": 5,
+                                "value": 4
+                            },
+                            "comments": 2,
+                            "questions": 0
+                        },
+                        "status": {
+                            "id": "in-stock",
+                            "name": "В наличии",
+                            "type": "available"
+                        },
+                        "seller": {
+                            "id": "448b2b16-b17d-11ea-927d-0242c0a89004",
+                            "name": "Аптека24",
+                            "alias": "badm",
+                            "logo": {
+                                "src": {
+                                    "original": "https://www.apteka24.ua/upload/uf/f10/f10814064e1b4d92b0ca8474030c88d7.png",
+                                    "large": "",
+                                    "medium": "https://i.apteka24.ua/vendors/448b3573-b17d-11ea-927d-0242c0a89004-medium.png",
+                                    "small": "https://i.apteka24.ua/vendors/448b3573-b17d-11ea-927d-0242c0a89004-small.png"
+                                },
+                                "alt": "Аптека24",
+                                "title": "Аптека24"
+                            }
+                        },
+                        "attributes": [
+                            {
+                                "id": "085f75a5-9395-11ea-afea-0242ac140003",
+                                "name": "Производитель",
+                                "alias": "maker",
+                                "type": "string",
+                                "values": [
+                                    {
+                                        "value": "ТОВ\"Фармацевтична компанiя \"Здоров я\", Україна"
+                                    }
+                                ],
+                                "value": "ТОВ\"Фармацевтична компанiя \"Здоров я\", Україна"
+                            },
+                            {
+                                "id": "c1e538b1-911d-11ea-bc4c-0242ac140002",
+                                "name": "Форма выпуска",
+                                "alias": "production-form",
+                                "type": "string",
+                                "values": [
+                                    {
+                                        "value": "Раствор"
+                                    }
+                                ],
+                                "value": "Раствор"
+                            }
+                        ],
+                        "delivery": {
+                            "externalServices": false,
+                            "a24Pharmacies": true,
+                            "a24Courier": true,
+                            "partnerPharmacies": false
+                        },
+                        "remoteId": "786751"
+                    },
+                    "price": {
+                        "current": 1500
+                    },
+                    "quantity": 3
+                }
+            ],
+            "quantity": 3,
+            "price": {
+                "current": 1325,
+                "total": 1350
+            }
+        }
+    },
+    {
+        "id": "asdasdsad",
+        "orderId": "1231",
+        "status": {
+            "id": "O",
+            "name": "Заказ выполнен"
+        },
+        "statuses": [
+            {
+                "id": "N",
+                "name": "Принят в обработку",
+                "completed": true,
+                "createdAt": "Thu Oct 29 2020 18:13:06 GMT+0200 (Восточная Европа, стандартное время)"
+            },
+            {
+                "id": "D",
+                "name": "Комплектуется",
+                "completed": true,
+                "createdAt": "Thu Oct 30 2020 14:33:56 GMT+0200 (Восточная Европа, стандартное время)"
+            },
+            {
+                "id": "F",
+                "name": "В пути",
+                "completed": true,
+                "createdAt": "Thu Oct 30 2020 21:13:06 GMT+0200 (Восточная Европа, стандартное время)"
+            },
+            {
+                "id": "C",
+                "name": "В аптеке",
+                "completed": true,
+                "createdAt": "Thu Oct 31 2020 14:33:56 GMT+0200 (Восточная Европа, стандартное время)"
+            },
+            {
+                "id": "O",
+                "name": "Получен",
+                "completed": true,
+                "createdAt": "Thu Oct 31 2020 14:33:56 GMT+0200 (Восточная Европа, стандартное время)"
+            }
+        ],
+        "createdAt": "Mon Oct 19 2020 19:00:47 GMT+0300 (Восточная Европа, летнее время)",
+        "customer": {
+            "name": "Valerij",
+            "phone": "380636598351",
+            "email": "test@gmail.com"
+        },
+        "delivery": {
+            "TTN": "12312312312312321",
+            "type": "17",
+            "address": "Днепр, ул. Гладкова 45, кв. 111",
+            "price": {
+                "current": 25
+            }
+        },
+        "payment": {
+            "type": 1
+        },
+        "basket": {
+            "items": [
+                {
+                    "id": 1,
+                    "product": {
+                        "id": "4904bcee-b7ff-11ea-96c2-0635d0043582",
+                        "active": true,
+                        "sku": "303.0019",
+                        "url": "/etatsizin-0-05-n50/",
+                        "name": "Этацизин 50 мг №50 таблетки",
+                        "alias": "etatsizin-0-05-n50",
+                        "brand": {
+                            "id": "03160ec1-b6fe-11ea-96c2-0635d0043582",
+                            "name": "Olainfarm",
+                            "alias": "olainfarm"
+                        },
+                        "preview": {
+                            "src": {
+                                "original": "https://i.apteka24.ua/products/1c3d1683-badc-11ea-96c2-0635d0043582-medium.jpeg"
+                            },
+                            "alt": "Этацизин 50 мг №50 таблетки",
+                            "title": "Этацизин 50 мг №50 таблетки"
+                        },
+                        "price": {
+                            "currency": "UAH",
+                            "current": 250000,
+                            "old": 255000,
+                            "date": "2020-09-28T09:44:03+00:00"
+                        },
+                        "sale": {
+                            "percent": 2,
+                            "value": 5000
+                        },
+                        "promotions": [],
+                        "review": {
+                            "id": "4904bcee-b7ff-11ea-96c2-0635d0043582",
+                            "rating": {
+                                "min": 0,
+                                "max": 5,
+                                "value": 4.14
+                            },
+                            "comments": 14,
+                            "questions": 0
+                        },
+                        "status": {
+                            "id": "in-stock",
+                            "name": "В наличии",
+                            "type": "available"
+                        },
+                        "seller": {
+                            "id": "448b2b16-b17d-11ea-927d-0242c0a89004",
+                            "name": "Аптека24",
+                            "alias": "badm",
+                            "logo": {
+                                "src": {
+                                    "original": "https://www.apteka24.ua/upload/uf/f10/f10814064e1b4d92b0ca8474030c88d7.png"
+                                },
+                                "alt": "Аптека24",
+                                "title": "Аптека24"
+                            }
+                        },
+                        "attributes": [
+                            {
+                                "id": "085f75a5-9395-11ea-afea-0242ac140003",
+                                "name": "Производитель",
+                                "alias": "maker",
+                                "type": "string",
+                                "values": [
+                                    {
+                                        "value": "АО \"Олайнфарм\", Латвия"
+                                    }
+                                ],
+                                "value": "АО \"Олайнфарм\", Латвия"
+                            },
+                            {
+                                "id": "c1e538b1-911d-11ea-bc4c-0242ac140002",
+                                "name": "Форма выпуска",
+                                "alias": "production-form",
+                                "type": "string",
+                                "values": [
+                                    {
+                                        "value": "Таблетки"
+                                    }
+                                ],
+                                "value": "Таблетки"
+                            }
+                        ],
+                        "delivery": {
+                            "externalServices": false,
+                            "a24Pharmacies": true,
+                            "a24Courier": true,
+                            "partnerPharmacies": false
+                        },
+                        "remoteId": "1923"
+                    },
+                    "price": {
+                        "current": 1500
+                    },
+                    "quantity": 3
+                },
+                {
+                    "id": 2,
+                    "product": {
+                        "id": "2a8ace3e-bae2-11ea-96c2-0635d0043582",
+                        "active": true,
+                        "sku": "5232002",
+                        "url": "/mochepriemnik-s-t-kranom-2l-voles-ster-v-up/",
+                        "name": "Мочеприемник с Т-краном 2 л Волес стерильный фывфывфыв",
+                        "alias": "mochepriemnik-s-t-kranom-2l-voles-ster-v-up",
+                        "brand": {
+                            "id": "058923c2-bad6-11ea-96c2-0635d0043582",
+                            "name": "Jiangsu Yuyue",
+                            "alias": "jiangsu-yuyue"
+                        },
+                        "preview": {
+                            "src": {
+                                "original": "https://i.apteka24.ua/products/a459a75d-f8db-11ea-b70f-064212086763-medium.jpeg"
+                            },
+                            "alt": "Мочеприемник с Т-краном 2 л Волес стерильный фывфывфыв",
+                            "title": "Мочеприемник с Т-краном 2 л Волес стерильный фывфывфыв"
+                        },
+                        "price": {
+                            "currency": "UAH",
+                            "current": 13.3,
+                            "date": "2020-09-28T13:24:02+00:00"
+                        },
+                        "promotions": [],
+                        "review": {
+                            "id": "2a8ace3e-bae2-11ea-96c2-0635d0043582",
+                            "rating": {
+                                "min": 0,
+                                "max": 5,
+                                "value": 4.15
+                            },
+                            "comments": 39,
+                            "questions": 0
+                        },
+                        "status": {
+                            "id": "in-stock",
+                            "name": "В наличии",
+                            "type": "available"
+                        },
+                        "seller": {
+                            "id": "448b2b16-b17d-11ea-927d-0242c0a89004",
+                            "name": "Аптека24",
+                            "alias": "badm",
+                            "logo": {
+                                "src": {
+                                    "original": "https://i.apteka24.ua/products/1c3d1683-badc-11ea-96c2-0635d0043582-medium.jpeg"
+                                },
+                                "alt": "Аптека24",
+                                "title": "Аптека24"
+                            }
+                        },
+                        "attributes": [],
+                        "delivery": {
+                            "externalServices": true,
+                            "a24Pharmacies": true,
+                            "a24Courier": true,
+                            "partnerPharmacies": true
+                        },
+                        "remoteId": "21466"
+                    },
+                    "price": {
+                        "current": 1500
+                    },
+                    "quantity": 3
+                },
+                {
+                    "id": 3,
+                    "product": {
+                        "id": "4cbdf783-b195-11ea-927d-0242c0a89004",
+                        "active": true,
+                        "sku": "171.0541",
+                        "url": "/spirt-etil-96-100ml-fl/",
+                        "name": "Спирт этиловый 96% 100 мл раствор флакон",
+                        "alias": "spirt-etil-96-100ml-fl",
+                        "brand": {
+                            "id": "4741835f-b17d-11ea-927d-0242c0a89004",
+                            "name": "Здоровье",
+                            "alias": "zdorove",
+                            "logo": {
+                                "src": {
+                                    "original": "https://i.apteka24.ua/brands/162534a4-e93d-11ea-9344-0635d0043582.jpeg",
+                                    "large": "https://i.apteka24.ua/brands/162534a4-e93d-11ea-9344-0635d0043582-large.jpeg",
+                                    "medium": "https://i.apteka24.ua/brands/162534a4-e93d-11ea-9344-0635d0043582-medium.jpeg",
+                                    "small": "https://i.apteka24.ua/brands/162534a4-e93d-11ea-9344-0635d0043582-small.jpeg"
+                                },
+                                "alt": "Здоровье",
+                                "title": "Здоровье"
+                            }
+                        },
+                        "preview": {
+                            "src": {
+                                "original": "https://i.apteka24.ua/products/b784f092-f8de-11ea-b70f-064212086763-medium.png"
+                            },
+                            "alt": "Спирт этиловый 96% 100 мл раствор флакон",
+                            "title": "Спирт этиловый 96% 100 мл раствор флакон"
+                        },
+                        "price": {
+                            "currency": "UAH",
+                            "current": 30.7,
+                            "date": "2020-09-18T10:26:11+00:00"
+                        },
+                        "promotions": [],
+                        "review": {
+                            "id": "4cbdf783-b195-11ea-927d-0242c0a89004",
+                            "rating": {
+                                "min": 0,
+                                "max": 5,
+                                "value": 4
+                            },
+                            "comments": 2,
+                            "questions": 0
+                        },
+                        "status": {
+                            "id": "in-stock",
+                            "name": "В наличии",
+                            "type": "available"
+                        },
+                        "seller": {
+                            "id": "448b2b16-b17d-11ea-927d-0242c0a89004",
+                            "name": "Аптека24",
+                            "alias": "badm",
+                            "logo": {
+                                "src": {
+                                    "original": "https://www.apteka24.ua/upload/uf/f10/f10814064e1b4d92b0ca8474030c88d7.png",
+                                    "large": "",
+                                    "medium": "https://i.apteka24.ua/vendors/448b3573-b17d-11ea-927d-0242c0a89004-medium.png",
+                                    "small": "https://i.apteka24.ua/vendors/448b3573-b17d-11ea-927d-0242c0a89004-small.png"
+                                },
+                                "alt": "Аптека24",
+                                "title": "Аптека24"
+                            }
+                        },
+                        "attributes": [
+                            {
+                                "id": "085f75a5-9395-11ea-afea-0242ac140003",
+                                "name": "Производитель",
+                                "alias": "maker",
+                                "type": "string",
+                                "values": [
+                                    {
+                                        "value": "ТОВ\"Фармацевтична компанiя \"Здоров я\", Україна"
+                                    }
+                                ],
+                                "value": "ТОВ\"Фармацевтична компанiя \"Здоров я\", Україна"
+                            },
+                            {
+                                "id": "c1e538b1-911d-11ea-bc4c-0242ac140002",
+                                "name": "Форма выпуска",
+                                "alias": "production-form",
+                                "type": "string",
+                                "values": [
+                                    {
+                                        "value": "Раствор"
+                                    }
+                                ],
+                                "value": "Раствор"
+                            }
+                        ],
+                        "delivery": {
+                            "externalServices": false,
+                            "a24Pharmacies": true,
+                            "a24Courier": true,
+                            "partnerPharmacies": false
+                        },
+                        "remoteId": "786751"
+                    },
+                    "price": {
+                        "current": 1500
+                    },
+                    "quantity": 3
+                }
+            ],
+            "quantity": 3,
+            "price": {
+                "current": 1325,
+                "total": 1350
+            }
+        }
+    },
+    {
+        "id": "asdasdsad2",
+        "orderId": "12312",
+        "status": {
+            "id": "A",
+            "name": "заказ отменен"
+        },
+        "statuses": [
+            {
+                "id": "N",
+                "name": "Принят в обработку",
+                "completed": true,
+                "createdAt": "Thu Oct 29 2020 18:13:06 GMT+0200 (Восточная Европа, стандартное время)"
+            },
+            {
+                "id": "D",
+                "name": "Комплектуется",
+                "completed": true,
+                "createdAt": "Thu Oct 30 2020 14:33:56 GMT+0200 (Восточная Европа, стандартное время)"
+            },
+            {
+                "id": "F",
+                "name": "В пути",
+                "completed": true,
+                "createdAt": "Thu Oct 30 2020 21:13:06 GMT+0200 (Восточная Европа, стандартное время)"
+            },
+            {
+                "id": "A",
+                "name": "Отменен",
+                "completed": true,
+                "aborted": true,
+                "createdAt": "Thu Oct 31 2020 14:33:56 GMT+0200 (Восточная Европа, стандартное время)"
+            },
+            {
+                "id": "O",
+                "name": "Получен",
+                "completed": false,
+                "createdAt": "Thu Oct 31 2020 14:33:56 GMT+0200 (Восточная Европа, стандартное время)"
+            }
+        ],
+        "createdAt": "Mon Oct 19 2020 19:00:47 GMT+0300 (Восточная Европа, летнее время)",
+        "customer": {
+            "name": "Valerij",
+            "phone": "380636598351",
+            "email": "test@gmail.com"
+        },
+        "delivery": {
+            "TTN": "1231312321321",
+            "type": "4",
+            "address": "Днепр, ул. Гладкова 45, кв. 111",
+            "price": {
+                "current": 50
+            }
+        },
+        "payment": {
+            "type": 2
+        },
+        "basket": {
+            "items": [
+                {
+                    "id": 1,
+                    "product": {
+                        "id": "4904bcee-b7ff-11ea-96c2-0635d0043582",
+                        "active": true,
+                        "sku": "303.0019",
+                        "url": "/etatsizin-0-05-n50/",
+                        "name": "Этацизин 50 мг №50 таблетки",
+                        "alias": "etatsizin-0-05-n50",
+                        "brand": {
+                            "id": "03160ec1-b6fe-11ea-96c2-0635d0043582",
+                            "name": "Olainfarm",
+                            "alias": "olainfarm"
+                        },
+                        "preview": {
+                            "src": {
+                                "original": "https://i.apteka24.ua/products/2720be01-bae9-11ea-96c2-0635d0043582-medium.jpeg"
+                            },
+                            "alt": "Этацизин 50 мг №50 таблетки",
+                            "title": "Этацизин 50 мг №50 таблетки"
+                        },
+                        "price": {
+                            "currency": "UAH",
+                            "current": 250000,
+                            "old": 255000,
+                            "date": "2020-09-28T09:44:03+00:00"
+                        },
+                        "sale": {
+                            "percent": 2,
+                            "value": 5000
+                        },
+                        "promotions": [],
+                        "review": {
+                            "id": "4904bcee-b7ff-11ea-96c2-0635d0043582",
+                            "rating": {
+                                "min": 0,
+                                "max": 5,
+                                "value": 4.14
+                            },
+                            "comments": 14,
+                            "questions": 0
+                        },
+                        "status": {
+                            "id": "in-stock",
+                            "name": "В наличии",
+                            "type": "available"
+                        },
+                        "seller": {
+                            "id": "448b2b16-b17d-11ea-927d-0242c0a89004",
+                            "name": "Аптека24",
+                            "alias": "badm",
+                            "logo": {
+                                "src": {
+                                    "original": "https://www.apteka24.ua/upload/uf/f10/f10814064e1b4d92b0ca8474030c88d7.png",
+                                    "large": "",
+                                    "medium": "https://i.apteka24.ua/vendors/448b3573-b17d-11ea-927d-0242c0a89004-medium.png",
+                                    "small": "https://i.apteka24.ua/vendors/448b3573-b17d-11ea-927d-0242c0a89004-small.png"
+                                },
+                                "alt": "Аптека24",
+                                "title": "Аптека24"
+                            }
+                        },
+                        "attributes": [
+                            {
+                                "id": "085f75a5-9395-11ea-afea-0242ac140003",
+                                "name": "Производитель",
+                                "alias": "maker",
+                                "type": "string",
+                                "values": [
+                                    {
+                                        "value": "АО \"Олайнфарм\", Латвия"
+                                    }
+                                ],
+                                "value": "АО \"Олайнфарм\", Латвия"
+                            },
+                            {
+                                "id": "c1e538b1-911d-11ea-bc4c-0242ac140002",
+                                "name": "Форма выпуска",
+                                "alias": "production-form",
+                                "type": "string",
+                                "values": [
+                                    {
+                                        "value": "Таблетки"
+                                    }
+                                ],
+                                "value": "Таблетки"
+                            }
+                        ],
+                        "delivery": {
+                            "externalServices": false,
+                            "a24Pharmacies": true,
+                            "a24Courier": true,
+                            "partnerPharmacies": false
+                        },
+                        "remoteId": "1923"
+                    },
+                    "price": {
+                        "current": 1500
+                    },
+                    "quantity": 3
+                },
+                {
+                    "id": 2,
+                    "product": {
+                        "id": "2a8ace3e-bae2-11ea-96c2-0635d0043582",
+                        "active": true,
+                        "sku": "5232002",
+                        "url": "/mochepriemnik-s-t-kranom-2l-voles-ster-v-up/",
+                        "name": "Мочеприемник с Т-краном 2 л Волес стерильный фывфывфыв",
+                        "alias": "mochepriemnik-s-t-kranom-2l-voles-ster-v-up",
+                        "brand": {
+                            "id": "058923c2-bad6-11ea-96c2-0635d0043582",
+                            "name": "Jiangsu Yuyue",
+                            "alias": "jiangsu-yuyue"
+                        },
+                        "preview": {
+                            "src": {
+                                "original": "https://i.apteka24.ua/products/2636a437-bae9-11ea-96c2-0635d0043582-medium.jpeg"
+                            },
+                            "alt": "Мочеприемник с Т-краном 2 л Волес стерильный фывфывфыв",
+                            "title": "Мочеприемник с Т-краном 2 л Волес стерильный фывфывфыв"
+                        },
+                        "price": {
+                            "currency": "UAH",
+                            "current": 13.3,
+                            "date": "2020-09-28T13:24:02+00:00"
+                        },
+                        "promotions": [],
+                        "review": {
+                            "id": "2a8ace3e-bae2-11ea-96c2-0635d0043582",
+                            "rating": {
+                                "min": 0,
+                                "max": 5,
+                                "value": 4.15
+                            },
+                            "comments": 39,
+                            "questions": 0
+                        },
+                        "status": {
+                            "id": "in-stock",
+                            "name": "В наличии",
+                            "type": "available"
+                        },
+                        "seller": {
+                            "id": "448b2b16-b17d-11ea-927d-0242c0a89004",
+                            "name": "Аптека24",
+                            "alias": "badm",
+                            "logo": {
+                                "src": {
+                                    "original": "https://www.apteka24.ua/upload/uf/f10/f10814064e1b4d92b0ca8474030c88d7.png",
+                                    "large": "",
+                                    "medium": "https://i.apteka24.ua/vendors/448b3573-b17d-11ea-927d-0242c0a89004-medium.png",
+                                    "small": "https://i.apteka24.ua/vendors/448b3573-b17d-11ea-927d-0242c0a89004-small.png"
+                                },
+                                "alt": "Аптека24",
+                                "title": "Аптека24"
+                            }
+                        },
+                        "attributes": [],
+                        "delivery": {
+                            "externalServices": true,
+                            "a24Pharmacies": true,
+                            "a24Courier": true,
+                            "partnerPharmacies": true
+                        },
+                        "remoteId": "21466"
+                    },
+                    "price": {
+                        "current": 1500
+                    },
+                    "quantity": 3
+                },
+                {
+                    "id": 3,
+                    "product": {
+                        "id": "4cbdf783-b195-11ea-927d-0242c0a89004",
+                        "active": true,
+                        "sku": "171.0541",
+                        "url": "/spirt-etil-96-100ml-fl/",
+                        "name": "Спирт этиловый 96% 100 мл раствор флакон",
+                        "alias": "spirt-etil-96-100ml-fl",
+                        "brand": {
+                            "id": "4741835f-b17d-11ea-927d-0242c0a89004",
+                            "name": "Здоровье",
+                            "alias": "zdorove",
+                            "logo": {
+                                "src": {
+                                    "original": "https://i.apteka24.ua/brands/162534a4-e93d-11ea-9344-0635d0043582.jpeg",
+                                    "large": "https://i.apteka24.ua/brands/162534a4-e93d-11ea-9344-0635d0043582-large.jpeg",
+                                    "medium": "https://i.apteka24.ua/brands/162534a4-e93d-11ea-9344-0635d0043582-medium.jpeg",
+                                    "small": "https://i.apteka24.ua/brands/162534a4-e93d-11ea-9344-0635d0043582-small.jpeg"
+                                },
+                                "alt": "Здоровье",
+                                "title": "Здоровье"
+                            }
+                        },
+                        "preview": {
+                            "src": {
+                                "original": "https://i.apteka24.ua/products/4e49e9a6-0947-11eb-b70f-064212086763-medium.jpeg"
+                            },
+                            "alt": "Спирт этиловый 96% 100 мл раствор флакон",
+                            "title": "Спирт этиловый 96% 100 мл раствор флакон"
+                        },
+                        "price": {
+                            "currency": "UAH",
+                            "current": 30.7,
+                            "date": "2020-09-18T10:26:11+00:00"
+                        },
+                        "promotions": [],
+                        "review": {
+                            "id": "4cbdf783-b195-11ea-927d-0242c0a89004",
+                            "rating": {
+                                "min": 0,
+                                "max": 5,
+                                "value": 4
+                            },
+                            "comments": 2,
+                            "questions": 0
+                        },
+                        "status": {
+                            "id": "in-stock",
+                            "name": "В наличии",
+                            "type": "available"
+                        },
+                        "seller": {
+                            "id": "448b2b16-b17d-11ea-927d-0242c0a89004",
+                            "name": "Аптека24",
+                            "alias": "badm",
+                            "logo": {
+                                "src": {
+                                    "original": "https://www.apteka24.ua/upload/uf/f10/f10814064e1b4d92b0ca8474030c88d7.png",
+                                    "large": "",
+                                    "medium": "https://i.apteka24.ua/vendors/448b3573-b17d-11ea-927d-0242c0a89004-medium.png",
+                                    "small": "https://i.apteka24.ua/vendors/448b3573-b17d-11ea-927d-0242c0a89004-small.png"
+                                },
+                                "alt": "Аптека24",
+                                "title": "Аптека24"
+                            }
+                        },
+                        "attributes": [
+                            {
+                                "id": "085f75a5-9395-11ea-afea-0242ac140003",
+                                "name": "Производитель",
+                                "alias": "maker",
+                                "type": "string",
+                                "values": [
+                                    {
+                                        "value": "ТОВ\"Фармацевтична компанiя \"Здоров я\", Україна"
+                                    }
+                                ],
+                                "value": "ТОВ\"Фармацевтична компанiя \"Здоров я\", Україна"
+                            },
+                            {
+                                "id": "c1e538b1-911d-11ea-bc4c-0242ac140002",
+                                "name": "Форма выпуска",
+                                "alias": "production-form",
+                                "type": "string",
+                                "values": [
+                                    {
+                                        "value": "Раствор"
+                                    }
+                                ],
+                                "value": "Раствор"
+                            }
+                        ],
+                        "delivery": {
+                            "externalServices": false,
+                            "a24Pharmacies": true,
+                            "a24Courier": true,
+                            "partnerPharmacies": false
+                        },
+                        "remoteId": "786751"
+                    },
+                    "price": {
+                        "current": 1500
+                    },
+                    "quantity": 3
+                }
+            ],
+            "quantity": 3,
+            "price": {
+                "current": 1300,
+                "total": 1350
+            }
+        }
+    }
+]

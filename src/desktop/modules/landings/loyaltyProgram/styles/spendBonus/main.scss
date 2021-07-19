@@ -1,0 +1,30 @@
+.spend-bonus {
+  margin-top: 70px;
+  padding: 57px 0 130px 0;
+  background: url(build-image-url("/landings/loyalty-program/spend-bg_mobile.png")) no-repeat center;
+  background-size: 100% 100%;
+
+  .spend-bonus__body {
+    p {
+      margin: 0;
+      text-align: center;
+      font-size: 18px;
+      color: $colorBlack;
+      line-height: 1.5;
+
+      & + p {
+        margin-top: 1em;
+      }
+    }
+  }
+
+  .spend-bonus__image {
+    display: block;
+    width: 100%;
+    max-width: 295px;
+    height: auto;
+    margin: 20px auto 0 auto;
+  }
+}
+
+@import "mediaQueries";

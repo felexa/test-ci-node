@@ -1,0 +1,47 @@
+.products {
+  margin: -4px;
+
+  .products__item {
+    width: calc(50% - 8px);
+    margin: 4px;
+
+    &.d-rating-none {
+      .product-card__rating {
+        display: none !important;
+      }
+    }
+  }
+}
+
+@include md {
+  .products {
+    margin: -5px;
+
+    .products__item {
+      width: calc(50% - 10px);
+      margin: 5px;
+    }
+  }
+}
+
+@include lg {
+  .products {
+    margin: -5px;
+
+    .products__item {
+      width: calc(25% - 10px);
+      margin: 5px;
+    }
+  }
+}
+
+@include xl {
+  .products {
+    margin: -5px;
+
+    .products__item {
+      width: calc(20% - 10px);
+      margin: 5px;
+    }
+  }
+}

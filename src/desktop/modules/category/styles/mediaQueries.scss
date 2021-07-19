@@ -1,0 +1,50 @@
+@include md {
+  .consultation {
+    .consultation__title {
+      font-size: 24px;
+    }
+  }
+
+  .category {
+    .title-heading span{
+      font-size: 24px;
+    }
+
+    .category__rubrics {
+      padding: 0;
+    }
+  }
+}
+
+@include lg {
+  .category {
+    .category__rubrics {
+      .rubric .rubric__items {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+  }
+}
+
+@include xl {
+  .category {
+    .category__rubrics {
+      .rubric .rubric__items {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+  }
+}
+
+@include before-md {
+  .category {
+    h1 {
+      padding: 0 12px;
+      margin-top: 6px;
+    }
+
+    .category__comments {
+      padding: 0 12px;
+    }
+  }
+}

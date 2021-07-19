@@ -1,0 +1,103 @@
+.who-allowed {
+  @media screen and (max-width: $minSMResolution) {
+    margin-top: 16px;
+    font-size: 16px;
+
+    h1 {
+      margin: 0 0 20px 0;
+      font-size: 28px;
+      text-align: left;
+    }
+
+    h2 {
+      font-size: 24px;
+      text-align: left;
+    }
+
+    .who-allowed__properties {
+      padding: 24px 16px;
+    }
+
+    .properties__title {
+      margin: 0 0 20px 0;
+    }
+
+    .properties__items {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .properties__item {
+      &::before {
+        top: 6px;
+      }
+    }
+
+    .who-allowed__tip {
+      padding: 16px;
+      margin-bottom: 28px;
+    }
+
+    .who-allowed__how-to-use {
+      margin-top: 40px;
+
+      picture {
+        &:first-of-type {
+          display: block;
+          margin-bottom: 40px;
+        }
+      }
+
+      h2 {
+        margin-bottom: 20px;
+      }
+    }
+
+    .who-allowed__what-means {
+      margin-top: 60px;
+
+      h2 {
+        margin-bottom: 20px;
+      }
+
+      .what-means__body {
+        & > p {
+          text-align: left;
+          margin-bottom: 24px;
+        }
+      }
+
+      .values {
+        margin-top: 40px;
+      }
+
+      .values__items {
+        margin-left: 0;
+        margin-bottom: -16px;
+      }
+
+      .values__item {
+        max-width: 100%;
+        width: 100%;
+        padding: 20px 16px;
+        margin-left: 0;
+        margin-bottom: 16px;
+      }
+
+      .item__title {
+        font-size: 20px;
+      }
+
+      .what-means__for-child {
+        padding: 24px 16px;
+        box-shadow: 0 5px 10px rgba(57, 72, 86, 0.05);
+        flex-wrap: wrap;
+
+        & > p {
+          margin: 0 0 28px 0;
+          max-width: 100%;
+          width: 100%;
+        }
+      }
+    }
+  }
+}

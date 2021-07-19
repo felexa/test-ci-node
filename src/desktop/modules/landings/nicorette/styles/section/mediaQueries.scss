@@ -1,0 +1,125 @@
+.section {
+  @include md {
+    padding: 90px 0;
+
+    .section__title {
+      margin: 0 0 50px 0;
+      font-size: 48px;
+    }
+
+    .section__body {
+      .section__items {
+        .item {
+          display: flex;
+          flex-direction: column;
+          max-width: none;
+          padding: 32px 24px 40px 24px;
+
+          & + .item {
+            margin-top: 0;
+            margin-left: 32px;
+          }
+        }
+
+        .item__title {
+          margin: 0 0 24px 0;
+          font-size: 30px;
+        }
+
+        .item__subtitle {
+          font-size: 24px;
+        }
+
+        .item__preview {
+          flex-grow: 1;
+          max-width: none;
+
+          .preview__sticker {
+            top: -3px;
+            right: -30px;
+            padding: 16px;
+            font-size: 18px;
+          }
+
+          img {
+            //max-width: 285px;
+            max-width: none;
+            height: 400px;
+            width: auto;
+          }
+        }
+
+        .item__features{
+          .features__item + .features__item {
+            margin-top: 32px;
+          }
+
+          .features__icon {
+            width: 70px;
+            height: 70px;
+          }
+
+          .features__description {
+            margin-left: 24px;
+            font-size: 20px;
+          }
+        }
+
+        .item__buy {
+          a {
+            max-width: 300px;
+            margin: 0 auto;
+          }
+        }
+      }
+    }
+  }
+
+  @media screen and (min-width: $minMDResolution) and (max-width: $maxLGResolution)  {
+    .section__title {
+      margin: 0 0 30px 0;
+      font-size: 38px;
+    }
+
+    .section__body {
+      .section__items {
+        .item {
+          padding: 24px 16px;
+
+          & + .item {
+            margin-left: 16px;
+          }
+        }
+
+        .item__title {
+          font-size: 21px;
+        }
+
+        .item__preview {
+          .preview__sticker {
+            top: -7px;
+            right: -14px;
+            padding: 14px;
+            font-size: 14px;
+          }
+
+          img {
+            max-height: 280px;
+          }
+        }
+
+        .item__features {
+          .features__icon {
+            width: 50px;
+            height: 50px;
+          }
+
+          .features__description {
+            margin-left: 10px;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}

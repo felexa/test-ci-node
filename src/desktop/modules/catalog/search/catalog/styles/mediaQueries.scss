@@ -1,0 +1,110 @@
+@include md {
+  .header {
+    position: relative;
+    z-index: 101;
+  }
+
+  .catalog-result {
+    .catalog__header {
+      .catalog__banner {
+        &.catalog__banner--mobile {
+          display: none;
+        }
+      }
+    }
+
+    .catalog__body {
+      .catalog__banner {
+        &.catalog__banner--desktop {
+          display: block;
+          margin-bottom: 11px;
+        }
+      }
+    }
+
+    .catalog__header {
+      .catalog__title {
+        font-size: 36px;
+        line-height: 42px;
+      }
+
+      .catalog__found-products {
+        font-size: 16px;
+      }
+
+      .catalog__suggestion {
+        font-size: 18px;
+        margin-top: 24px;
+      }
+    }
+
+    .catalog__aside {
+      position: relative;
+      z-index: 4;
+      width: 272px;
+      flex-shrink: 0;
+      margin-right: 16px;
+      transform: translateX(0);
+    }
+
+    .overlay {
+      display: none !important;
+    }
+  }
+}
+
+@include md {
+  .consultation {
+    .consultation__title {
+      font-size: 24px;
+    }
+  }
+
+  .catalog-result {
+    .catalog__header {
+      .redactor {
+        .redactor__date {
+          margin-bottom: 4px;
+        }
+
+        .redactor__status {
+          margin-bottom: 4px;
+        }
+      }
+    }
+  }
+}
+
+@include before-md {
+  .catalog-result {
+    .catalog__header {
+      .catalog__show-filter {
+        width: 40%;
+      }
+
+      .catalog__sort {
+        width: 60%;
+      }
+
+      .catalog__show-filter {
+        margin-right: 8px;
+
+        button {
+          font-weight: 400;
+          border-radius: 10px;
+          width: 100%;
+          height: 36px;
+          font-size: 14px;
+          padding: 10px;
+          color: $colorWhite;
+          background-color: $colorPink;
+          border-color: transparent;
+
+          .icon {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+}

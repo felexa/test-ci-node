@@ -1,0 +1,54 @@
+.about-company.about-company--johnson {
+  @include sm {
+    .about-company__preview {
+      img {
+        max-width: 340px;
+      }
+    }
+
+    .about-company__title {
+      font-size: 36px;
+    }
+  }
+
+  @include lg {
+    .about-company__section {
+      padding: 40px 24px;
+    }
+
+    .about-company__preview {
+      min-width: 370px;
+      background-position: 76% 50%;
+
+      img {
+        max-width: 300px;
+        transform: translate(0, -115px);
+      }
+    }
+  }
+
+  @include xl {
+    .about-company__section {
+      padding: 50px 40px;
+    }
+
+    .about-company__preview {
+      min-width: 600px;
+      background-position: 90% 50%;
+
+      img {
+        transform: translate(-135px, 0);
+      }
+    }
+  }
+
+  @include before-sm {
+    .about-company__toggle {
+      color: $colorWhite
+    }
+
+    .about-company__description {
+      @include dark-red-gradient(30px, 0);
+    }
+  }
+}

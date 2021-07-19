@@ -1,0 +1,169 @@
+.account-profile {
+  .personal-data__field-description--height {
+    max-height: 215px;
+  }
+
+  .account-profile__title {
+    font-size: 22px;
+  }
+
+  .personal-data {
+    padding: 24px 16px;
+
+    .personal-data__title {
+      .icon {
+        color: $colorGray1;
+      }
+    }
+
+    .personal-data__to-edit {
+      padding: 0;
+      color: $linkColor;
+
+      &:hover {
+        color: $colorPink;
+
+        .icon {
+          color: $colorPink;
+        }
+      }
+
+      .personal-data__description {
+        display: none;
+        font-size: $fontSizeBase;
+
+      }
+
+      .icon {
+        font-size: 20px;
+        color: $linkColor;
+      }
+    }
+
+    .personal-data__avatar {
+      display: flex;
+      align-items: center;
+      margin-top:16px;
+
+      .personal-data__avatar-preview {
+        border-radius: 50%;
+        width: 56px;
+        height: 56px;
+      }
+
+      img {
+        margin-right:16px;
+        object-fit: cover;
+      }
+
+      .personal-data__avatar-description {
+        font-size: $fontSizeSmall;
+        color: $colorGray;
+        display: flex;
+        flex-direction: column;
+
+        label {
+          font-weight: 400;
+          font-size: 14px;
+          margin-top: 5px;
+        }
+      }
+    }
+
+    .personal-data__fields {
+      margin-top: 10px;
+
+    .personal-data__field {
+      width: 100%;
+      margin-top: 17px;
+
+      .form-control::placeholder {
+        color: black;
+      }
+    }
+
+    .personal-data__field-label {
+      font-size: $fontSizeSmall;
+    }
+
+    .personal-data__field-description {
+      font-size: $fontSizeMedium;
+      line-height: 150%;
+      margin: 0;
+      margin-right:10px;
+      word-break: break-all;
+    }
+
+    .personal-data__field--about {
+      width: 100% !important;
+
+      textarea {
+        height: 256px;
+      }
+    }
+  }
+    .personal-data__title {
+      font-size: $fontSizeMedium;
+      color: $colorBlack;
+
+      .icon {
+        font-size: 22px;
+      }
+  }
+
+    .personal-data__controls {
+      margin-top: 32px;
+      justify-content: center;
+    }
+
+    .personal-data__control {
+      width: 170px;
+      height: 46px;
+      text-transform: uppercase;
+    }
+  }
+}
+
+@include md {
+  .account-profile {
+    .account-profile__title {
+      margin-bottom: 27px;
+    }
+
+    .personal-data {
+      padding: 24px;
+
+      .personal-data__controls {
+        margin-top: 28px;
+        justify-content: left;
+
+        .personal-data__control {
+         width: 160px;
+        }
+      }
+
+      .personal-data__to-edit {
+        .personal-data__description {
+          display: inline-block;
+        }
+      }
+      .personal-data__fields {
+      .personal-data__field {
+        width: 50%;
+      }
+    }
+    }
+  }
+}
+
+@include lg {
+  .account-profile {
+    .personal-data {
+      .personal-data__fields {
+      .personal-data__field {
+        width: 33.33%;
+      }
+    }
+    }
+  }
+}

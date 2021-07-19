@@ -1,0 +1,86 @@
+@include before-lg {
+  .header + * {
+    position: relative;
+  }
+
+  .header {
+    margin-bottom: 16px;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 5;
+  }
+}
+
+@include xl {
+  .header {
+    & > div:nth-child(2) {
+      background-color: $colorWhite;
+      max-height: 79px;
+    }
+
+    .header__body {
+      margin-left: -12px;
+      margin-right: -12px;
+
+      .header__item {
+        padding: 0 12px;
+      }
+    }
+
+    & > div {
+      padding: 12px 0;
+    }
+  }
+
+  .common-navigation {
+    font-size: 14px;
+
+    li {
+      padding: 0 12px;
+    }
+  }
+
+  .catalog-navigation {
+    .toggle-catalog-list {
+      padding: 10px 18px;
+      border: 1px solid $borderColorBase;
+      border-radius: 50px;
+      color: $headerColor;
+      background-color: $colorWhite;
+
+      .icon {
+        font-size: 20px;
+        width: 20px;
+        height: 20px;
+        color: $colorGray1;
+      }
+
+      &:hover {
+        background-color: $formHoverColor;
+        color: $headerColor;
+      }
+    }
+  }
+
+  .to-wishlist,
+  .toggle-product-cart {
+    cursor: pointer;
+
+    .icon {
+      color: $colorGray1;
+    }
+  }
+}
+
+@include xl {
+  .common-navigation {
+    li {
+      padding: 0 18px;
+    }
+  }
+
+  .company-phone {
+    margin-right: 45px;
+  }
+}

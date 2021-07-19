@@ -1,0 +1,146 @@
+@import "./src/styles/variables/main";
+@import "./src/styles/mixin/main";
+
+@import "./src/desktop/components/error/style";
+@import "./src/desktop/components/rubric/product/styles/main";
+@import "./src/desktop/components/brand/styles/main";
+@import "./src/desktop/components/rubric/review/product/styles/main";
+@import "./src/desktop/components/rubric/blog/styles/main";
+@import "./src/desktop/components/mediaArticles/styles/main";
+@import "./src/desktop/components/rubric/review/project/styles/main";
+@import "./src/desktop/components/basket/type/summary/style/main";
+@import "./src/desktop/components/consultation/styles";
+
+.home-page {
+  @import "./banner/main";
+  @import "./about/main";
+  @import "./howWorks/main";
+  @import "./aboutDelivery/main";
+  @import "./hotNav/main";
+  @import "./awards/main";
+  @import "./bannerFeedback/main";
+  @import "./loyaltyPromo/main";
+
+  .ml-12 {
+    margin-left: 12px; // it doesn't work from layout
+  }
+
+  .home-page__header {
+    margin-bottom: 48px;
+  }
+
+  .home-page__banner {
+    min-height: 200px;
+    width: 100%;
+    margin-top: -2px;
+    margin-bottom: -25px;
+    padding-bottom: 2px;
+
+    .carousel.carousel-with-pagination .swiper-wrapper {
+      height: auto;
+    }
+  }
+
+  .menu-wrapper {
+    width: 320px;
+
+    .menu {
+      top: 0;
+      z-index: 1;
+      overflow: hidden;
+
+      &::after,
+      &::before {
+        display: none;
+      }
+
+      ul {
+        border-radius: 10px;
+        padding-top: 10px;
+      }
+
+      .menu__body {
+        border-radius: 16px;
+        z-index: 5;
+        font-size: $fontSizeBase;
+        color: $colorBlack;
+        position: relative;
+        overflow: initial;
+
+        &:hover {
+          overflow: hidden;
+        }
+
+        &:not(:hover) {
+          .menu-list {
+            box-shadow: 0 10px 20px rgba(230, 234, 240, 0.8);
+            border-color: transparent;
+          }
+        }
+      }
+    }
+  }
+
+  .home-page-section {
+    margin-bottom: 33px;
+
+    &.home-page-section--no-mb:nth-last-child(1) {
+      margin-bottom: -60px;
+    }
+
+    .rubric.rubric--product + .rubric.rubric--product {
+      margin-top: 33px;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .rubric.rubric--product {
+    margin-top: 0;
+
+    .rubric__items {
+      padding: 0 5px;
+    }
+  }
+
+  .rubric.rubric--comments {
+    margin-top: 0;
+
+    .rubric__items {
+      padding: 0 4px;
+    }
+
+    .rubric__item {
+      margin-left: 2px;
+      margin-bottom: 5px;
+    }
+
+    .rubric__item:last-child {
+      margin-right: 2px;
+    }
+
+    .action-bar {
+      display: none !important;
+    }
+  }
+
+  @include lg {
+    .home-page__header {
+      margin-bottom: 60px;
+    }
+
+    .home-page-section {
+      margin-bottom: 60px;
+
+      &.home-page-section--no-mb:nth-last-child(1) {
+          margin-bottom: -100px;
+      }
+
+      .rubric.rubric--product + .rubric.rubric--product {
+        margin-top: 60px;
+      }
+    }
+  }
+}

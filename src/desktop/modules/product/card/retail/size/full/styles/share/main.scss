@@ -1,0 +1,69 @@
+.share {
+  border: 1px dashed $colorLightRed;
+  border-radius: 10px;
+  padding: 12px;
+  background-color: #FFF5F7;
+
+  .share__description {
+    margin: 0;
+    text-align: center;
+    color: $colorBlack;
+  }
+
+  .share__promo-code {
+    border-radius: 8px;
+    background: $colorRed;
+    color: $colorWhite;
+    padding: 4px 6px;
+    margin: 0 6px;
+  }
+
+  .share__cart {
+    display: none;
+    margin: 0 auto;
+    align-self: center;
+    object-fit: contain;
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@include sm {
+  .share {
+    .share__description {
+      margin: 0 10px 0 0;
+      text-align: left;
+    }
+
+    .share__cart {
+      display: inline-block;
+    }
+  }
+}
+
+@include md {
+  .share {
+    padding: 16px 24px;
+
+    .share__description {
+      width: 100%;
+      font-size: $fontSizeBase;
+    }
+  }
+}
+
+@include lg {
+  .share {
+    .share__cart {
+      margin-left: 65px;
+    }
+  }
+}
+
+@media screen and (min-width: 1303px) {
+  .share {
+    .share__sticker {
+      display: block;
+    }
+  }
+}

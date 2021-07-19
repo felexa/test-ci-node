@@ -1,0 +1,30 @@
+.medical-expert-card__articles {
+  color: $colorBlack;
+
+  .medical-expert-card__article {
+    padding: 0;
+    margin-top: 8px;
+
+    &:first-of-type {
+      margin-top: 0;
+    }
+
+    h2 {
+      margin-top: 0;
+      font-size: 18px;
+    }
+
+    p {
+      font-size: $fontSizeMedium;
+    }
+  }
+
+}
+
+@include md {
+  .medical-expert-card__articles {
+    .medical-expert-card__article {
+      padding: 0;
+    }
+  }
+}

@@ -1,0 +1,1377 @@
+{
+    "name": "Товары акции",
+    "items": [
+        {
+            "id": "1d9bdb18-b6fe-11ea-96c2-0635d0043582",
+            "active": true,
+            "sku": "5532020",
+            "url": "https://www.apteka24.ua/akva-maris-sprey-naz-150ml-n1/",
+            "name": "Аква Марис 150 мл №1 спрей",
+            "alias": "akva-maris-sprey-naz-150ml-n1",
+            "brand": {
+                "id": "13624f50-b6fe-11ea-96c2-0635d0043582",
+                "name": "Jadran",
+                "alias": "jadran"
+            },
+            "preview": {
+                "src": {
+                    "original": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/products/48d7f4e3-025f-11eb-b70f-064212086763.jpeg",
+                    "large": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/products/48d7f4e3-025f-11eb-b70f-064212086763-large.jpeg",
+                    "medium": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/products/48d7f4e3-025f-11eb-b70f-064212086763-medium.jpeg",
+                    "small": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/products/48d7f4e3-025f-11eb-b70f-064212086763-small.jpeg"
+                },
+                "alt": "Аква Марис 150 мл №1 спрей",
+                "title": "Аква Марис 150 мл №1 спрей"
+            },
+            "price": {
+                "currency": "UAH",
+                "current": 192.2,
+                "old": 213.5,
+                "date": "2020-09-29T20:08:48+00:00"
+            },
+            "sale": {
+                "percent": 10,
+                "value": 21.3
+            },
+            "promotions": [
+                {
+                    "id": "bcec26aa-025f-11eb-b70f-064212086763",
+                    "name": "Препараты для осенней аптечки",
+                    "alias": "autumn-first-aid-kit",
+                    "sticker": {
+                        "src": {
+                            "original": "https://s3-eu-west-1.amazonaws.com/i.apteka24.ua/promotions/free-delivery-medium.svg",
+                            "medium": "https://s3-eu-west-1.amazonaws.com/i.apteka24.ua/promotions/free-delivery-medium.svg",
+                            "small": "https://s3-eu-west-1.amazonaws.com/i.apteka24.ua/promotions/free-delivery-small.svg"
+                        },
+                        "alt": "Бесплатная доставка",
+                        "title": "Бесплатная доставка"
+                    },
+                    "expiresAt": "2020-10-07T00:00:00+00:00"
+                },
+                {
+                    "id": "fake-promo-id",
+                    "name": "Промо",
+                    "alias": "promo",
+                    "sticker": {
+                        "src": {
+                            "original": "https://s3-eu-west-1.amazonaws.com/i.apteka24.ua/promotions/promo.svg"
+                        },
+                        "alt": "Промо",
+                        "title": "Промо"
+                    }
+                }
+            ],
+            "review": {
+                "id": "1d9bdb18-b6fe-11ea-96c2-0635d0043582",
+                "rating": {
+                    "min": 0,
+                    "max": 5,
+                    "value": 5
+                },
+                "comments": 1,
+                "questions": 0
+            },
+            "status": {
+                "id": "in-stock",
+                "name": "В наличии",
+                "type": "available"
+            },
+            "seller": {
+                "id": "448b2b16-b17d-11ea-927d-0242c0a89004",
+                "name": "Аптека24",
+                "alias": "badm",
+                "logo": {
+                    "src": {
+                        "original": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/icons/logo-apteka24.svg",
+                        "medium": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/icons/logo-apteka24.svg",
+                        "small": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/icons/logo-apteka24.svg"
+                    },
+                    "alt": "Аптека24",
+                    "title": "Аптека24"
+                }
+            },
+            "attributes": [
+                {
+                    "id": "c1e538b1-911d-11ea-bc4c-0242ac140002",
+                    "name": "Форма выпуска",
+                    "alias": "production-form",
+                    "type": "string",
+                    "value": "Спрей"
+                },
+                {
+                    "id": "085f75a5-9395-11ea-afea-0242ac140003",
+                    "name": "Производитель",
+                    "alias": "maker",
+                    "type": "string",
+                    "value": "Ядран Галенська Лаборатория д.д"
+                }
+            ],
+            "delivery": {
+                "externalServices": true,
+                "a24Pharmacies": true,
+                "a24Courier": true,
+                "partnerPharmacies": true
+            },
+            "remoteId": "116601"
+        },
+        {
+            "id": "4b87c647-b17d-11ea-927d-0242c0a89004",
+            "active": true,
+            "sku": "007.0020",
+            "url": "https://www.apteka24.ua/umkalor-20-ml/",
+            "name": "Умкалор 20 мл раствор",
+            "alias": "umkalor-20-ml",
+            "brand": {
+                "id": "4b87e304-b17d-11ea-927d-0242c0a89004",
+                "name": "Dr. Willmar Schwabe",
+                "alias": "dr-willmar-schwabe"
+            },
+            "preview": {
+                "src": {
+                    "original": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/products/02efac33-0265-11eb-b70f-064212086763.jpeg",
+                    "large": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/products/02efac33-0265-11eb-b70f-064212086763-large.jpeg",
+                    "medium": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/products/02efac33-0265-11eb-b70f-064212086763-medium.jpeg",
+                    "small": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/products/02efac33-0265-11eb-b70f-064212086763-small.jpeg"
+                },
+                "alt": "Умкалор 20 мл раствор",
+                "title": "Умкалор 20 мл раствор"
+            },
+            "price": {
+                "currency": "UAH",
+                "current": 160.9,
+                "old": 178.8,
+                "date": "2020-09-29T20:23:08+00:00"
+            },
+            "sale": {
+                "percent": 10,
+                "value": 17.9
+            },
+            "promotions": [
+                {
+                    "id": "bcec26aa-025f-11eb-b70f-064212086763",
+                    "name": "Препараты для осенней аптечки",
+                    "alias": "autumn-first-aid-kit",
+                    "sticker": {
+                        "src": {
+                            "original": "https://s3-eu-west-1.amazonaws.com/i.apteka24.ua/promotions/free-delivery-medium.svg",
+                            "medium": "https://s3-eu-west-1.amazonaws.com/i.apteka24.ua/promotions/free-delivery-medium.svg",
+                            "small": "https://s3-eu-west-1.amazonaws.com/i.apteka24.ua/promotions/free-delivery-small.svg"
+                        },
+                        "alt": "Бесплатная доставка",
+                        "title": "Бесплатная доставка"
+                    },
+                    "expiresAt": "2020-10-07T00:00:00+00:00"
+                },
+                {
+                    "id": "fake-promo-id",
+                    "name": "Промо",
+                    "alias": "promo",
+                    "sticker": {
+                        "src": {
+                            "original": "https://s3-eu-west-1.amazonaws.com/i.apteka24.ua/promotions/promo.svg"
+                        },
+                        "alt": "Промо",
+                        "title": "Промо"
+                    }
+                }
+            ],
+            "review": {
+                "id": "4b87c647-b17d-11ea-927d-0242c0a89004",
+                "rating": {
+                    "min": 0,
+                    "max": 5,
+                    "value": 5
+                },
+                "comments": 5,
+                "questions": 0
+            },
+            "status": {
+                "id": "in-stock",
+                "name": "В наличии",
+                "type": "available"
+            },
+            "seller": {
+                "id": "448b2b16-b17d-11ea-927d-0242c0a89004",
+                "name": "Аптека24",
+                "alias": "badm",
+                "logo": {
+                    "src": {
+                        "original": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/icons/logo-apteka24.svg",
+                        "medium": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/icons/logo-apteka24.svg",
+                        "small": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/icons/logo-apteka24.svg"
+                    },
+                    "alt": "Аптека24",
+                    "title": "Аптека24"
+                }
+            },
+            "attributes": [
+                {
+                    "id": "085f75a5-9395-11ea-afea-0242ac140003",
+                    "name": "Производитель",
+                    "alias": "maker",
+                    "type": "string",
+                    "value": "Др. Вильмар Швабе ГмбХ и Ко. КГ, Германия"
+                },
+                {
+                    "id": "c1e538b1-911d-11ea-bc4c-0242ac140002",
+                    "name": "Форма выпуска",
+                    "alias": "production-form",
+                    "type": "string",
+                    "value": "Раствор пероральный"
+                }
+            ],
+            "delivery": {
+                "externalServices": true,
+                "a24Pharmacies": true,
+                "a24Courier": true,
+                "partnerPharmacies": true
+            },
+            "remoteId": "7772"
+        },
+        {
+            "id": "a0813c2a-b6ff-11ea-96c2-0635d0043582",
+            "active": true,
+            "sku": "846045",
+            "url": "https://www.apteka24.ua/amitsitron-por-d-oral-r-ra-23g-sashe-10/",
+            "name": "Амицитрон 23 г № 10 порошок",
+            "alias": "amitsitron-por-d-oral-r-ra-23g-sashe-10",
+            "brand": {
+                "id": "b0c88ad1-b64c-11ea-96c2-0635d0043582",
+                "name": "ИнтерХим",
+                "alias": "interhim"
+            },
+            "preview": {
+                "src": {
+                    "original": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/products/dd08218e-025e-11eb-b70f-064212086763.png",
+                    "medium": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/products/dd08218e-025e-11eb-b70f-064212086763-medium.png",
+                    "small": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/products/dd08218e-025e-11eb-b70f-064212086763-small.png"
+                },
+                "alt": "Амицитрон 23 г № 10 порошок",
+                "title": "Амицитрон 23 г № 10 порошок"
+            },
+            "price": {
+                "currency": "UAH",
+                "current": 151.9,
+                "old": 168.8,
+                "date": "2020-09-29T20:07:30+00:00"
+            },
+            "sale": {
+                "percent": 10,
+                "value": 16.9
+            },
+            "promotions": [
+                {
+                    "id": "bcec26aa-025f-11eb-b70f-064212086763",
+                    "name": "Препараты для осенней аптечки",
+                    "alias": "autumn-first-aid-kit",
+                    "sticker": {
+                        "src": {
+                            "original": "https://s3-eu-west-1.amazonaws.com/i.apteka24.ua/promotions/free-delivery-medium.svg",
+                            "medium": "https://s3-eu-west-1.amazonaws.com/i.apteka24.ua/promotions/free-delivery-medium.svg",
+                            "small": "https://s3-eu-west-1.amazonaws.com/i.apteka24.ua/promotions/free-delivery-small.svg"
+                        },
+                        "alt": "Бесплатная доставка",
+                        "title": "Бесплатная доставка"
+                    },
+                    "expiresAt": "2020-10-07T00:00:00+00:00"
+                },
+                {
+                    "id": "fake-promo-id",
+                    "name": "Промо",
+                    "alias": "promo",
+                    "sticker": {
+                        "src": {
+                            "original": "https://s3-eu-west-1.amazonaws.com/i.apteka24.ua/promotions/promo.svg"
+                        },
+                        "alt": "Промо",
+                        "title": "Промо"
+                    }
+                }
+            ],
+            "review": {
+                "id": "a0813c2a-b6ff-11ea-96c2-0635d0043582",
+                "rating": {
+                    "min": 0,
+                    "max": 5,
+                    "value": 0
+                },
+                "comments": 0,
+                "questions": 0
+            },
+            "status": {
+                "id": "in-stock",
+                "name": "В наличии",
+                "type": "available"
+            },
+            "seller": {
+                "id": "448b2b16-b17d-11ea-927d-0242c0a89004",
+                "name": "Аптека24",
+                "alias": "badm",
+                "logo": {
+                    "src": {
+                        "original": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/icons/logo-apteka24.svg",
+                        "medium": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/icons/logo-apteka24.svg",
+                        "small": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/icons/logo-apteka24.svg"
+                    },
+                    "alt": "Аптека24",
+                    "title": "Аптека24"
+                }
+            },
+            "attributes": [
+                {
+                    "id": "085f75a5-9395-11ea-afea-0242ac140003",
+                    "name": "Производитель",
+                    "alias": "maker",
+                    "type": "string",
+                    "value": "ОДО \"ИНТЕРХИМ\", Украина"
+                },
+                {
+                    "id": "c1e538b1-911d-11ea-bc4c-0242ac140002",
+                    "name": "Форма выпуска",
+                    "alias": "production-form",
+                    "type": "string",
+                    "value": "Порошок в cаше"
+                }
+            ],
+            "delivery": {
+                "externalServices": true,
+                "a24Pharmacies": true,
+                "a24Courier": true,
+                "partnerPharmacies": true
+            },
+            "remoteId": "25573"
+        },
+        {
+            "id": "504a9871-b195-11ea-927d-0242c0a89004",
+            "active": true,
+            "sku": "974.0001",
+            "url": "https://www.apteka24.ua/tantum-verde-45-mg/",
+            "name": "Тантум Верде 45 мг спрей",
+            "alias": "tantum-verde-45-mg",
+            "brand": {
+                "id": "504acea0-b195-11ea-927d-0242c0a89004",
+                "name": "Aesica",
+                "alias": "aesica"
+            },
+            "preview": {
+                "src": {
+                    "original": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/products/7ccfc91a-0256-11eb-b70f-064212086763.png",
+                    "medium": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/products/7ccfc91a-0256-11eb-b70f-064212086763-medium.png",
+                    "small": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/products/7ccfc91a-0256-11eb-b70f-064212086763-small.png"
+                },
+                "alt": "Тантум Верде 45 мг спрей",
+                "title": "Тантум Верде 45 мг спрей"
+            },
+            "price": {
+                "currency": "UAH",
+                "current": 138.2,
+                "old": 153.6,
+                "date": "2020-09-29T20:20:08+00:00"
+            },
+            "sale": {
+                "percent": 10,
+                "value": 15.4
+            },
+            "promotions": [
+                {
+                    "id": "bcec26aa-025f-11eb-b70f-064212086763",
+                    "name": "Препараты для осенней аптечки",
+                    "alias": "autumn-first-aid-kit",
+                    "sticker": {
+                        "src": {
+                            "original": "https://s3-eu-west-1.amazonaws.com/i.apteka24.ua/promotions/free-delivery-medium.svg",
+                            "medium": "https://s3-eu-west-1.amazonaws.com/i.apteka24.ua/promotions/free-delivery-medium.svg",
+                            "small": "https://s3-eu-west-1.amazonaws.com/i.apteka24.ua/promotions/free-delivery-small.svg"
+                        },
+                        "alt": "Бесплатная доставка",
+                        "title": "Бесплатная доставка"
+                    },
+                    "expiresAt": "2020-10-07T00:00:00+00:00"
+                },
+                {
+                    "id": "fake-promo-id",
+                    "name": "Промо",
+                    "alias": "promo",
+                    "sticker": {
+                        "src": {
+                            "original": "https://s3-eu-west-1.amazonaws.com/i.apteka24.ua/promotions/promo.svg"
+                        },
+                        "alt": "Промо",
+                        "title": "Промо"
+                    }
+                }
+            ],
+            "review": {
+                "id": "504a9871-b195-11ea-927d-0242c0a89004",
+                "rating": {
+                    "min": 0,
+                    "max": 5,
+                    "value": 5
+                },
+                "comments": 5,
+                "questions": 0
+            },
+            "status": {
+                "id": "in-stock",
+                "name": "В наличии",
+                "type": "available"
+            },
+            "seller": {
+                "id": "448b2b16-b17d-11ea-927d-0242c0a89004",
+                "name": "Аптека24",
+                "alias": "badm",
+                "logo": {
+                    "src": {
+                        "original": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/icons/logo-apteka24.svg",
+                        "medium": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/icons/logo-apteka24.svg",
+                        "small": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/icons/logo-apteka24.svg"
+                    },
+                    "alt": "Аптека24",
+                    "title": "Аптека24"
+                }
+            },
+            "attributes": [
+                {
+                    "id": "085f75a5-9395-11ea-afea-0242ac140003",
+                    "name": "Производитель",
+                    "alias": "maker",
+                    "type": "string",
+                    "value": "Азиенде Кимико Риуните Анджелине Франческо А.К.Р.А.Ф. С.п.А."
+                },
+                {
+                    "id": "c1e538b1-911d-11ea-bc4c-0242ac140002",
+                    "name": "Форма выпуска",
+                    "alias": "production-form",
+                    "type": "string",
+                    "value": "Спрей"
+                }
+            ],
+            "delivery": {
+                "externalServices": true,
+                "a24Pharmacies": true,
+                "a24Courier": true,
+                "partnerPharmacies": true
+            },
+            "remoteId": "3874"
+        },
+        {
+            "id": "7c4f2530-b6ff-11ea-96c2-0635d0043582",
+            "active": true,
+            "sku": "5498069",
+            "url": "https://www.apteka24.ua/septolete-total-sprey-r-r-30ml-fl-doz-pulver/",
+            "name": "Септолете Тотал 30 мл спрей",
+            "alias": "septolete-total-sprey-r-r-30ml-fl-doz-pulver",
+            "brand": {
+                "id": "4daab88d-b17d-11ea-927d-0242c0a89004",
+                "name": "Krka",
+                "alias": "krka"
+            },
+            "preview": {
+                "src": {
+                    "original": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/products/00bc2235-0259-11eb-b70f-064212086763.jpeg",
+                    "large": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/products/00bc2235-0259-11eb-b70f-064212086763-large.jpeg",
+                    "medium": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/products/00bc2235-0259-11eb-b70f-064212086763-medium.jpeg",
+                    "small": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/products/00bc2235-0259-11eb-b70f-064212086763-small.jpeg"
+                },
+                "alt": "Септолете Тотал 30 мл спрей",
+                "title": "Септолете Тотал 30 мл спрей"
+            },
+            "price": {
+                "currency": "UAH",
+                "current": 127.4,
+                "old": 141.6,
+                "date": "2020-09-29T20:19:13+00:00"
+            },
+            "sale": {
+                "percent": 10,
+                "value": 14.2
+            },
+            "promotions": [
+                {
+                    "id": "bcec26aa-025f-11eb-b70f-064212086763",
+                    "name": "Препараты для осенней аптечки",
+                    "alias": "autumn-first-aid-kit",
+                    "sticker": {
+                        "src": {
+                            "original": "https://s3-eu-west-1.amazonaws.com/i.apteka24.ua/promotions/free-delivery-medium.svg",
+                            "medium": "https://s3-eu-west-1.amazonaws.com/i.apteka24.ua/promotions/free-delivery-medium.svg",
+                            "small": "https://s3-eu-west-1.amazonaws.com/i.apteka24.ua/promotions/free-delivery-small.svg"
+                        },
+                        "alt": "Бесплатная доставка",
+                        "title": "Бесплатная доставка"
+                    },
+                    "expiresAt": "2020-10-07T00:00:00+00:00"
+                },
+                {
+                    "id": "fake-promo-id",
+                    "name": "Промо",
+                    "alias": "promo",
+                    "sticker": {
+                        "src": {
+                            "original": "https://s3-eu-west-1.amazonaws.com/i.apteka24.ua/promotions/promo.svg"
+                        },
+                        "alt": "Промо",
+                        "title": "Промо"
+                    }
+                }
+            ],
+            "review": {
+                "id": "7c4f2530-b6ff-11ea-96c2-0635d0043582",
+                "rating": {
+                    "min": 0,
+                    "max": 5,
+                    "value": 0
+                },
+                "comments": 0,
+                "questions": 0
+            },
+            "status": {
+                "id": "in-stock",
+                "name": "В наличии",
+                "type": "available"
+            },
+            "seller": {
+                "id": "448b2b16-b17d-11ea-927d-0242c0a89004",
+                "name": "Аптека24",
+                "alias": "badm",
+                "logo": {
+                    "src": {
+                        "original": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/icons/logo-apteka24.svg",
+                        "medium": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/icons/logo-apteka24.svg",
+                        "small": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/icons/logo-apteka24.svg"
+                    },
+                    "alt": "Аптека24",
+                    "title": "Аптека24"
+                }
+            },
+            "attributes": [
+                {
+                    "id": "c1e538b1-911d-11ea-bc4c-0242ac140002",
+                    "name": "Форма выпуска",
+                    "alias": "production-form",
+                    "type": "string",
+                    "value": "Спрей"
+                },
+                {
+                    "id": "085f75a5-9395-11ea-afea-0242ac140003",
+                    "name": "Производитель",
+                    "alias": "maker",
+                    "type": "string",
+                    "value": "КРКА, д.д., Ново место"
+                }
+            ],
+            "delivery": {
+                "externalServices": true,
+                "a24Pharmacies": true,
+                "a24Courier": true,
+                "partnerPharmacies": true
+            },
+            "remoteId": "116920"
+        },
+        {
+            "id": "b916d4a4-bac7-11ea-96c2-0635d0043582",
+            "active": true,
+            "sku": "846011",
+            "url": "https://www.apteka24.ua/amiksin-ic-tabletki-0-125g-n3/",
+            "name": "Амиксин IC 0.125 г №3 таблетки",
+            "alias": "amiksin-ic-tabletki-0-125g-n3",
+            "brand": {
+                "id": "b0c88ad1-b64c-11ea-96c2-0635d0043582",
+                "name": "ИнтерХим",
+                "alias": "interhim"
+            },
+            "preview": {
+                "src": {
+                    "original": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/products/251302cd-025f-11eb-b70f-064212086763.jpeg",
+                    "large": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/products/251302cd-025f-11eb-b70f-064212086763-large.jpeg",
+                    "medium": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/products/251302cd-025f-11eb-b70f-064212086763-medium.jpeg",
+                    "small": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/products/251302cd-025f-11eb-b70f-064212086763-small.jpeg"
+                },
+                "alt": "Амиксин IC 0.125 г №3 таблетки",
+                "title": "Амиксин IC 0.125 г №3 таблетки"
+            },
+            "price": {
+                "currency": "UAH",
+                "current": 117,
+                "old": 130.1,
+                "date": "2020-09-29T20:09:50+00:00"
+            },
+            "sale": {
+                "percent": 10,
+                "value": 13.1
+            },
+            "promotions": [
+                {
+                    "id": "bcec26aa-025f-11eb-b70f-064212086763",
+                    "name": "Препараты для осенней аптечки",
+                    "alias": "autumn-first-aid-kit",
+                    "sticker": {
+                        "src": {
+                            "original": "https://s3-eu-west-1.amazonaws.com/i.apteka24.ua/promotions/free-delivery-medium.svg",
+                            "medium": "https://s3-eu-west-1.amazonaws.com/i.apteka24.ua/promotions/free-delivery-medium.svg",
+                            "small": "https://s3-eu-west-1.amazonaws.com/i.apteka24.ua/promotions/free-delivery-small.svg"
+                        },
+                        "alt": "Бесплатная доставка",
+                        "title": "Бесплатная доставка"
+                    },
+                    "expiresAt": "2020-10-07T00:00:00+00:00"
+                },
+                {
+                    "id": "fake-promo-id",
+                    "name": "Промо",
+                    "alias": "promo",
+                    "sticker": {
+                        "src": {
+                            "original": "https://s3-eu-west-1.amazonaws.com/i.apteka24.ua/promotions/promo.svg"
+                        },
+                        "alt": "Промо",
+                        "title": "Промо"
+                    }
+                }
+            ],
+            "review": {
+                "id": "b916d4a4-bac7-11ea-96c2-0635d0043582",
+                "rating": {
+                    "min": 0,
+                    "max": 5,
+                    "value": 5
+                },
+                "comments": 4,
+                "questions": 0
+            },
+            "status": {
+                "id": "in-stock",
+                "name": "В наличии",
+                "type": "available"
+            },
+            "seller": {
+                "id": "448b2b16-b17d-11ea-927d-0242c0a89004",
+                "name": "Аптека24",
+                "alias": "badm",
+                "logo": {
+                    "src": {
+                        "original": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/icons/logo-apteka24.svg",
+                        "medium": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/icons/logo-apteka24.svg",
+                        "small": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/icons/logo-apteka24.svg"
+                    },
+                    "alt": "Аптека24",
+                    "title": "Аптека24"
+                }
+            },
+            "attributes": [
+                {
+                    "id": "085f75a5-9395-11ea-afea-0242ac140003",
+                    "name": "Производитель",
+                    "alias": "maker",
+                    "type": "string",
+                    "value": "ООО «ИнтерХим»"
+                },
+                {
+                    "id": "c1e538b1-911d-11ea-bc4c-0242ac140002",
+                    "name": "Форма выпуска",
+                    "alias": "production-form",
+                    "type": "string",
+                    "value": "Таблетки"
+                }
+            ],
+            "delivery": {
+                "externalServices": true,
+                "a24Pharmacies": true,
+                "a24Courier": true,
+                "partnerPharmacies": true
+            },
+            "remoteId": "5012"
+        },
+        {
+            "id": "4484c738-b231-11ea-927d-0242c0a89004",
+            "active": true,
+            "sku": "071.0029",
+            "url": "https://www.apteka24.ua/lazolvan-30-mg-n20/",
+            "name": "Лазолван 30 мг N20 таблетки",
+            "alias": "lazolvan-30-mg-n20",
+            "brand": {
+                "id": "4484eddc-b231-11ea-927d-0242c0a89004",
+                "name": "Boehringer Ingelheim",
+                "alias": "boehringer-ingelheim"
+            },
+            "preview": {
+                "src": {
+                    "original": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/products/1d49b649-025a-11eb-b70f-064212086763.png",
+                    "medium": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/products/1d49b649-025a-11eb-b70f-064212086763-medium.png",
+                    "small": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/products/1d49b649-025a-11eb-b70f-064212086763-small.png"
+                },
+                "alt": "Лазолван 30 мг N20 таблетки",
+                "title": "Лазолван 30 мг N20 таблетки"
+            },
+            "price": {
+                "currency": "UAH",
+                "current": 66.2,
+                "old": 73.5,
+                "date": "2020-09-29T20:13:44+00:00"
+            },
+            "sale": {
+                "percent": 10,
+                "value": 7.3
+            },
+            "promotions": [
+                {
+                    "id": "bcec26aa-025f-11eb-b70f-064212086763",
+                    "name": "Препараты для осенней аптечки",
+                    "alias": "autumn-first-aid-kit",
+                    "sticker": {
+                        "src": {
+                            "original": "https://s3-eu-west-1.amazonaws.com/i.apteka24.ua/promotions/free-delivery-medium.svg",
+                            "medium": "https://s3-eu-west-1.amazonaws.com/i.apteka24.ua/promotions/free-delivery-medium.svg",
+                            "small": "https://s3-eu-west-1.amazonaws.com/i.apteka24.ua/promotions/free-delivery-small.svg"
+                        },
+                        "alt": "Бесплатная доставка",
+                        "title": "Бесплатная доставка"
+                    },
+                    "expiresAt": "2020-10-07T00:00:00+00:00"
+                },
+                {
+                    "id": "fake-promo-id",
+                    "name": "Промо",
+                    "alias": "promo",
+                    "sticker": {
+                        "src": {
+                            "original": "https://s3-eu-west-1.amazonaws.com/i.apteka24.ua/promotions/promo.svg"
+                        },
+                        "alt": "Промо",
+                        "title": "Промо"
+                    }
+                }
+            ],
+            "review": {
+                "id": "4484c738-b231-11ea-927d-0242c0a89004",
+                "rating": {
+                    "min": 0,
+                    "max": 5,
+                    "value": 4.5
+                },
+                "comments": 2,
+                "questions": 0
+            },
+            "status": {
+                "id": "in-stock",
+                "name": "В наличии",
+                "type": "available"
+            },
+            "seller": {
+                "id": "448b2b16-b17d-11ea-927d-0242c0a89004",
+                "name": "Аптека24",
+                "alias": "badm",
+                "logo": {
+                    "src": {
+                        "original": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/icons/logo-apteka24.svg",
+                        "medium": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/icons/logo-apteka24.svg",
+                        "small": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/icons/logo-apteka24.svg"
+                    },
+                    "alt": "Аптека24",
+                    "title": "Аптека24"
+                }
+            },
+            "attributes": [
+                {
+                    "id": "085f75a5-9395-11ea-afea-0242ac140003",
+                    "name": "Производитель",
+                    "alias": "maker",
+                    "type": "string",
+                    "value": "Берингер Ингельхайм Эллас А.Е., Греция"
+                },
+                {
+                    "id": "c1e538b1-911d-11ea-bc4c-0242ac140002",
+                    "name": "Форма выпуска",
+                    "alias": "production-form",
+                    "type": "string",
+                    "value": "Таблетки"
+                }
+            ],
+            "delivery": {
+                "externalServices": true,
+                "a24Pharmacies": true,
+                "a24Courier": true,
+                "partnerPharmacies": true
+            },
+            "remoteId": "632"
+        },
+        {
+            "id": "4e4e8a51-b17d-11ea-927d-0242c0a89004",
+            "active": true,
+            "sku": "864015",
+            "url": "https://www.apteka24.ua/nurofen-tabletki-200mg-n6/",
+            "name": "Нурофен 200 мг N6 таблетки",
+            "alias": "nurofen-tabletki-200mg-n6",
+            "brand": {
+                "id": "4de71649-b17d-11ea-927d-0242c0a89004",
+                "name": "Reckitt Benckiser",
+                "alias": "reckitt-benckiser"
+            },
+            "preview": {
+                "src": {
+                    "original": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/products/f3c539db-025a-11eb-b70f-064212086763.jpeg",
+                    "large": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/products/f3c539db-025a-11eb-b70f-064212086763-large.jpeg",
+                    "medium": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/products/f3c539db-025a-11eb-b70f-064212086763-medium.jpeg",
+                    "small": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/products/f3c539db-025a-11eb-b70f-064212086763-small.jpeg"
+                },
+                "alt": "Нурофен 200 мг N6 таблетки",
+                "title": "Нурофен 200 мг N6 таблетки"
+            },
+            "price": {
+                "currency": "UAH",
+                "current": 36.5,
+                "old": 43.3,
+                "date": "2020-09-29T20:18:02+00:00"
+            },
+            "sale": {
+                "percent": 16,
+                "value": 6.8
+            },
+            "promotions": [
+                {
+                    "id": "bcec26aa-025f-11eb-b70f-064212086763",
+                    "name": "Препараты для осенней аптечки",
+                    "alias": "autumn-first-aid-kit",
+                    "sticker": {
+                        "src": {
+                            "original": "https://s3-eu-west-1.amazonaws.com/i.apteka24.ua/promotions/free-delivery-medium.svg",
+                            "medium": "https://s3-eu-west-1.amazonaws.com/i.apteka24.ua/promotions/free-delivery-medium.svg",
+                            "small": "https://s3-eu-west-1.amazonaws.com/i.apteka24.ua/promotions/free-delivery-small.svg"
+                        },
+                        "alt": "Бесплатная доставка",
+                        "title": "Бесплатная доставка"
+                    },
+                    "expiresAt": "2020-10-07T00:00:00+00:00"
+                },
+                {
+                    "id": "fake-promo-id",
+                    "name": "Промо",
+                    "alias": "promo",
+                    "sticker": {
+                        "src": {
+                            "original": "https://s3-eu-west-1.amazonaws.com/i.apteka24.ua/promotions/promo.svg"
+                        },
+                        "alt": "Промо",
+                        "title": "Промо"
+                    }
+                }
+            ],
+            "review": {
+                "id": "4e4e8a51-b17d-11ea-927d-0242c0a89004",
+                "rating": {
+                    "min": 0,
+                    "max": 5,
+                    "value": 0
+                },
+                "comments": 0,
+                "questions": 0
+            },
+            "status": {
+                "id": "in-stock",
+                "name": "В наличии",
+                "type": "available"
+            },
+            "seller": {
+                "id": "448b2b16-b17d-11ea-927d-0242c0a89004",
+                "name": "Аптека24",
+                "alias": "badm",
+                "logo": {
+                    "src": {
+                        "original": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/icons/logo-apteka24.svg",
+                        "medium": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/icons/logo-apteka24.svg",
+                        "small": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/icons/logo-apteka24.svg"
+                    },
+                    "alt": "Аптека24",
+                    "title": "Аптека24"
+                }
+            },
+            "attributes": [
+                {
+                    "id": "085f75a5-9395-11ea-afea-0242ac140003",
+                    "name": "Производитель",
+                    "alias": "maker",
+                    "type": "string",
+                    "value": "Реккитт Бенкизер Хелскер Интернешнл Лимитед, Великобритания"
+                },
+                {
+                    "id": "c1e538b1-911d-11ea-bc4c-0242ac140002",
+                    "name": "Форма выпуска",
+                    "alias": "production-form",
+                    "type": "string",
+                    "value": "Таблетки покрытые оболочкой"
+                }
+            ],
+            "delivery": {
+                "externalServices": true,
+                "a24Pharmacies": true,
+                "a24Courier": true,
+                "partnerPharmacies": true
+            },
+            "remoteId": "11036"
+        },
+        {
+            "id": "074d9b3e-b6ff-11ea-96c2-0635d0043582",
+            "active": true,
+            "sku": "071.0058",
+            "url": "https://www.apteka24.ua/lazorin-1-18-mg-ml-10-ml/",
+            "name": "Лазорин 1.18 мг/мл 10 мл спрей",
+            "alias": "lazorin-1-18-mg-ml-10-ml",
+            "brand": {
+                "id": "7725af75-b6fe-11ea-96c2-0635d0043582",
+                "name": "Istituto De Angeli",
+                "alias": "istituto-de-angeli"
+            },
+            "activeIngredients": [
+                {
+                    "id": "97a65551-0251-11eb-b70f-064212086763",
+                    "name": "трамазолин",
+                    "alias": "tramazolin",
+                    "index": "t",
+                    "url": "https://www.apteka24.ua/ingredients/t/tramazolin/"
+                }
+            ],
+            "marketedName": {
+                "id": "97fd9037-b969-470c-b501-dca344f9ac5b",
+                "name": "Лазорин®",
+                "alias": "lazorin",
+                "url": "https://www.apteka24.ua/mnn/lazorin/"
+            },
+            "classification": {
+                "id": "892c7fd3-9073-4311-8144-3bbc4f0f4d48",
+                "name": "ЛС общий режим",
+                "alias": "1-5-6ls-obshchiy-rezhim"
+            },
+            "category": {
+                "id": "57cfbe75-b7fb-11ea-96c2-0635d0043582",
+                "name": "Препараты назальной терапии",
+                "alias": "nazaljnaja-terapija"
+            },
+            "breadcrumbs": [
+                {
+                    "name": "Медикаменты",
+                    "url": "https://www.apteka24.ua/medikamenty/"
+                },
+                {
+                    "name": "Препараты от простуды",
+                    "url": "https://www.apteka24.ua/medikamenty/respiratornaja-sistema/"
+                },
+                {
+                    "name": "Препараты назальной терапии",
+                    "url": "https://www.apteka24.ua/medikamenty/respiratornaja-sistema/nazaljnaja-terapija/"
+                }
+            ],
+            "preview": {
+                "src": {
+                    "original": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/products/4874baa9-025f-11eb-b70f-064212086763.jpeg",
+                    "medium": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/products/4874baa9-025f-11eb-b70f-064212086763-medium.jpeg",
+                    "small": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/products/4874baa9-025f-11eb-b70f-064212086763-small.jpeg"
+                },
+                "alt": "Лазорин 1.18 мг/мл 10 мл спрей",
+                "title": "Лазорин 1.18 мг/мл 10 мл спрей"
+            },
+            "images": [
+                {
+                    "src": {
+                        "original": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/products/4874caba-025f-11eb-b70f-064212086763.jpeg",
+                        "large": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/products/4874caba-025f-11eb-b70f-064212086763-large.jpeg",
+                        "medium": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/products/4874caba-025f-11eb-b70f-064212086763-medium.jpeg",
+                        "small": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/products/4874caba-025f-11eb-b70f-064212086763-small.jpeg"
+                    },
+                    "alt": "Лазорин 1.18 мг/мл 10 мл спрей",
+                    "title": "Лазорин 1.18 мг/мл 10 мл спрей"
+                },
+                {
+                    "src": {
+                        "original": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/products/4874dbb4-025f-11eb-b70f-064212086763.jpeg",
+                        "large": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/products/4874dbb4-025f-11eb-b70f-064212086763-large.jpeg",
+                        "medium": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/products/4874dbb4-025f-11eb-b70f-064212086763-medium.jpeg",
+                        "small": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/products/4874dbb4-025f-11eb-b70f-064212086763-small.jpeg"
+                    },
+                    "alt": "Лазорин 1.18 мг/мл 10 мл спрей",
+                    "title": "Лазорин 1.18 мг/мл 10 мл спрей"
+                }
+            ],
+            "videos": [],
+            "files": [],
+            "price": {
+                "currency": "UAH",
+                "current": 108.5,
+                "old": 120.6,
+                "date": "2020-09-29T20:16:05+00:00"
+            },
+            "sale": {
+                "percent": 10,
+                "value": 12.1
+            },
+            "promotions": [
+                {
+                    "id": "bcec26aa-025f-11eb-b70f-064212086763",
+                    "name": "Препараты для осенней аптечки",
+                    "alias": "autumn-first-aid-kit",
+                    "sticker": {
+                        "src": {
+                            "original": "https://s3-eu-west-1.amazonaws.com/i.apteka24.ua/promotions/free-delivery-medium.svg",
+                            "medium": "https://s3-eu-west-1.amazonaws.com/i.apteka24.ua/promotions/free-delivery-medium.svg",
+                            "small": "https://s3-eu-west-1.amazonaws.com/i.apteka24.ua/promotions/free-delivery-small.svg"
+                        },
+                        "alt": "Бесплатная доставка",
+                        "title": "Бесплатная доставка"
+                    },
+                    "expiresAt": "2020-10-07T00:00:00+00:00"
+                },
+                {
+                    "id": "fake-promo-id",
+                    "name": "Промо",
+                    "alias": "promo",
+                    "sticker": {
+                        "src": {
+                            "original": "https://s3-eu-west-1.amazonaws.com/i.apteka24.ua/promotions/promo.svg"
+                        },
+                        "alt": "Промо",
+                        "title": "Промо"
+                    }
+                }
+            ],
+            "seller": {
+                "id": "448b2b16-b17d-11ea-927d-0242c0a89004",
+                "name": "Аптека24",
+                "alias": "badm",
+                "logo": {
+                    "src": {
+                        "original": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/icons/logo-apteka24.svg",
+                        "medium": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/icons/logo-apteka24.svg",
+                        "small": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/icons/logo-apteka24.svg"
+                    },
+                    "alt": "Аптека24",
+                    "title": "Аптека24"
+                }
+            },
+            "review": {
+                "id": "074d9b3e-b6ff-11ea-96c2-0635d0043582",
+                "rating": {
+                    "min": 0,
+                    "max": 5,
+                    "value": 5
+                },
+                "comments": 1,
+                "questions": 0
+            },
+            "status": {
+                "id": "in-stock",
+                "name": "В наличии",
+                "type": "available"
+            },
+            "variations": [],
+            "attributeGroups": [],
+            "attributes": [
+                {
+                    "id": "ingredient-97a65551-0251-11eb-b70f-064212086763",
+                    "name": "Действующее вещество",
+                    "alias": "active-ingredient",
+                    "type": "string",
+                    "value": "трамазолин",
+                    "url": "https://www.apteka24.ua/ingredients/t/tramazolin/"
+                },
+                {
+                    "id": "name-97fd9037-b969-470c-b501-dca344f9ac5b",
+                    "name": "Торговое название",
+                    "alias": "marketed-name",
+                    "type": "string",
+                    "value": "Лазорин®"
+                },
+                {
+                    "id": "1f3d8cea-a02b-11ea-8ef0-0242ac1c0004",
+                    "name": "АТС-Классификация",
+                    "alias": "atc",
+                    "type": "string",
+                    "value": "R01A A09"
+                },
+                {
+                    "id": "49ba3c25-a025-11ea-8ef0-0242ac1c0004",
+                    "name": "Дозировка",
+                    "alias": "dosage",
+                    "type": "string",
+                    "value": "1.18 мг"
+                },
+                {
+                    "id": "87041d36-a02b-11ea-8ef0-0242ac1c0004",
+                    "name": "Код Морион",
+                    "alias": "morion",
+                    "type": "string",
+                    "value": "122913"
+                },
+                {
+                    "id": "fbc46f99-968c-11ea-b655-0242ac1c0002",
+                    "name": "Фармакотерапевтическая группа",
+                    "alias": "pharmacotherapeutic-group",
+                    "type": "string",
+                    "value": "Протинабрякові та інші засоби для місцевого застосування при захворюваннях порожнини носа. Симпатоміметики, прості препарати. Код АТХ  R01A A09."
+                },
+                {
+                    "id": "ef8067ca-968c-11ea-b655-0242ac1c0002",
+                    "name": "Срок годности",
+                    "alias": "expiration",
+                    "type": "string",
+                    "value": "3 года"
+                },
+                {
+                    "id": "902a6994-a02a-11ea-8ef0-0242ac1c0004",
+                    "name": "Рецептурный отпуск",
+                    "alias": "prescription",
+                    "type": "string",
+                    "value": "Без рецепта"
+                },
+                {
+                    "id": "f86e5675-968c-11ea-b655-0242ac1c0002",
+                    "name": "Упаковка",
+                    "alias": "package",
+                    "type": "text",
+                    "value": "баллончик с дозирующим устройством в картонной коробке"
+                }
+            ],
+            "basicAttributes": {
+                "id": "29917a75-9548-11ea-8692-0242ac190002",
+                "name": "Основные характеристики",
+                "alias": "basic-attributes",
+                "attributes": [
+                    {
+                        "id": "085f75a5-9395-11ea-afea-0242ac140003",
+                        "name": "Производитель",
+                        "alias": "maker",
+                        "type": "string",
+                        "value": "Иститут где Анжеле С.р.л."
+                    },
+                    {
+                        "id": "ecfed2d8-9138-11ea-bc4c-0242ac140002",
+                        "name": "Кол-во в упаковке",
+                        "alias": "quantity",
+                        "type": "integer",
+                        "value": "1"
+                    },
+                    {
+                        "id": "12849376-9149-11ea-bc4c-0242ac140002",
+                        "name": "Объем",
+                        "alias": "volume",
+                        "type": "string",
+                        "value": "10 мл"
+                    },
+                    {
+                        "id": "c1e538b1-911d-11ea-bc4c-0242ac140002",
+                        "name": "Форма выпуска",
+                        "alias": "production-form",
+                        "type": "string",
+                        "value": "Спрей"
+                    }
+                ]
+            },
+            "instruction": "<h3 class=\"text-large text-black mt-16 mb-8 f-weight-5\">Состав</h3>\r\n<p>\r\n <i>действующее вещество:</i> трамазолин;\r\n</p>\r\n<p>\r\n\t 1 мл трамазолина гидрохлорида моногидрата 1,265 мг, что соответствует 1,18 мг трамазолина гидрохлорида\r\n</p>\r\n<p>\r\n</p>\r\n<p>\r\n <i>вспомогательные вещества:</i> кислота лимонная, натрия гидроксид, бензалкония хлорид, гипромеллоза, повидон, глицерин (85%), магния сульфата гептагидрат, магния хлорида гексагидрат, кальция хлорида дигидрат, натрия гидрокарбонат, натрия хлорид, эвкалиптол, ментол, камфора, вода очищенная.\r\n</p>\r\n<h3 class=\"text-large text-black mt-16 mb-8 f-weight-5\">Лекарственная форма</h3>\r\n<p>\r\n\t Спрей назальный.\r\n</p>\r\n<p>\r\n</p>\r\n<p>\r\n <i>Основные физико-химические свойства:</i> прозрачный, слегка желтоватый раствор с запахом эвкалипта.\r\n</p>\r\n<p>\r\n</p>\r\n<p>\r\n</p>\r\n<h3 class=\"text-large text-black mt-16 mb-8 f-weight-5\">Фармакотерапевтичеcкая группа</h3>\r\n<p>\r\n\t Противоотечные и другие средства для местного применения при заболеваниях полости носа. Симпатомиметики, простые препараты.\r\n</p>\r\n<p>\r\n</p>\r\n<p>\r\n\t Код АТХ R01A A09.\r\n</p>\r\n<p>\r\n</p>\r\n<p>\r\n</p>\r\n<h3 class=\"text-large text-black mt-16 mb-8 f-weight-5\">Фармакологическое действие</h3>\r\n<p>\r\n</p>\r\n<p>\r\n\t Трамазолин является производным имидазолина. Трамазолин является α-симпатомиметики, непосредственно возбуждает a-адренорецепторы симпатической нервной системы, однако оказывает незначительное влияние или совсем не влияет на b-адренорецепторы. Интраназальное применения трамазолина приводит к сужению расширенных артериол, что, в свою очередь, приводит к уменьшению циркуляции крови в слизистой оболочке, уменьшение отека и улучшения носового дыхания.<br>\r\n</p>\r\n<p>\r\n\t После интраназального применения препарата вазоконстрикция наступает через 5 минут и продолжается 8-10 часов.<br>\r\n</p>\r\n<p>\r\n</p>\r\n<h3 class=\"text-large text-black mt-16 mb-8 f-weight-5\">Фармакокинетика</h3>\r\n<p>\r\n</p>\r\n<p>\r\n\t Фармакокинетические исследования не проводились на человеке. Фармакокинетические характеристики трамазолина были исследованы на крысах, кроликах и приматах. Было обнаружено, что 50-80% дозы абсорбируется при пероральном и интраназальном применении.\r\n</p>\r\n<p>\r\n\t После приема и местного применения в моче обнаружены три основных метаболита.\r\n</p>\r\n<p>\r\n\t Терминальный период полувыведения трамазолина и его метаболитов из крови составляет 5-7 часов.\r\n</p>\r\n<p>\r\n\t Трамазолин и его метаболиты выводятся, в первую очередь, через почки.\r\n</p>\r\n<p>\r\n</p>\r\n<p>\r\n\t После интраназального применения количество абсорбированного лекарственного средства может иногда быть достаточной для того, чтобы вызвать системные проявления, которые влияют (например) на центральную нервную и сердечно-сосудистую системы.\r\n</p>\r\n<p>\r\n</p>\r\n<h3 class=\"text-large text-black mt-16 mb-8 f-weight-5\">Показания</h3>\r\n<p>\r\n</p>\r\n<p>\r\n\t Для облегчения заложенности носа, связанной с острым ринитом, вазомоторным ринитом и аллергическим ринитом.\r\n</p>\r\n<p>\r\n</p>\r\n<p>\r\n\t Для облегчения отхождения секрета при синусите и среднем отите, связанных с острым ринитом.\r\n</p>\r\n<p>\r\n</p>\r\n<p>\r\n</p>\r\n<h3 class=\"text-large text-black mt-16 mb-8 f-weight-5\">Противопоказания</h3>\r\n<p>\r\n</p>\r\n<p>\r\n\t Повышенная чувствительность к трамазолина гидрохлорида или к любому из вспомогательных компонентов препарата.\r\n</p>\r\n<p>\r\n\t Глаукома.\r\n</p>\r\n<p>\r\n\t Сухой ринит.\r\n</p>\r\n<p>\r\n\t Противопоказано пациентам, которые перенесли трансназальным внутричерепной операции.\r\n</p>\r\n<p>\r\n</p>\r\n<p>\r\n\t Возраст до 6 лет.\r\n</p>\r\n<p>\r\n</p>\r\n<p>\r\n</p>\r\n<h3 class=\"text-large text-black mt-16 mb-8 f-weight-5\">Взаимодействие с другими лекарственными средствами и другие виды взаимодействий</h3>\r\n<p>\r\n</p>\r\n<p>\r\n\t Одновременное применение с ингибиторами МАО, трициклическими антидепрессантами или другими потенциальными вазопрессорные веществами может влиять на сердечно-сосудистую систему и вызвать повышение артериального давления.\r\n</p>\r\n<p>\r\n\t Одновременное применение с трициклическими антидепрессантами может привести к аритмии.\r\n</p>\r\n<p>\r\n</p>\r\n<p>\r\n\t Взаимодействие с антигипертензивными лекарственными средствами, особенно с теми, которые влияют на симпатическую нервную систему, может быть сложной и вызвать различные сердечно-сосудистые эффекты.\r\n</p>\r\n<p>\r\n</p>\r\n<p>\r\n</p>\r\n<h3 class=\"text-large text-black mt-16 mb-8 f-weight-5\">Особенности применения</h3>\r\n<p>\r\n\t В связи с потенциальным риском системной абсорбции пациентам с повышенным внутриглазным давлением, тяжелыми сердечно-сосудистыми заболеваниями (например, ишемическая болезнь сердца или артериальная гипертензия), гиперплазией предстательной железы, феохромоцитомой, метаболическими нарушениями (например, гипертиреоз или диабет), порфирией следует применять ЛАЗОРИН с осторожностью и по назначению врача только после тщательной оценки соотношения польза / риск.\r\n</p>\r\n<p>\r\n\t Препарат следует применять с осторожностью и по назначению врача пациентам, принимающим ингибиторы МАО (МАО), трициклические антидепрессанты, вазопрессорные и антигипертензивные лекарственные средства (см. Раздел «Взаимодействие с другими лекарственными средствами и другие виды взаимодействий»).\r\n</p>\r\n<p>\r\n\t Если после применения препарата ЛАЗОРИН течение 7 дней симптомы не исчезают, необходимо проконсультироваться с врачом о целесообразности продолжения лечения этим препаратом.\r\n</p>\r\n<p>\r\n\t Длительное применение назальных вазоконстрикторов может привести к хроническому отека слизистой оболочки носа, заложенности носа и атрофии слизистой оболочки носа.\r\n</p>\r\n<p>\r\n\t После ослабления терапевтического действия препарата возможно эффект восстановления симптомов, характеризуется выраженным отеком слизистой оболочки носа (назальный отек).\r\n</p>\r\n<p>\r\n\t Следует избегать попадания препарата ЛАЗОРИН в глаза, чтобы предотвратить раздражение.\r\n</p>\r\n<p>\r\n</p>\r\n<p>\r\n\t ЛАЗОРИН содержит бензалкония хлорид как вспомогательное вещество, которое может вызвать раздражение слизистой оболочки носа.\r\n</p>\r\n<h3 class=\"text-large text-black mt-16 mb-8 f-weight-5\">Способность влиять на скорость реакции при управлении автотранспортом или работе с механизмами</h3>\r\n<p>\r\n\t По способности влиять на скорость реакции при управлении автотранспортом или другими механизмами исследования не проводили.\r\n</p>\r\n<p>\r\n</p>\r\n<p>\r\n\t Однако необходимо сообщить пациентов, при применении препарата ЛАЗОРИН у них могут возникнуть такие побочные эффекты, как галлюцинация, сонливость, седативный эффект, головокружение и повышенная утомляемость. Поэтому следует с осторожностью применять при управлении автомобилем или работе с механизмами. Если после применения препарата у пациентов возникнут вышеуказанные побочные эффекты, они должны избегать выполнения таких потенциально опасных действий как управление автомобилем или работа с механизмами.\r\n</p>\r\n<p>\r\n</p>\r\n<p>\r\n</p>\r\n<h3 class=\"text-large text-black mt-16 mb-8 f-weight-5\">Применение в период беременности или кормления грудью</h3>\r\n<p>\r\n</p>\r\n<p>\r\n\t Во время доклинических исследований не было обнаружено никаких подтверждений вредного воздействия препарата на эмбрион. Клинических исследований в период беременности не проводилось. Нельзя применять ЛАЗОРИН в I триместре беременности.\r\n</p>\r\n<p>\r\n\t Нет данных о выделении активного вещества с грудным молоком. Безопасность применения препарата в период кормления грудью не оценивали.\r\n</p>\r\n<p>\r\n</p>\r\n<p>\r\n\t В II и III триместрах беременности и в период кормления грудью препарат следует применять только по назначению врача.\r\n</p>\r\n<p>\r\n</p>\r\n<p>\r\n</p>\r\n<h3 class=\"text-large text-black mt-16 mb-8 f-weight-5\">Способ применения и дозы</h3>\r\n<p>\r\n\t ЛАЗОРИН следует применять взрослым и детям старше 6 лет.\r\n</p>\r\n<p>\r\n\t Впрыскивать 1 дозу в каждую ноздрю до 3 раз в сутки в случае необходимости. Дозировка определяется в зависимости от индивидуальной чувствительности и клинической реакции.\r\n</p>\r\n<p>\r\n\t ЛАЗОРИН следует применять для краткосрочного лечения острых симптомов в течение не более 5-7 дней. Во всех остальных случаях согласно показаниям и для всех показаний для применения детям необходима оценка врачом соотношения польза / риск. Следует делать перерыв в несколько дней между отдельными периодами лечения.\r\n</p>\r\n<p>\r\n <i>Инструкция по использованию.</i>\r\n</p>\r\n<p>\r\n\t Перед каждым применением следует придерживаться следующих рекомендаций.\r\n</p>\r\n<p>\r\n\t Тщательно прочистить нос перед применением препарата ЛАЗОРИН.\r\n</p>\r\n<p>\r\n</p>\r\n<p>\r\n</p>\r\n<ol>\r\n\t<li>\r\n\t<p>\r\n\t\t Снять предохранительный колпачок.\r\n\t</p>\r\n </li>\r\n\t<li>Перед первым использованием дозирующего устройства несколько раз нажать на него до появления струи аэрозоля. (При дальнейшем использовании дозирующее устройство функционирует сразу. Повторная подготовка дозирующего устройства не требуется.)</li>\r\n\t<li>\r\n\t<p>\r\n\t\t Вставить наконечник в одну ноздрю и 1 раз нажать на дозирующее устройство. Когда спрей впрыснут, осторожно сделать вдох через нос. Затем повторить процедуру, вставив наконечник в другую ноздрю.\r\n\t</p>\r\n </li>\r\n\t<li>\r\n\t<p>\r\n\t\t Рекомендуется промывать дозирующее устройство проточной водой после применения.\r\n\t</p>\r\n </li>\r\n</ol>\r\n<p>\r\n</p>\r\n<p>\r\n</p>\r\n<p>\r\n\t После использования закрыть баллончик предохранительным колпачком.\r\n</p>\r\n<h3 class=\"text-large text-black mt-16 mb-8 f-weight-5\">Дети</h3>\r\n<p>\r\n\t Применять детям в возрасте от 6 лет.<br>\r\n</p>\r\n<p>\r\n</p>\r\n<p>\r\n</p>\r\n<h3 class=\"text-large text-black mt-16 mb-8 f-weight-5\">Передозировка</h3>\r\n<p>\r\n</p>\r\n<p>\r\n <i>Симптомы.</i>\r\n</p>\r\n<p>\r\n\t Повышение артериального давления и тахикардия могут изменяться снижением артериального давления, сосудистым коллапсом, рефлекторной брадикардией и снижением температуры тела, особенно у детей.\r\n</p>\r\n<p>\r\n\t Аналогично другим α-симпатомиметиков средств клиническая картина интоксикации при применении препарата ЛАЗОРИН может быть смешанной, так как фазы возбуждения и угнетения центральной нервной системы (ЦНС) и сердечно-сосудистой системы могут чередоваться.\r\n</p>\r\n<p>\r\n\t Передозировки, особенно у детей, приводит к нарушениям со стороны ЦНС, вызывая судороги, кому, брадикардия, угнетение дыхания. Симптомы возбуждения ЦНС - беспокойство, возбуждение, галлюцинации и судороги. Симптомы угнетения ЦНС - снижение температуры тела, летаргия, сонливость и кома.\r\n</p>\r\n<p>\r\n\t Кроме того, могут возникнуть следующие симптомы: мидриаз; миоз; повышенное потоотделение; лихорадка, бледность; цианоз губ; сердечно-сосудистые нарушения, в том числе остановка сердца; нарушения дыхательной системы, в том числе дыхательная недостаточность и остановка дыхания; психические нарушения.&nbsp;\r\n</p>\r\n<p>\r\n\t При передозировке возможно усиление проявлений побочных реакций.\r\n</p>\r\n<p>\r\n <br>\r\n</p>\r\n<p>\r\n <i>Лечение.</i>\r\n</p>\r\n<p>\r\n</p>\r\n<p>\r\n\t В случае назального передозировки сначала рекомендуется промывание и очищение носа. Может возникнуть необходимость симптоматического лечения.\r\n</p>\r\n<p>\r\n</p>\r\n<p>\r\n</p>\r\n<h3 class=\"text-large text-black mt-16 mb-8 f-weight-5\">Побочные реакции</h3>\r\n<p>\r\n <i>Со стороны дыхательной системы, органов грудной клетки и средостения:</i>\r\n</p>\r\n<p>\r\n\t часто - жжение слизистой оболочки носа,\r\n</p>\r\n<p>\r\n\t нечасто - назальный отек, сухость слизистой оболочки носа, ринорея, чихание;\r\n</p>\r\n<p>\r\n\t редко - носовые кровотечения.\r\n</p>\r\n<p>\r\n <i>Со стороны желудочно-кишечного тракта:</i>\r\n</p>\r\n<p>\r\n\t нечасто - тошнота.\r\n</p>\r\n<p>\r\n <i>Со стороны кожи и подкожной клетчатки:</i>\r\n</p>\r\n<p>\r\n\t частота неизвестна - сыпь, зуд, ангионевротический отек *.\r\n</p>\r\n<p>\r\n <i>Общие нарушения и реакции в месте введения:</i>\r\n</p>\r\n<p>\r\n\t частота неизвестна - отек слизистой оболочки носа * повышенная утомляемость.\r\n</p>\r\n<p>\r\n <i>Исследование</i>:\r\n</p>\r\n<p>\r\n\t частота неизвестна - повышение артериального давления.\r\n</p>\r\n<p>\r\n</p>\r\n<p>\r\n\t * Как симптом реакции повышенной чувствительности.\r\n</p>\r\n<p>\r\n</p>\r\n<p>\r\n</p>\r\n<h3 class=\"text-large text-black mt-16 mb-8 f-weight-5\">Срок годности</h3>\r\n<p>\r\n</p>\r\n<p>\r\n\t 3 года.\r\n</p>\r\n<p>\r\n</p>\r\n<p>\r\n</p>\r\n<h3 class=\"text-large text-black mt-16 mb-8 f-weight-5\">Условия хранения</h3>\r\n<p>\r\n</p>\r\n<p>\r\n\t Хранить при температуре не выше 25 ° в месте, недоступном для детей.\r\n</p>\r\n<p>\r\n</p>\r\n<p>\r\n</p>\r\n<h3 class=\"text-large text-black mt-16 mb-8 f-weight-5\">Упаковка</h3>\r\n<p>\r\n\t По 10 мл в стеклянном баллончике с дозирующим устройством; по 1 баллончике в картонной коробке.<br>\r\n</p>\r\n<p>\r\n</p>\r\n<p>\r\n</p>\r\n<h3 class=\"text-large text-black mt-16 mb-8 f-weight-5\">Категория отпуска</h3>\r\n<p>\r\n</p>\r\n<p>\r\n\t Без рецепта.<br>\r\n</p>\r\n<p>\r\n</p>\r\n<p>\r\n</p>\r\n<h3 class=\"text-large text-black mt-16 mb-8 f-weight-5\">Производитель</h3>\r\n<p>\r\n\t Иститут где Анжеле С.р.л<br>\r\n</p>\r\n<p>\r\n</p>\r\n<p>\r\n</p>\r\n<h3 class=\"text-large text-black mt-16 mb-8 f-weight-5\">Местонахождение производителя и его адрес места осуществления деятельности</h3>\r\n<p>\r\n</p>\r\n<p>\r\n\t Локалита Прулли, 103 / с - 50066 Регелло (Флоренция), Италия<br>\r\n</p>\r\n<p>\r\n</p>\r\n<p>\r\n</p>\r\n<p>\r\n</p>\r\n<p>\r\n</p>\r\n<p>\r\n</p>\r\n<p>\r\n</p>\r\n<p>\r\n</p>\r\n<p>\r\n</p>\r\n<p>\r\n <br>\r\n</p>\r\n<p>\r\n <br>\r\n</p>\r\n<p style=\"text-align: right;\">\r\n\t © Перевод на русский язык выполнен <a href=\"https://www.apteka24.ua/team/\" target=\"_blank\">редакторской командой</a>&nbsp;apteka24.ua.\r\n</p>\r\n<p style=\"text-align: right;\">\r\n</p>\r\n<p style=\"text-align: right;\">\r\n</p>\r\n<p style=\"text-align: right;\">\r\n</p>\r\n<p style=\"text-align: right;\">\r\n\t Источник: «Державний реєстр лікарських засобів України», 2020 г.\r\n</p>",
+            "returnPolicy": {
+                "id": "unavailable",
+                "name": "Не подлежит возврату",
+                "text": "Товары надлежащего качества обмену и возврату не подлежат. Товары НЕнадлежащего качества можно вернуть в течение 14 дней.",
+                "url": "https://www.apteka24.ua/order-return/"
+            },
+            "delivery": {
+                "externalServices": true,
+                "a24Pharmacies": true,
+                "a24Courier": true,
+                "partnerPharmacies": true
+            },
+            "remoteId": "15308"
+        },
+        {
+            "id": "3074fc75-b6ff-11ea-96c2-0635d0043582",
+            "active": true,
+            "sku": "918106",
+            "url": "https://www.apteka24.ua/avirusprey-plus-naz-sprey-fl-15ml_918106/",
+            "name": "АвируСпрей + (PLUS) 15 мл назальный спрей ",
+            "alias": "avirusprey-plus-naz-sprey-fl-15ml_918106",
+            "activeIngredients": [],
+            "marketedName": {
+                "id": "8cbef7f3-0240-11eb-b70f-064212086763",
+                "name": "АвируСпрей®",
+                "alias": "avirusprey",
+                "url": "https://www.apteka24.ua/mnn/avirusprey/"
+            },
+            "classification": {
+                "id": "0e4319ee-94c8-4855-b5cc-86bb54e59675",
+                "name": "Изделия мед.назначения холод от +2 до +8",
+                "alias": "2-5-5izdeliya-med-naznacheniya-kholod-ot-2-do-8"
+            },
+            "category": {
+                "id": "57cfbe75-b7fb-11ea-96c2-0635d0043582",
+                "name": "Препараты назальной терапии",
+                "alias": "nazaljnaja-terapija"
+            },
+            "breadcrumbs": [
+                {
+                    "name": "Медикаменты",
+                    "url": "https://www.apteka24.ua/medikamenty/"
+                },
+                {
+                    "name": "Препараты от простуды",
+                    "url": "https://www.apteka24.ua/medikamenty/respiratornaja-sistema/"
+                },
+                {
+                    "name": "Препараты назальной терапии",
+                    "url": "https://www.apteka24.ua/medikamenty/respiratornaja-sistema/nazaljnaja-terapija/"
+                }
+            ],
+            "preview": {
+                "src": {
+                    "original": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/products/17a07107-025b-11eb-b70f-064212086763.png",
+                    "medium": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/products/17a07107-025b-11eb-b70f-064212086763-medium.png",
+                    "small": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/products/17a07107-025b-11eb-b70f-064212086763-small.png"
+                },
+                "alt": "АвируСпрей + (PLUS) 15 мл назальный спрей ",
+                "title": "АвируСпрей + (PLUS) 15 мл назальный спрей "
+            },
+            "images": [],
+            "videos": [],
+            "files": [],
+            "price": {
+                "currency": "UAH",
+                "current": 63.5,
+                "old": 70.5,
+                "date": "2020-09-29T21:08:44+00:00"
+            },
+            "sale": {
+                "percent": 10,
+                "value": 7
+            },
+            "promotions": [
+                {
+                    "id": "bcec26aa-025f-11eb-b70f-064212086763",
+                    "name": "Препараты для осенней аптечки",
+                    "alias": "autumn-first-aid-kit",
+                    "sticker": {
+                        "src": {
+                            "original": "https://s3-eu-west-1.amazonaws.com/i.apteka24.ua/promotions/free-delivery-medium.svg",
+                            "medium": "https://s3-eu-west-1.amazonaws.com/i.apteka24.ua/promotions/free-delivery-medium.svg",
+                            "small": "https://s3-eu-west-1.amazonaws.com/i.apteka24.ua/promotions/free-delivery-small.svg"
+                        },
+                        "alt": "Бесплатная доставка",
+                        "title": "Бесплатная доставка"
+                    },
+                    "expiresAt": "2020-10-07T00:00:00+00:00"
+                },
+                {
+                    "id": "fake-promo-id",
+                    "name": "Промо",
+                    "alias": "promo",
+                    "sticker": {
+                        "src": {
+                            "original": "https://s3-eu-west-1.amazonaws.com/i.apteka24.ua/promotions/promo.svg"
+                        },
+                        "alt": "Промо",
+                        "title": "Промо"
+                    }
+                }
+            ],
+            "seller": {
+                "id": "448b2b16-b17d-11ea-927d-0242c0a89004",
+                "name": "Аптека24",
+                "alias": "badm",
+                "logo": {
+                    "src": {
+                        "original": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/icons/logo-apteka24.svg",
+                        "medium": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/icons/logo-apteka24.svg",
+                        "small": "https://s3.eu-west-1.amazonaws.com/i.apteka24.ua/icons/logo-apteka24.svg"
+                    },
+                    "alt": "Аптека24",
+                    "title": "Аптека24"
+                }
+            },
+            "review": {
+                "id": "3074fc75-b6ff-11ea-96c2-0635d0043582",
+                "rating": {
+                    "min": 0,
+                    "max": 5,
+                    "value": 0
+                },
+                "comments": 0,
+                "questions": 0
+            },
+            "status": {
+                "id": "in-stock",
+                "name": "В наличии",
+                "type": "available"
+            },
+            "variations": [],
+            "attributeGroups": [],
+            "attributes": [
+                {
+                    "id": "name-8cbef7f3-0240-11eb-b70f-064212086763",
+                    "name": "Торговое название",
+                    "alias": "marketed-name",
+                    "type": "string",
+                    "value": "АвируСпрей®"
+                },
+                {
+                    "id": "87041d36-a02b-11ea-8ef0-0242ac1c0004",
+                    "name": "Код Морион",
+                    "alias": "morion",
+                    "type": "string",
+                    "value": "625055"
+                },
+                {
+                    "id": "902a6994-a02a-11ea-8ef0-0242ac1c0004",
+                    "name": "Рецептурный отпуск",
+                    "alias": "prescription",
+                    "type": "string",
+                    "value": "Без рецепта"
+                }
+            ],
+            "basicAttributes": {
+                "id": "29917a75-9548-11ea-8692-0242ac190002",
+                "name": "Основные характеристики",
+                "alias": "basic-attributes",
+                "attributes": [
+                    {
+                        "id": "ecfed2d8-9138-11ea-bc4c-0242ac140002",
+                        "name": "Кол-во в упаковке",
+                        "alias": "quantity",
+                        "type": "integer",
+                        "value": "1"
+                    },
+                    {
+                        "id": "c1e538b1-911d-11ea-bc4c-0242ac140002",
+                        "name": "Форма выпуска",
+                        "alias": "production-form",
+                        "type": "string",
+                        "value": "Спрей"
+                    },
+                    {
+                        "id": "12849376-9149-11ea-bc4c-0242ac140002",
+                        "name": "Объем",
+                        "alias": "volume",
+                        "type": "string",
+                        "value": "15 мл"
+                    },
+                    {
+                        "id": "085f75a5-9395-11ea-afea-0242ac140003",
+                        "name": "Производитель",
+                        "alias": "maker",
+                        "type": "string",
+                        "value": "«Георг Биосистемы»"
+                    }
+                ]
+            },
+            "description": "<p>\r\n\t Вирусы, передающиеся воздушно-капельным путем, чаще всего попадают в организм человека через слизистую оболочку носовой полости. После прикрепления к мембранам клеток для проникновения внутрь вирусам нужно около 6-8 часов. И если прицельно воздействовать на них в течение этого времени, можно избежать развития вирусной инфекции.\r\n</p>\r\n<p>\r\n\t Именно это и делают действующие вещества АВИРУСПРЕЙ®+(PLUS). Благодаря форме дозированного спрея средство создает барьер для вирусов на всей поверхности носоглотки.\r\n</p>\r\n<ul>\r\n\t<li>\r\n\t<p>\r\n\t\t Оксолин&nbsp;блокирует места связывания вируса с поверхностью клеточной мембраны, защищая клетки от проникновения в них вируса.\r\n\t</p>\r\n </li>\r\n\t<li>\r\n\t<p>\r\n\t\t Экстракты лука и чеснока, а также&nbsp;эфирное масло эвкалипта&nbsp;усиливают противовирусное действие оксолина, а также борются с бактериями.\r\n\t</p>\r\n </li>\r\n</ul>\r\n <b><br>\r\n </b><b>АВИРУСПРЕЙ®+(PLUS) применяется:</b><br>\r\n<ul>\r\n\t<li>\r\n\t<p>\r\n\t\t для полости носа (профилактики вирусных инфекций, а также комплексного ухода за слизистой оболочкой – глубокого увлажнения, восстановления, укрепления и защиты);\r\n\t</p>\r\n </li>\r\n\t<li>\r\n\t<p>\r\n\t\t лицами, находящимися в ситуациях повышенного риска респираторных инфекций (осенне-зимний период и/или контакт с источником)\r\n\t</p>\r\n </li>\r\n</ul>\r\n<p>\r\n\t Средство рекомендовано к применению у взрослых и детей с 6 лет. Дети от 3 до 6 лет: применение спрея возможно после консультации врача. Применение детям разрешается только в присутствии взрослых.\r\n</p>",
+            "returnPolicy": {
+                "id": "available",
+                "name": "Подлежит возврату",
+                "text": "Подлежит возврату и обмену в течение 14 дней.",
+                "url": "https://www.apteka24.ua/order-return/"
+            },
+            "delivery": {
+                "externalServices": false,
+                "a24Pharmacies": true,
+                "a24Courier": true,
+                "partnerPharmacies": true
+            },
+            "remoteId": "883186"
+        }
+    ]
+}

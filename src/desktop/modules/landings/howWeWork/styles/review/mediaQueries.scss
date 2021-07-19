@@ -1,0 +1,115 @@
+.review {
+  @media (min-width: 450px) {
+    .rubric {
+      .thread-review__comment {
+        min-height: 180px;
+      }
+    }
+  }
+
+  @include sm {
+    .rubric {
+      .thread-review__comment {
+        min-height: 160px;
+      }
+
+      .thread-review__body {
+        margin-bottom: 32px;
+      }
+
+      .home-page-review__avatar {
+        width: 80px;
+        height: 80px;
+        flex: 0 0 auto;
+      }
+    }
+  }
+
+  @include md {
+    .rubric {
+      .thread-review {
+        padding-bottom: 0;
+      }
+
+      .thread-review__comment {
+        min-height: 180px;
+        font-size: 18px;
+        position: relative;
+      }
+
+      .carousel {
+        .carousel-button-next,
+        .carousel-button-prev {
+          bottom: 50px;
+        }
+      }
+    }
+  }
+
+  @include lg {
+    .review__title {
+      margin-bottom: 32px;
+    }
+
+    .rubric {
+      .thread-review__comment {
+        padding-left: 104px;
+        font-size: 20px;
+        position: relative;
+
+        &::before {
+          position: absolute;
+          top: 45px;
+          left: 40px;
+          content: "";
+          width: 46px;
+          height: 30px;
+          background: url("https://i.apteka24.ua/landings/how-it-works/quotes.svg") no-repeat center;
+        }
+      }
+
+      .thread-review__author {
+        font-size: 24px;
+      }
+
+      .thread-review__specialty,
+      .thread-review__rank {
+        font-size: 18px;
+      }
+
+      .carousel {
+        &:after,
+        &:before {
+          display: none;
+        }
+      }
+    }
+  }
+
+  @include xl {
+    .review__title {
+      margin-bottom: 50px;
+    }
+  }
+
+  @include before-sm {
+    .rubric {
+      .carousel {
+        .carousel-button-next,
+        .carousel-button-prev {
+          top: auto;
+          right: 50%;
+          bottom: 0;
+        }
+
+        .carousel-button-prev {
+          transform: translateX(-12px);
+        }
+
+        .carousel-button-next {
+          transform: translateX(72px);
+        }
+      }
+    }
+  }
+}

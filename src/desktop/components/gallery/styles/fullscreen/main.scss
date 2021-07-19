@@ -1,0 +1,112 @@
+&.fullscreen {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 5;
+  background: rgba(0, 0, 0, 0.2);
+
+  .gallery__modal {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    padding: 16px;
+    background: $colorWhite;
+    box-shadow: 0 8px 10px rgba(57, 72, 86, 0.06), 0 1px 14px rgba(57, 72, 86, 0.12);
+    border-radius: 10px;
+  }
+
+  .icon-close {
+    font-size: $closeIconSize;
+    width: $closeIconSize;
+    height: $closeIconSize;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    z-index: 5;
+    cursor: pointer;
+  }
+
+  .gallery__body {
+    width: 70%;
+  }
+
+  .gallery__view {
+    height: 100%;
+  }
+
+  .gallery__footer {
+    padding: 0;
+    width: 30%;
+    order: 2;
+    overflow: initial;
+  }
+
+  .gallery__title {
+    font-size: 32px;
+    padding-right: $closeIconSize;
+    color: $colorBlack;
+  }
+
+  .swiper-container {
+    height: 100%;
+  }
+
+  .swiper-slide {
+    cursor: default;
+    height: 100%;
+  }
+
+  .gallery__buy-block {
+    border-radius: 16px;
+    padding: 14px;
+    margin-top: 32px;
+
+    .buy__price {
+      margin: 0 20px 0 0;
+      white-space: nowrap;
+      font-size: 24px;
+      color: $colorBlack;
+    }
+
+    .buy__button {
+      width: 160px;
+
+      &.to-basket--in-basket {
+        background-color: $colorWhite;
+      }
+    }
+
+    .buy__icon {
+      margin-right: 6px;
+    }
+  }
+
+  .thumbnails {
+    width: 100%;
+    margin-top: 32px;
+    flex-direction: row;
+  }
+
+  .thumbnails__items {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -16px;
+  }
+
+  .thumbnails__item {
+    margin-right: 16px;
+    border-color: rgba(136, 143, 154, 0.16);
+  }
+
+  .tridi {
+    height: 100%;
+  }
+}
+
+@import "mediaQueries.scss";

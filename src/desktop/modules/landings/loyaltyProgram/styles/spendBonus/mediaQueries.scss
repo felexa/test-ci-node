@@ -1,0 +1,32 @@
+.spend-bonus {
+  @include md {
+    padding: 57px 0 70px 0;
+
+    .spend-bonus__header {
+      .spend-bonus__title {
+        text-align: left;
+      }
+    }
+
+    .spend-bonus__body {
+      p {
+        text-align: left;
+      }
+    }
+
+    .spend-bonus__image {
+      margin-top: -70px;
+    }
+  }
+
+  @include lg {
+    margin-top: 117px;
+    padding: 122px 0 80px 0;
+    background: url(build-image-url("/landings/loyalty-program/spend-bg.png")) no-repeat center;
+    background-size: 100% 100%;
+
+    .spend-bonus__image {
+      margin-top: -140px;
+    }
+  }
+}

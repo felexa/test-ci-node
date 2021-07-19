@@ -1,0 +1,120 @@
+.bonus__history {
+  margin-top: 32px;
+
+  .history__title {
+    font-size: 22px;
+    padding: 0 0 12px;
+  }
+
+  .statement__table {
+    padding: 24px 16px;
+  }
+
+  .statement__table-body {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .statement__table-control {
+    margin: 24px auto 0 auto;
+    display: inline-block;
+    text-decoration-style: dashed;
+  }
+
+  .item {
+    padding: 16px 0;
+    border-top: 1px solid $borderColorBase;
+    display: flex;
+    justify-content: space-between;
+
+    &:last-child {
+      border-bottom: 1px solid $borderColorBase;
+    }
+
+    .item__expire-date {
+      font-size: 12px;
+    }
+
+    .item__status {
+      padding: 4px 10px;
+      border-radius: 20px;
+      font-weight: 500;
+      background: $shadowColorBonus;
+      color: $colorBlack;
+    }
+
+    &[data-status="earned"] {
+      .item__status {
+        background: $colorGreen;
+        color: $colorWhite;
+      }
+
+      .item__amount {
+        color: $colorGreen;
+
+        .price {
+          color: $colorGreen;
+        }
+      }
+    }
+
+    .item__description {
+      line-height: 1.5;
+      color: $colorBlack;
+    }
+
+    .item__amount {
+      display: flex;
+      justify-content: flex-end;
+      flex-shrink: 0;
+
+      .price {
+        margin-left: 1px;
+        margin-bottom: 4px;
+        font-size: 16px;
+        font-weight: 500;
+
+        .price__currency {
+          font-size: 100%;
+        }
+      }
+    }
+  }
+}
+
+@include before-sm {
+  .bonus__history {
+    .item {
+      .item__amount,
+      .item__expire-date {
+        font-size: 10px;
+      }
+    }
+  }
+}
+
+@include before-md {
+  .bonus__history {
+    .history__header {
+      padding: 0 12px;
+    }
+  }
+}
+
+@include lg {
+  .bonus__history {
+    .history__title {
+      font-size: 28px;
+    }
+
+    .statement__table {
+      padding: 24px;
+    }
+
+    .item {
+      padding-top: 16px;
+      padding-bottom: 17px;
+    }
+  }
+}

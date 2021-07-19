@@ -1,0 +1,81 @@
+@include before-xl {
+  .mailing__body {
+    width: 600px;
+  }
+
+  .mailing__footer {
+    width: 270px;
+  }
+}
+
+@include before-lg {
+  .mailing__header {
+    width: 100%;
+    margin-bottom: 12px;
+
+    .mailing__title {
+      font-size: 22px;
+    }
+  }
+
+  .mailing__body {
+    width: 100%;
+
+    .mailing__subscribe {
+      input[type="text"] {
+        width: 100%;
+        margin-bottom: 12px;
+      }
+
+      button {
+        width: 100%;
+      }
+    }
+  }
+
+  .mailing__footer {
+    flex-shrink: 0;
+    margin-left: 30px;
+  }
+}
+
+@include before-md {
+  padding: 24px 12px 16px;
+
+  .mailing__content {
+    padding: 24px 12px;
+  }
+
+  .mailing__header {
+    margin-bottom: 16px;
+
+    .mailing__title {
+      text-align: center;
+      font-size: 18px;
+      line-height: 1.4;
+    }
+  }
+
+  .mailing__body {
+    margin-bottom: 32px;
+
+    .mailing__subscribe {
+      input[type="text"] {
+        margin-bottom: 16px;
+      }
+    }
+  }
+
+  .mailing__footer {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .mailing__footer {
+    margin-right: 180px;
+  }
+}
+
+

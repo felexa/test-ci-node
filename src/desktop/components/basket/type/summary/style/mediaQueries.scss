@@ -1,0 +1,41 @@
+.basket-summary {
+  @media screen and (max-width: $maxMDResolution) {
+    .basket-summary__to-basket {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: $maxSMResolution) {
+    padding: 16px;
+    margin-top: -2px;
+    flex-wrap: wrap;
+
+    .basket-summary__title {
+      font-size: 16px;
+    }
+
+    .basket-summary__count {
+      font-size: 14px;
+    }
+
+    .basket-summary__close {
+      top: 14px;
+      right: 14px;
+    }
+
+    .basket-summary__header,
+    .basket-summary__body,
+    .basket-summary__footer {
+      width: 100%;
+    }
+
+    .native-carousel {
+      display: none;
+    }
+
+    .basket-summary__to-checkout {
+      margin-top: 12px;
+      width: 100%;
+    }
+  }
+}

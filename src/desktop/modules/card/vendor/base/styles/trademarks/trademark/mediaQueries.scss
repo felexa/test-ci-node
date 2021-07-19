@@ -1,0 +1,54 @@
+.trademark {
+  @include sm {
+    .trademark__header {
+      padding: 16px;
+      height: 100%;
+      min-height: 78px;
+    }
+
+    .trademark__body {
+      padding: 0 16px 24px 16px;
+      position: absolute;
+    }
+
+    .trademark__preview {
+      img {
+        max-width: 130px;
+      }
+    }
+  }
+
+  @include lg {
+    .trademark__header {
+      padding: 16px 24px;
+    }
+
+    .trademark__toggle {
+      margin-left: 24px;
+    }
+
+    .trademark__body {
+      padding: 0 24px 24px 24px;
+    }
+
+    .trademark__properties {
+      .item {
+        margin-bottom: 8px;
+      }
+    }
+  }
+
+  @include before-sm {
+    .trademark__rating {
+      .rating {
+        max-width: 25px;
+        overflow: hidden;
+      }
+    }
+  }
+  @include before-md {
+    .trademark__rating-value {
+      margin-left: 5px;
+    }
+  }
+}

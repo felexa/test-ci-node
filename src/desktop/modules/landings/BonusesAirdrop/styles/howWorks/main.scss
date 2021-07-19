@@ -1,0 +1,43 @@
+.how-works {
+  background-color: $colorWhite;
+
+  .how-works__header {
+    .how-works__title {
+      margin-bottom: 24px;
+    }
+  }
+
+  .how-works__body {
+    .how-works__items {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      text-align: center;
+
+      .item {
+        font-size: 18px;
+        line-height: 1.5;
+        max-width: 500px;
+        margin: 0 auto;
+
+        & + .item {
+          margin-top: 50px;
+        }
+
+        .item__preview {
+          margin-bottom: 8px;
+        }
+
+        .item__description {
+          font-size: 18px;
+
+          a {
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+@import "mediaQueries";

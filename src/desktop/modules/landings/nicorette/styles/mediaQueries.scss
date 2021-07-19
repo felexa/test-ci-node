@@ -1,0 +1,15 @@
+.nicorette {
+  @include md {
+    margin: 0 -24px;
+
+    .section {
+      padding: 60px 0;
+    }
+  }
+
+  @include lg {
+    .section {
+      padding: 90px 0;
+    }
+  }
+}

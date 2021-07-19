@@ -1,0 +1,69 @@
+@import "./src/desktop/components/bonus/styles";
+
+.buy-block.buy-block--full {
+  .inform-about-availability--active {
+    margin-top: 5px;
+  }
+}
+
+.buy-block {
+  .add-to-wishlist {
+    align-self: flex-end;
+  }
+  .product-card__prices-old {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+  }
+
+  .product-card__prices-current {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    order: 2;
+  }
+
+  .product-card__bonus {
+    font-size: 15px;
+    order: 1;
+    //margin-bottom: 10px;
+    //margin-top: 3px;
+  }
+}
+
+@media screen and (max-width: $maxMDResolution) and (min-width: $minMDResolution) {
+  .buy-block {
+    .to-basket {
+      margin-bottom: 24px;
+    }
+
+    .product-card__prices-current {
+      flex-direction: row;
+      align-items: center;
+    }
+  }
+}
+
+@include md {
+  .buy-block {
+    .product-card__prices-old {
+      justify-content: start;
+    }
+
+    .product-card__prices-current {
+      flex-direction: row;
+      align-items: center;
+      order: 1;
+
+      .price {
+        margin-right: 24px;
+      }
+    }
+
+    .product-card__bonus {
+      margin-bottom: 0;
+      margin-top: 10px;
+    }
+  }
+}

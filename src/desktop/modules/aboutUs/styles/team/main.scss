@@ -1,0 +1,58 @@
+.team {
+  color: $colorBlack;
+
+  h2 {
+    margin: 24px 0 12px;
+    font-size: 24px;
+    font-weight: 500;
+    color: $colorBlack;
+  }
+
+  h3 {
+    margin: 20px 0 10px;
+    font-size: 21px;
+    font-weight: 400;
+    color: $colorBlack;
+  }
+
+  p + p {
+    margin-top: 8px;
+  }
+}
+
+.member {
+  .member__preview {
+    width: 160px;
+    height: 160px;
+    margin: 32px auto 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 50%;
+
+    img {
+      height: 100%;
+      width:100%;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+  }
+
+  .member__name {
+    display: inline-block;
+    width: 190px;
+    margin-bottom: 8px;
+    font-size: 18px;
+    min-height: 46px;
+  }
+
+  .member__position {
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: $colorGray;
+  }
+}
+
+@import "mediaQueries";

@@ -1,0 +1,105 @@
+.page-section {
+  & + .page-section {
+    margin-top: 24px;
+  }
+}
+
+.adaptive-content {
+  padding: 24px 12px;
+
+  .adaptive-content__header {
+    margin-bottom: 16px;
+
+  .adaptive-content__title {
+    font-size: 20px;
+    line-height: 140%;
+    font-weight: normal;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      margin-bottom: 0;
+      margin-top: 0;
+      margin-left: 0;
+      margin-right: 0;
+      padding-bottom: 0;
+      padding-top: 0;
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
+
+  .adaptive-content__footer {
+    margin: 15px -12px -6px -12px;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-top: 18px;
+    border-top: 1px solid $borderColorBase;
+  }
+}
+@include before-sm {
+  .page-section--for-md {
+    & + .page-section--for-md {
+      margin-top: 32px;
+    }
+  }
+}
+
+@include md-only {
+  .page-section--for-md {
+    & + .page-section--for-md {
+      margin-top: 40px;
+    }
+  }
+}
+
+@include md {
+  .adaptive-content {
+    padding: 24px;
+
+    .adaptive-content__header {
+      margin-bottom: 24px;
+
+      .adaptive-content__title {
+        font-size: 24px;
+        line-height: 28px;
+        }
+    }
+
+    .adaptive-content__footer {
+      border-top: initial;
+      margin-left: initial;
+      margin-right: initial;
+      margin-bottom: initial;
+      padding-right: initial;
+      padding-left: initial;
+      padding-top: initial;
+    }
+  }
+
+  .page-section {
+    & + .page-section {
+      margin-top: 16px;
+    }
+  }
+
+  .mt-md-16 {
+    margin-top: 16px !important;
+  }
+
+  .p-md-24 {
+    padding: 24px;
+  }
+}
+
+@include before-lg {
+  h1 {
+    font-size: 24px;
+  }
+}
+
+@include lg {
+  .mt-lg-0 {
+    margin-top: 0 !important;
+  }
+}

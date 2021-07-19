@@ -1,0 +1,157 @@
+.account__wish-list {
+  .wish-list__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    button + button {
+      margin-left: 10px;
+    }
+
+    button:hover {
+      color: $colorPink;
+    }
+  }
+
+  .wish-list__select-all-items,
+  .wish-list__delete-item {
+    font-size: $fontSizeBase;
+
+    .icon {
+      position: relative;
+      top: 1px;
+      font-size: $fontSizeLarge;
+    }
+  }
+
+  .wish-list__empty-list {
+    margin-bottom: 36px;
+
+    .empty-list__title {
+      font-size: $fontSizeLarge;
+    }
+
+    .empty-list__subtitle {
+      font-size: $fontSizeBase;
+    }
+
+    .empty-list__to-home-page {
+      min-width: 240px;
+    }
+  }
+
+  .wish-list-items {
+    margin: -4px;
+    position: relative;
+
+    .icon {
+      font-size: 24px;
+    }
+
+    .wish-list-item {
+      width: 50%;
+      padding: 4px;
+
+      .custom-input--checkbox {
+        position: absolute;
+        z-index: 3;
+        top: 19px;
+        right: 10px;
+      }
+
+      .product-card--xs {
+        z-index: 2;
+
+        .sticker {
+          top: 12px;
+        }
+
+        .add-to-wishlist {
+          display: none !important;
+        }
+      }
+    }
+  }
+}
+
+@include before-sm {
+  .account__wish-list {
+    .wish-list__header {
+      flex-direction: column;
+      align-items: start;
+
+      .account-section__title {
+        margin-bottom: 10px;
+      }
+
+      .wish-list__select-all-items {
+        padding-left: 0;
+      }
+    }
+  }
+}
+
+@include sm {
+  .account__wish-list {
+    .wish-list-items {
+      .wish-list-item {
+        width: 33.33%;
+      }
+    }
+  }
+}
+
+@include md {
+  .account__wish-list {
+    .product-card--xs {
+      padding: 16px;
+    }
+
+    .wish-list-items {
+      margin: -8px;
+
+      .wish-list-item {
+        width: 33.33%;
+        padding: 8px;
+
+        .custom-input--checkbox {
+          top: 22px;
+        }
+      }
+    }
+
+    .wish-list__empty-list {
+      margin-bottom: 88px;
+
+      .empty-list__title {
+        font-size: $fontSizeXL;
+      }
+
+      .empty-list__subtitle {
+        font-size: $fontSizeMedium;
+      }
+
+      .empty-list__to-home-page {
+        min-width: auto;
+      }
+    }
+  }
+}
+
+@include lg {
+  .account__wish-list {
+    .wish-list-items {
+      .wish-list-item {
+        width: 25%;
+      }
+    }
+  }
+}
+
+@include xl {
+  .account__wish-list {
+    .wish-list__empty-list {
+      margin-bottom: 108px;
+    }
+  }
+}

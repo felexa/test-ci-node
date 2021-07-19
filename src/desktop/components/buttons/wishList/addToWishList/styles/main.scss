@@ -1,0 +1,27 @@
+@import "./src/styles/variables/colors";
+@import "./src/styles/variables/fonts";
+
+.add-to-wishlist {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+
+  &:hover {
+    background: rgba(52, 92, 139, 0.04);
+  }
+
+  .icon {
+    font-size: 23px;
+    width: 23px;
+    height: 23px;
+    font-weight: 400;
+    color: $colorGray;
+  }
+
+  &.add-to-wishlist--in-wishlist {
+    .icon {
+      color: $colorPink;
+    }
+  }
+}

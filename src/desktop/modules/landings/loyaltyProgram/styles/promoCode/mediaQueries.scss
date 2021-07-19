@@ -1,0 +1,43 @@
+.promo-code {
+  @include md {
+    margin-top: 40px;
+  }
+
+  @include lg {
+    margin-top: 60px;
+
+    .promo-code__header {
+      margin-bottom: 104px;
+
+      .promo-code__title {
+        font-size: 36px;
+      }
+    }
+
+    .promo-code__body {
+      .promo-code__instruction {
+        .instruction__how-get {
+          margin-top: 40px;
+
+          .how-get__item {
+            flex-direction: column;
+            width: 300px;
+
+            & + .how-get__item {
+              margin-top: 0;
+            }
+          }
+
+          .how-get__number {
+            margin-right: 0;
+            margin-bottom: 18px;
+          }
+
+          .how-get__description {
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}

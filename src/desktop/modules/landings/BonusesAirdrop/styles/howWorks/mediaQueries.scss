@@ -1,0 +1,31 @@
+.how-works {
+  @include lg {
+    .how-works__header {
+      .how-works__title {
+        margin-bottom: 40px;
+      }
+    }
+
+    .how-works__body {
+      .how-works__items {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 -8px;
+
+        .item {
+          max-width: 410px;
+          margin: 0 8px;
+          font-size: 20px;
+
+          & + .item {
+            margin-top: 0;
+          }
+
+          .item__preview {
+            margin-bottom: 16px;
+          }
+        }
+      }
+    }
+  }
+}

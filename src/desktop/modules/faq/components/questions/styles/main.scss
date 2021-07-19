@@ -1,0 +1,29 @@
+.questions {
+  &:not(.with-pagination) {
+    .questions__item {
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+  }
+
+  .questions__item {
+    padding: 24px 0;
+    border-bottom: 1px solid $borderColorBase;
+  }
+
+  .item__question {
+    font-size: 24px;
+  }
+
+  .item__date {
+    margin: 8px 0 0 0;
+    font-size: 14px;
+  }
+
+  .questions__pagination {
+    margin-top: 40px;
+  }
+}
+
+@import "mediaQueries";

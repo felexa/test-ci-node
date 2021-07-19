@@ -1,0 +1,20 @@
+.correspondence {
+  @media screen and (max-width: $maxLGResolution) {
+    width: 100%;
+    float: none;
+    order: 3;
+    margin-top: 32px;
+
+    .correspondence__phone {
+      margin-bottom: 0;
+    }
+  }
+
+  @media screen and (max-width: $maxSMResolution) {
+    .correspondence__phone {
+      margin-bottom: 34px;
+    }
+  }
+}
+
+

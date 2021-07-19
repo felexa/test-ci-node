@@ -1,0 +1,8 @@
+.leaflet-control-container {
+  .leaflet-top {
+    z-index: 3 !important;
+    .leaflet-control {
+      z-index: 3 !important;
+    }
+  }
+}

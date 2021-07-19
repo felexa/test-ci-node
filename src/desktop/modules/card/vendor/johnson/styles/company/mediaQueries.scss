@@ -1,0 +1,42 @@
+.company.company--johnson {
+  @include md {
+    background: $colorDarkRed;
+    padding-bottom: 0;
+
+    .company__section {
+      padding: 40px 0 40px 16px;
+    }
+
+    .company__banner {
+      display: flex;
+      align-items: center;
+      max-width: none;
+
+      img {
+        height: auto;
+        width: 413px;
+      }
+    }
+
+    .contact {
+      .contact__address {
+        font-size: 16px;
+      }
+    }
+
+  }
+
+  @include before-sm {
+    .contact {
+      .contact__address {
+        flex: 1 0 90px;
+        max-width: 90px;
+        font-size: 14px;
+      }
+
+      .contact__info {
+        font-size: 14px;
+      }
+    }
+  }
+}

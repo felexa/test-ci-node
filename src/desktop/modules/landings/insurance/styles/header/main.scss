@@ -1,0 +1,44 @@
+.insurance__header {
+  padding-top: 32px;
+  background:  url(build-image-url("/landings/insurance/head-bg-mobile.png")) no-repeat center bottom -70px;
+  background-size: 100% auto;
+  background-color: $colorLightPurple;
+
+  .header__title {
+    margin-bottom: 24px;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .header__description {
+    margin-bottom: 32px;
+    font-size: 18px;
+    line-height: 1.4;
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  .header__redirect-to-form {
+    display: block;
+    width: 100%;
+    max-width: 288px;
+    margin: 0 auto 16px auto;
+  }
+
+  .header__image {
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+      max-width: 625px;
+      margin-top: 80px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+
+@import "mediaQueries";

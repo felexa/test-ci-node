@@ -1,0 +1,34 @@
+.category {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: $colorWhite;
+  height: 100%;
+
+  .category__preview {
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .category__title {
+    font-size: 16px;
+    text-decoration: none;
+  }
+
+  .category__body {
+    padding: 12px 8px 16px 8px;
+    justify-content: center;
+  }
+
+  .description__go-over {
+    a {
+      background-color: $colorDarkRed;
+    }
+  }
+}
+
+@import "mediaQueries";
+

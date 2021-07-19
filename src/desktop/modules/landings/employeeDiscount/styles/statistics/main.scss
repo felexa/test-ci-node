@@ -1,0 +1,46 @@
+.statistics {
+  .statistics__body {
+    padding: 50px 0;
+    box-shadow: 0px 50px 200px rgba(33, 46, 66, 0.1);
+    border-radius: 40px;
+
+    .statistics__items {
+      .item {
+        text-align: center;
+        margin-bottom: 32px;
+
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+      .item__title {
+        margin-bottom: 8px;
+        font-size: 22px;
+        line-height: 1.5;
+      }
+
+      .item__value {
+        font-size: 36px;
+        font-weight: 900;
+      }
+    }
+  }
+}
+
+@include md {
+  .statistics {
+    .statistics__body {
+      .statistics__items {
+        .item {
+          margin-bottom: 0;
+
+          .item__value {
+            font-size: 52px;
+
+          }
+        }
+      }
+    }
+  }
+}

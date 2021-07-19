@@ -1,0 +1,66 @@
+.trademark {
+  background-color: $colorWhite;
+  position: relative;
+  height: 100%;
+
+  .trademark__toggle {
+    transition: transform 0.3s ease-out;
+  }
+
+  &.active {
+    .trademark__body {
+      display: block;
+    }
+
+    .trademark__toggle {
+      transform: rotate(0);
+    }
+  }
+
+  .trademark__header {
+    padding: 12px;
+    min-height: 70px;
+  }
+
+  .trademark__preview {
+    img {
+      display: block;
+      max-width: 150px;
+      max-height: 46px;
+      height: auto;
+    }
+  }
+
+  .trademark__rating-value {
+    margin-left: 8px;
+  }
+
+  .trademark__toggle {
+    width: 28px;
+    height: 28px;
+    margin-left: 12px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    color: $colorWhite;
+    background-color: $colorDarkRed;
+    cursor: pointer;
+    transform: rotate(180deg);
+    padding: 0;
+  }
+
+  .trademark__body {
+    background: $colorWhite;
+    display: none;
+    padding: 0 12px 24px 12px;
+    z-index: 1;
+    width: 100%;
+  }
+
+  .trademark__title {
+    font-size: 16px;
+  }
+}
+
+@import "mediaQueries";

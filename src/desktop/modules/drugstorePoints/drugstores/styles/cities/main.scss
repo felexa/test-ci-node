@@ -1,0 +1,25 @@
+.drugstore__cities {
+  .drugstore__cities-header {
+    font-size: 16px;
+  }
+
+  .cities__item {
+    background-color: $colorGreyForHover;
+    padding: 8px 16px;
+    border-radius: 16px;
+    white-space: nowrap;
+    margin: 0 12px 12px 0;
+    cursor: pointer;
+    font-size: $fontSizeBase;
+
+    &:hover {
+      color: $colorBlack;
+    }
+
+    &.active {
+      color: $colorPink;
+      background-color: $colorBackgroundLightPink;
+      font-weight: 500;
+    }
+  }
+}

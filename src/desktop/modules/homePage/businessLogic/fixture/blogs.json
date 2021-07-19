@@ -1,0 +1,159 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "url": "https://apteka24.ua/blog/akusherstvo-i-ginekologiya/",
+      "title": "Акушерство и гинекология"
+    },
+    {
+      "id": "2",
+      "url": "https://apteka24.ua/blog/allergologiya/",
+      "title": "Аллергология"
+    },
+    {
+      "id": "3",
+      "url": "https://apteka24.ua/blog/andrologiya/",
+      "title": "Андрология"
+    },
+    {
+      "id": "4",
+      "url": "https://apteka24.ua/blog/bolezni-zheludka/",
+      "title": "Болезни желудка"
+    },
+    {
+      "id": "5",
+      "url": "https://apteka24.ua/blog/gepatologiya/",
+      "title": "Гепатология"
+    },
+    {
+      "id": "6",
+      "url": "https://apteka24.ua/blog/dermatologiya/",
+      "title": "Дерматология"
+    },
+    {
+      "id": "7",
+      "url": "https://apteka24.ua/blog/detskoe-zdorove/",
+      "title": "Детское здоровье"
+    },
+    {
+      "id": "8",
+      "url": "https://apteka24.ua/blog/zhenskoe-zdorove/",
+      "title": "Женское здоровье"
+    },
+    {
+      "id": "9",
+      "url": "https://apteka24.ua/blog/zdorove-semi/",
+      "title": "Здоровье семьи"
+    },
+    {
+      "id": "10",
+      "url": "https://apteka24.ua/blog/interesnye-fakty/",
+      "title": "Интересные факты"
+    },
+    {
+      "id": "11",
+      "url": "https://apteka24.ua/blog/internet-apteka/",
+      "title": "Интернет Аптека 24"
+    },
+    {
+      "id": "12",
+      "url": "https://apteka24.ua/blog/kardiologiya/",
+      "title": "Кардиология"
+    },
+    {
+      "id": "13",
+      "url": "https://apteka24.ua/blog/kosmetologiya/",
+      "title": "Косметология"
+    },
+    {
+      "id": "14",
+      "url": "https://apteka24.ua/blog/lor/",
+      "title": "ЛОР"
+    },
+    {
+      "id": "15",
+      "url": "https://apteka24.ua/blog/nevrologiya/",
+      "title": "Неврология"
+    },
+    {
+      "id": "16",
+      "url": "https://apteka24.ua/blog/news/",
+      "title": "Новости"
+    },
+    {
+      "id": "17",
+      "url": "https://apteka24.ua/blog/onkologiya/",
+      "title": "Онкология"
+    },
+    {
+      "id": "18",
+      "url": "https://apteka24.ua/blog/ortopediya/",
+      "title": "Ортопедия"
+    },
+    {
+      "id": "19",
+      "url": "https://apteka24.ua/blog/oftalmologiya/",
+      "title": "Офтальмология"
+    },
+    {
+      "id": "20",
+      "url": "https://apteka24.ua/blog/pediatriya/",
+      "title": "Педиатрия"
+    },
+    {
+      "id": "21",
+      "url": "https://apteka24.ua/blog/pitanie-i-diety/",
+      "title": "Питание и диеты"
+    },
+    {
+      "id": "22",
+      "url": "https://apteka24.ua/blog/proktologiya/",
+      "title": "Проктология"
+    },
+    {
+      "id": "23",
+      "url": "https://apteka24.ua/blog/prostuda/",
+      "title": "Простуда"
+    },
+    {
+      "id": "24",
+      "url": "https://apteka24.ua/blog/psikhologiya/",
+      "title": "Психология"
+    },
+    {
+      "id": "25",
+      "url": "https://apteka24.ua/blog/pulmonologiya/",
+      "title": "Пульмонология"
+    },
+    {
+      "id": "26",
+      "url": "https://apteka24.ua/blog/simptomy-i-zabolevaniya/",
+      "title": "Симптомы и заболевания"
+    },
+    {
+      "id": "27",
+      "url": "https://apteka24.ua/blog/stomatologiya/",
+      "title": "Стоматология"
+    },
+    {
+      "id": "28",
+      "url": "https://apteka24.ua/blog/tovary-i-uslugi/",
+      "title": "Товары и услуги"
+    },
+    {
+      "id": "29",
+      "url": "https://apteka24.ua/blog/urologiya/",
+      "title": "Урология"
+    },
+    {
+      "id": "30",
+      "url": "https://apteka24.ua/blog/khirurgiya/",
+      "title": "Хирургия"
+    },
+    {
+      "id": "31",
+      "url": "https://apteka24.ua/blog/endokrinologiya/",
+      "title": "Эндокринология"
+    }
+  ]
+}

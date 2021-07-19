@@ -1,0 +1,50 @@
+.other-contacts {
+  margin-bottom: -16px;
+  float: left;
+  width: 57%;
+
+  .other-contacts__items {
+    list-style-type: none;
+  }
+
+  .other-contacts__item {
+    border: 1px solid $borderColorBase;
+    width: 48.5%;
+    padding: 24px;
+
+    .item__title {
+      font-weight: 500;
+      font-size: 16px;
+      color: $colorBlack;
+      margin-bottom: 18px;
+    }
+
+    .item__phone,
+    .item__email {
+      position: relative;
+      padding: 0 0 0 30px;
+      display: block;
+      width: fit-content;
+
+      .icon {
+        position: absolute;
+        left: 0;
+        top: 0;
+        font-size: 24px;
+        color: $colorGray;
+      }
+    }
+
+    .item__phone {
+      margin-bottom: 11px;
+    }
+  }
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@import "mediaQueries.scss";

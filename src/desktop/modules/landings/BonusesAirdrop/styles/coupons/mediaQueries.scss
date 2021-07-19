@@ -1,0 +1,93 @@
+.coupons {
+  @include md {
+    .coupons__header {
+      margin-bottom: 60px;
+
+      .coupons__description {
+        p {
+          font-size: 20px;
+        }
+
+        p + p {
+          margin-top: 0;
+        }
+      }
+    }
+
+    .coupons__body {
+      margin: 0 0 70px 0;
+
+      .coupons__items {
+        margin: -12px;
+
+        .item {
+          width: calc(33.3% - 24px);
+          margin: 12px;
+          padding: 28px 0;
+
+          .item__preview {
+            width: 92px;
+          }
+
+          .item__money {
+            .money__value {
+              font-size: 30px;
+              margin-bottom: 10px;
+            }
+
+            .money__text {
+              font-size: 18px;
+            }
+          }
+
+          .item__divider {
+            margin: 28px 20px 28px 20px;
+          }
+
+          .item__coupon-description {
+            font-size: 24px;
+            text-transform: lowercase;
+          }
+        }
+      }
+    }
+
+    .coupons__footer {
+      .coupons__shopping {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  @include lg {
+    background: $blueRedGradient;
+
+    .coupons__body {
+      .coupons__items {
+        .item {
+          width: calc(20% - 24px);
+        }
+      }
+    }
+  }
+
+  @include xl {
+    .coupons__body {
+      .coupons__items {
+        .item {
+          .item__money {
+            .money__value {
+              font-size: 34px;
+              margin-bottom: 10px;
+            }
+
+            .money__text {
+              font-size: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+

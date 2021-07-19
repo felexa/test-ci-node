@@ -1,0 +1,101 @@
+.section {
+  background-color: $bodyBackgroundBase;
+  padding: 40px 0;
+
+  .section__title {
+    margin: 0 0 24px 0;
+    font-size: 28px;
+    font-weight: 500;
+    text-align: center;
+    color: $colorBlack;
+  }
+
+  .section__body {
+    .section__items {
+      .item {
+        max-width: 345px;
+        margin: 0 auto;
+        padding: 24px 16px 32px 16px;
+        border-radius: 16px;
+        background: $colorWhite;
+
+        & + .item {
+          margin-top: 24px;
+        }
+      }
+
+      .item__title {
+        margin: 0 0 16px 0;
+        font-size: 28px !important;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+        background: $greenGradient;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+      .item__subtitle {
+        margin: 0 0 24px 0;
+        font-size: 22px;
+        font-weight: 500;
+        text-align: center;
+        color: $colorWhite;
+      }
+
+      .item__preview {
+        position: relative;
+        max-width: 212px;
+        margin: 0 auto 24px auto;
+        text-align: center;
+
+        .preview__sticker {
+          position: absolute;
+          top: -7px;
+          right: -14px;
+          padding: 14px;
+          border-radius: 50%;
+          font-size: 14px;
+          font-weight: 700;
+          color: $colorWhite;
+          background-color: $colorRed;
+        }
+
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+
+      .item__features {
+        color: $colorBlack;
+        margin-bottom: 32px;
+
+        .features__item + .features__item {
+          margin-top: 24px;
+        }
+
+        .features__icon {
+          width: 50px;
+          height: 50px;
+        }
+
+        .features__description {
+          margin-left: 14px;
+          font-size: 16px;
+        }
+      }
+
+      .item__buy {
+        a {
+          display: block;
+          padding: 15px 14px;
+          border: none;
+          background-color: $colorPurple;
+        }
+      }
+    }
+  }
+}
+
+@import "mediaQueries";

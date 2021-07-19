@@ -1,0 +1,38 @@
+&.fullscreen {
+  @media screen and (max-width: $maxLGResolution) {
+    .gallery__modal {
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      flex-wrap: wrap;
+      overflow: auto;
+      padding: 52px 16px 16px 16px;
+      border-radius: 0;
+    }
+
+    .gallery__body,
+    .gallery__footer {
+      width: 100%;
+    }
+
+    .gallery__body {
+      height: calc(100% - #{$thumbnailSize} - 2px);
+    }
+
+    .gallery__footer {
+      height: calc(#{$thumbnailSize} + #{$thumbnailsGap} + 2px);
+      overflow: auto;
+      padding-bottom: $thumbnailsGap;
+      margin-bottom: -$thumbnailsGap;
+    }
+
+    .thumbnails {
+      margin-top: 0;
+    }
+
+    .thumbnails__items {
+      flex-wrap: nowrap;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.categories {
+  @import "category/main";
+
+  .categories__title {
+    font-size: 24px;
+  }
+
+  .categories__items {
+    margin: -4px;
+  }
+
+  .categories__item {
+    width: 50%;
+    padding: 4px;
+  }
+}
+
+@import "mediaQueries";
+

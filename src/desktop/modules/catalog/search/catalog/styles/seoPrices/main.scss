@@ -1,0 +1,114 @@
+@import "./src/styles/variables/main";
+@import "./src/styles/mixin/main";
+
+.seo-prices {
+  h2 {
+    font-size: 24px;
+    line-height: 23px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: $colorBlack;
+  }
+
+  .seo-prices__body {
+    padding: 18px 12px 0 12px;
+
+    table {
+      width: 100%;
+
+      thead {
+        tr {
+          border-bottom-width: 1px;
+
+          th {
+            vertical-align: top;
+            padding: 0 16px 16px 0;
+            text-align: left;
+            color: $colorGray;
+            text-transform: uppercase;
+            font-size: 14px;
+            line-height: 16px;
+            font-weight: 400;
+
+            &:nth-child(even) {
+              text-align: right;
+              padding: 0 0 16px 0;
+            }
+          }
+        }
+      }
+
+      tbody {
+        tr {
+          td {
+            vertical-align: middle;
+            padding: 18px 18px 18px 0;
+            font-size: 16px;
+            line-height: 22px;
+
+            &:nth-child(even) {
+              text-align: right;
+              padding: 18px 0 18px 18px;
+            }
+          }
+
+          td:first-child {
+            width: 80%;
+          }
+        }
+      }
+    }
+
+    .price {
+      font-size: 16px;
+      line-height: 19px;
+      font-weight: 400;
+
+      .price__currency {
+        font-size: 100%;
+      }
+    }
+  }
+}
+
+@include md {
+  .seo-prices {
+    h2 {
+      font-size: 28px;
+      font-weight: 500;
+      line-height: 28px;
+    }
+    .seo-prices__body {
+      padding: 24px 24px 0 24px;
+
+      table {
+        thead {
+          tr {
+            th:nth-child(even) {
+              text-align: left;
+            }
+          }
+        }
+
+        tbody {
+          tr {
+            td {
+              padding: 24px 24px 24px 0;
+              font-size: 18px;
+              line-height: 21px;
+
+              &:nth-child(even) {
+                text-align: left;
+                padding: 24px 24px 24px 0;
+              }
+            }
+          }
+        }
+
+        .price {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.faq-answer {
+  @media screen and (max-width: $maxLGResolution) {
+    .faq-answer__title {
+      font-size: 24px;
+    }
+
+    .answer__author {
+      margin-bottom: 16px;
+    }
+
+    .answer__source-links {
+      margin-top: 32px;
+    }
+
+    .related-questions__title {
+      font-size: 24px;
+      margin-bottom: 16px;
+    }
+  }
+
+  @media screen and (max-width: $maxXSResolution) {
+    .redactor__author {
+      width: 100%;
+    }
+
+    .answer {
+      padding: 16px;
+    }
+
+    .answer__related-questions {
+      margin-top: 32px;
+    }
+
+    .related-questions__title {
+      margin-bottom: 12px;
+    }
+  }
+}

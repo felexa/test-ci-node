@@ -1,0 +1,152 @@
+@import "./src/desktop/components/title/styles/main";
+
+.about {
+  padding: 24px 16px;
+  margin-left: 5px;
+  margin-right: 5px;
+
+  .title {
+    margin-bottom: 16px;
+
+    .title-heading {
+      font-weight: 500;
+      font-size: 20px;
+      margin-bottom: 0;
+    }
+  }
+
+  .about__body {
+    color: $colorBlack;
+    font-size: 14px;
+    line-height: 1.5;
+    position: relative;
+    border-top: 1px solid transparent;     // TODO fix for collapsed state
+    border-bottom: 1px solid transparent;  // TODO fix for collapsed state
+
+    h2 {
+      color: $colorBlack;
+      font-size: 18px;
+      font-weight: 500;
+    }
+
+    &.about__body--collapsed {
+      height: 350px;
+      overflow: hidden;
+
+      @include white-gradient(40px, 0);
+    }
+
+    .features-list {
+      list-style: none;
+      margin: 0;
+      padding: 0 0 0 34px;
+
+      li {
+        position: relative;
+
+        margin-bottom: 14px;
+        min-height: 34px;
+
+
+        .icon {
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          position: absolute;
+          margin-left: -34px;
+          width: 22px;
+          height: 22px;
+          margin-top: 0;
+          border: 1px solid $colorPink;
+          border-radius: 50%;
+          color: $colorPink;
+          font-size: 18px;
+        }
+
+        span {
+          display: inline-block;
+          //margin-left: 12px;
+        }
+
+      }
+    }
+
+    .list-dotted {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+
+      li {
+        position: relative;
+        margin-left: 20px;
+        margin-bottom: 16px;
+
+        &::before {
+          content: "";
+          display: block;
+          position: absolute;
+          top: 6px;
+          left: -16px;
+          width: 8px;
+          height: 8px;
+          border-radius: 50%;
+          background: #f36;
+        }
+      }
+    }
+
+    .cities {
+      width: 100%;
+      padding: 32px;
+      background-color: $bodyBackgroundBase;
+      display: flex;
+      flex-wrap: wrap;
+
+      ul {
+        flex: 1;
+        min-width: 200px;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        a {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  .show-more {
+    color: $colorBlue;
+
+    &:hover {
+      color: $colorPink;
+      cursor: pointer;
+    }
+  }
+
+  .content-controls {
+    span {
+      color: $colorBlue;
+
+      &:hover {
+        color: $colorPink;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@include lg {
+  .about {
+    padding: 32px 24px;
+
+    .title {
+      margin-bottom: 24px;
+
+      .title-heading {
+        font-size: 28px;
+      }
+    }
+  }
+}

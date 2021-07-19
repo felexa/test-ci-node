@@ -1,0 +1,13 @@
+.gallery {
+  @media screen and (max-width: $maxLGResolution) {
+    .gallery__modal {
+      height: 300px;
+    }
+  }
+
+  @media screen and (max-width: $maxXSResolution) {
+    .gallery__modal {
+      height: 235px;
+    }
+  }
+}

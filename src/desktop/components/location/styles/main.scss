@@ -1,0 +1,116 @@
+@import "./src/styles/variables/main";
+
+.leaflet-container {
+  height: 450px;
+  width: 100%;
+  border-radius: 16px;
+
+  .leaflet-pane {
+    z-index: 3 !important;
+  }
+
+  .leaflet-popup-close-button {
+    display: none;
+  }
+
+  .leaflet-div-icon {
+    border: none;
+    background-color: transparent;
+  }
+  .leaflet-popup-content {
+    margin: 16px;
+    font-family: $fontFamilySans;
+
+    .leaflet-popup-item {
+      margin: 14px 0;
+      font-size: $fontSizeBase;
+      line-height: 24px;
+
+      &.leaflet-popup-item--name {
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+
+        a {
+          color: $colorBlue;
+        }
+
+        a:hover {
+          color: $colorPink;
+        }
+      }
+
+      &.leaflet-popup-item--workTime {
+        width: 130px;
+        color: $colorGray;
+      }
+
+      &.leaflet-popup-item--phone {
+        width: 130px;
+      }
+    }
+  }
+}
+
+.marker-cluster {
+  $colorMarkerShadow: rgba(255, 51, 102, 0.1);
+
+  background: $colorPink;
+  border: 2px solid $colorWhite;
+  border-radius: 50%;
+  color: $colorWhite;
+  font-weight: 600;
+  font-size: $fontSizeSmall;
+  height: 25px;
+  width: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 0 7px $colorMarkerShadow;
+}
+
+.location-unit {
+  .location-unit__legend {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    color: $colorBlack;
+
+    .location-unit__legend-item {
+      display: flex;
+      align-items: center;
+      margin-top: 16px;
+      margin-left: 10px;
+      font-size: 16px;
+    }
+
+    .marker-cluster--legend {
+      $colorMarkerShadow: rgba(255, 51, 102, 0.1);
+
+      height: 22px;
+      width: 22px;
+      font-size: 10px;
+      box-shadow: 0 0 0 5px $colorMarkerShadow;
+      margin-left: 3px;
+    }
+  }
+}
+
+@include md {
+  .leaflet-container {
+    height: 620px;
+  }
+
+  .location-unit {
+    .location-unit__legend {
+      margin-left: 40px;
+      flex-direction: row;
+      justify-content: flex-end;
+
+      .location-unit__legend-item {
+        margin-top: 0 ;
+        margin-left: 35px;
+      }
+    }
+  }
+}

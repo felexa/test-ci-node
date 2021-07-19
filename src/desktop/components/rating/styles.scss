@@ -1,0 +1,39 @@
+@import "./src/styles/variables/main";
+@import "./src/styles/mixin/main";
+
+.rating {
+  white-space: nowrap;
+
+  & > span {
+    position: relative;
+  }
+
+  span {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+  }
+
+  .icon-star {
+    display: inline-block;
+    font-size: 24px;
+  }
+
+  .icon-star--active {
+    color: $colorYellow;
+  }
+
+  .icon-star--empty {
+    color: $colorGray1;
+    opacity: 0.3;
+  }
+}
+
+@include before-sm {
+  .rating {
+    .icon-star {
+      font-size: 18px;
+    }
+  }
+}
+

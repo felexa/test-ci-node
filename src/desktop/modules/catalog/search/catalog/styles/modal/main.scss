@@ -1,0 +1,44 @@
+.modal-informer {
+  padding: 16px;
+
+  .title {
+    font-size: 16px;
+    margin-bottom: 14px;
+  }
+
+  .modal__body {
+    padding-top: 16px;
+  }
+
+  img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .informed {
+    text-transform: uppercase;
+    padding: 8px 16px;
+  }
+
+  .modal__close {
+    z-index: 5;
+    background-color: #394556;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    color: $colorWhite;
+    font-size: 20px;
+  }
+
+  .modal__header {
+    padding: 0;
+  }
+}

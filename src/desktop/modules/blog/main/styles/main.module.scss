@@ -1,0 +1,36 @@
+@import "./src/styles/variables/main";
+@import "./src/styles/mixin/main";
+
+@import "./src/desktop/modules/blog/components/article/styles/main";
+@import "./src/desktop/modules/blog/components/articles/styles/main";
+@import "./src/desktop/modules/blog/components/mailing/styles/main";
+
+@import "./src/desktop/components/pagination/styles/main";
+
+.blog {
+  @import "./categories/main";
+
+  h1 {
+    color: $colorBlack;
+    font-size: 36px;
+    margin: 24px 0 16px;
+  }
+
+  .blog-section:not(:last-child) {
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid lighten($colorGray, 60%);
+  }
+
+  .blog__content {
+    padding: 40px;
+  }
+
+  .blog__pagination {
+    .pagination {
+      margin-top: 40px;
+    }
+  }
+}
+
+@import "mediaQueries";

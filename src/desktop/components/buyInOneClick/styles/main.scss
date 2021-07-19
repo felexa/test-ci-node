@@ -1,0 +1,18 @@
+@import "./src/styles/variables/colors";
+@import "./src/styles/variables/fonts";
+
+.buy-in-one-click {
+    .form-control {
+        font-size: $fontSizeMedium;
+    }
+}
+
+.buy-in-one-click.loading {
+    &:before {
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    &:after {
+        top: calc(40% - (60px / 2));
+    }
+}

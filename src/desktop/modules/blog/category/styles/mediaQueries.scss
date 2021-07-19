@@ -1,0 +1,51 @@
+@include before-xl {
+  .category {
+    .category__content {
+      padding: 32px 24px;
+    }
+  }
+}
+
+@include before-lg {
+  .category {
+    h1 {
+      font-size: 28px;
+    }
+
+    .category__content {
+      padding: 24px;
+    }
+
+    .category__filter {
+      margin-bottom: 24px;
+    }
+  }
+}
+
+@include before-md {
+  .category {
+    margin-bottom: -28px;
+
+    h1 {
+      font-size: 24px;
+      margin-left: 12px;
+      margin-bottom: 0;
+    }
+
+    .category__content {
+      padding: 0;
+      background: transparent;
+      box-shadow: none;
+    }
+
+    .category__pagination {
+      .pagination {
+        margin-top: 24px;
+      }
+    }
+
+    .category__filter {
+      margin-bottom: 16px;
+    }
+  }
+}

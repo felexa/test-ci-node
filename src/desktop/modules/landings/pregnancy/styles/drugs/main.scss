@@ -1,0 +1,7 @@
+.drugs {
+  .drugs__items {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+@import "mediaQueries";

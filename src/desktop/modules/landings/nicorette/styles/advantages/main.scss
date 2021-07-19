@@ -1,0 +1,79 @@
+.advantages {
+  background: $colorWhite;
+  color: $colorBlack;
+
+  .advantages__title {
+    color: $colorBlack;
+    font-weight: 500;
+    font-size: 28px;
+    margin: 0;
+
+    &:not(:empty) {
+      margin-bottom: 24px;
+    }
+  }
+
+  .advantages__item {
+    position: relative;
+    padding-left: 60px;
+    font-size: 18px;
+    line-height: 1.5;
+
+    & + .advantages__item {
+      margin-top: 32px;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translate(0, -50%);
+      width: 50px;
+      height: 42px;
+      background: url(build-image-url("/landings/nicorette/icons/icon-candy.png"));
+      background-size: contain;
+    }
+  }
+}
+
+.advantages {
+  @include md {
+    .advantages__title {
+      max-width: 470px;
+      font-size: 38px;
+      line-height: 1.2;
+    }
+
+    .advantages__items {
+      max-width: 500px;
+      margin-left: auto;
+    }
+
+    .advantages__item {
+      font-size: 16px;
+
+      & + .advantages__item {
+        margin-top: 40px;
+      }
+    }
+  }
+
+  @include lg {
+    .advantages__title {
+      font-size: 56px;
+    }
+
+    .advantages__item {
+      font-size: 22px;
+    }
+  }
+
+  @include xl {
+    &.section {
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+  }
+}
+

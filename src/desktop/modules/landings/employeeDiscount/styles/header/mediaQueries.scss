@@ -1,0 +1,46 @@
+.employee-discount__header {
+  @media screen and (max-width: $maxMDResolution) {
+    .header__description {
+      margin-bottom: 10px;
+    }
+
+    .timer {
+      margin: 0;
+    }
+  }
+
+  @media screen and (max-width: $maxXSResolution) {
+    .header__description {
+      p {
+        font-size: 14px;
+
+        &:first-child {
+          font-size: 20px;
+          line-height: 130%;
+        }
+
+        & + p {
+          margin-top: 12px;
+        }
+      }
+    }
+
+    .timer {
+      width: 255px;
+
+      .timer__days,
+      .timer__hours,
+      .timer__minutes,
+      .timer__seconds {
+        font-size: 30px;
+        width: 46px;
+        line-height: 1.3;
+
+        & > span {
+          font-size: 14px;
+          font-weight: normal;
+        }
+      }
+    }
+  }
+}

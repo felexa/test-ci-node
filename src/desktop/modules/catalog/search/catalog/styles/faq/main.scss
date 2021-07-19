@@ -1,0 +1,75 @@
+@import "./src/desktop/components/faq/styles";
+@import "./src/desktop/components/faq/type/product/styles/main";
+
+.faq {
+  .faq__title {
+    font-size: 24px !important;
+    line-height: 23px;
+    font-weight: 400;
+    margin: 0 0 20px 0 !important;
+  }
+
+  .accordion {
+    margin: 0;
+    display: block;
+
+    .panel {
+      box-shadow: none;
+      padding: 0;
+      margin: 0 12px;
+
+      .panel__header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .panel__title {
+          margin-right: 16px;
+        }
+
+        .icon {
+          font-size: 32px;
+          margin-right: -5px;
+        }
+      }
+
+      &.panel--active {
+        .panel__header {
+          .panel__title {
+            color: $colorBlack;
+          }
+        }
+      }
+    }
+  }
+}
+
+@include md {
+  .faq {
+    .faq__title {
+      font-size: 28px !important;
+      font-weight: 500;
+      line-height: 28px;
+    }
+    .accordion {
+      .panel {
+        padding: 0;
+        margin: 0 24px;
+
+        &.panel--active {
+          .panel__header {
+            .panel__title:hover {
+              color: $colorPink;
+            }
+          }
+        }
+
+        .panel__header {
+          .icon {
+            font-size: 32px;
+          }
+        }
+      }
+    }
+  }
+}

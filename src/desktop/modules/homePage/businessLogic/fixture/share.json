@@ -1,0 +1,46 @@
+[
+    {
+        "title": "-20% на Тизин Ксило та Візин!",
+        "description": "До 22 июня",
+        "preview": {
+            "src": {
+                "medium": "https://www.apteka24.ua/upload/iblock/b15/b15def528799aa37a9f27a456536afb0.png"
+            }
+        },
+        "url": "https://www.apteka24.ua/promo/20-na-tizin-ksilo-ta-vizin/",
+        "id": "1"
+    },
+    {
+        "title": "-20% на продукцию Johnson&Johnson",
+        "description": "До 22 июня",
+        "preview": {
+            "src": {
+                "medium": "https://www.apteka24.ua/upload/iblock/810/81065e8684e3385eae1d19b40b3d0020.png"
+            }
+        },
+        "url": "https://www.apteka24.ua/promo/aktsiya-johnson-johnson/",
+        "id": "2"
+    },
+    {
+        "title": "-20% Никоретте",
+        "description": "До 22 июня",
+        "preview": {
+            "src": {
+                "medium": "https://www.apteka24.ua/upload/iblock/fd2/fd26b1e2ddb500b1dd3e515a32bdad82.jpg"
+            }
+        },
+        "url": "https://www.apteka24.ua/promo/ti-gotova-nikorette/",
+        "id": "3"
+    },
+    {
+        "title": "Аптечка от простуды",
+        "description": "До 22 июня",
+        "preview": {
+            "src": {
+                "medium": "https://www.apteka24.ua/upload/iblock/f06/f061916af69b1e815e3d847d9f4bb40a.png"
+            }
+        },
+        "url": "https://www.apteka24.ua/promo/aptechka-ot-prostudy/",
+        "id": "4"
+    }
+]

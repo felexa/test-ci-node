@@ -1,0 +1,116 @@
+.coupons {
+  background: $redBlueGradient;
+
+  .coupons__header {
+    margin-bottom: 40px;
+
+    .coupons__description {
+      p {
+        color: $colorBlack;
+        text-align: center;
+        font-size: 18px;
+        line-height: 1.5;
+      }
+
+      p + p {
+        margin-top: 1em;
+      }
+    }
+  }
+
+  .coupons__body {
+    margin: 0 -3px 60px -3px;
+
+    .coupons__items {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: -4px;
+      padding: 0;
+      list-style: none;
+      color: $colorWhite;
+      text-align: center;
+
+      .item {
+        width: calc(50% - 8px);
+        margin: 4px;
+        padding: 20px 0;
+        border-radius: 16px;
+        background: $purpleGradient;
+
+        &:nth-child(1) {
+          background: $blueGradient;
+        }
+
+        &:nth-child(2) {
+          background: $purpleGradient;
+        }
+
+        &:nth-child(3) {
+          background: $lightBlueGradient;
+        }
+
+        &:nth-child(4) {
+          background: $greenGradient;
+        }
+
+        &:nth-child(5) {
+          background: $redGradient;
+        }
+
+        .item__preview {
+          width: 70px;
+          height: auto;
+          margin-bottom: 16px;
+        }
+
+        .item__money {
+          .money__value {
+            display: block;
+            margin: 0 auto;
+            font-size: 28px;
+            font-weight: 900;
+          }
+
+          .money__text {
+            font-size: 13px;
+            text-transform: uppercase;
+          }
+        }
+
+        .item__divider {
+          margin: 16px 8px 16px 8px;
+          height: 2px;
+          background-color: $colorWhite;
+          opacity: .2;
+        }
+
+        .item__coupon-description {
+          font-size: 18px;
+          text-transform: lowercase;
+        }
+      }
+    }
+  }
+
+  .coupons__footer {
+    .coupons__shopping {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+      width: 220px;
+      height: 60px;
+      text-transform: uppercase;
+      box-shadow: 5px 10px 20px 0px rgba(255, 51, 102, 0.3);
+    }
+
+    .coupons__action-conditions {
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+@import "mediaQueries";

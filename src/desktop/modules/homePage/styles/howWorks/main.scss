@@ -1,0 +1,35 @@
+.how-works {
+  width: 100%;
+  margin-bottom: 60px;
+
+  .title-heading {
+    .icon {
+      font-size: 26px;
+    }
+  }
+
+  .how-works__items {
+    padding: 24px;
+    background-color: $colorWhite;
+
+    .item {
+      max-width: 300px;
+
+      & + .item {
+        margin-left: 16px;
+      }
+    }
+
+    .item__title {
+      font-size: 18px;
+    }
+
+    .item__description {
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+}
+
+@import "mediaQueries";
+

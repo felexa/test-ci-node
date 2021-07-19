@@ -1,0 +1,132 @@
+.delivery {
+  position: relative;
+  width: 100%;
+  color: $colorBlack;
+
+  .delivery__header {
+    padding: 16px;
+    border: 1px solid $borderColorBase;
+    font-size: 16px;
+    @include border-top-radius(10px);
+  }
+
+  .delivery__body {
+    min-height: 140px;
+    border: 1px solid $borderColorBase;
+    border-top: none;
+    @include border-bottom-radius(10px);
+  }
+
+  .delivery__thead {
+    display: none;
+
+    .delivery__thead-item{
+      padding-left: 10px;
+    }
+  }
+
+
+  .delivery__form-price,
+  .delivery__up-to-price{
+    margin-right: 28px;
+    min-width: 108px;
+  }
+
+
+  .delivery__to-location {
+    margin: 0 0 0 5px;
+    cursor: pointer;
+    color: $linkColor;
+
+    &:hover {
+      color: $colorPink;
+    }
+
+    .icon {
+      font-size: $fontSizeLarge;
+      color: $colorGray;
+    }
+  }
+
+  .autocomplete {
+    position: absolute;
+    z-index: 100;
+    top: 52px;
+    left: 1px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+
+    td {
+      padding: 18px 0;
+      vertical-align: top;
+    }
+
+    tr {
+      border-bottom: 1px solid $borderColorBase;
+
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+  }
+
+  .delivery__logo {
+    transform: translateY(-3px);
+    width: 24px;
+    padding-right: 12px;
+    padding-left: 18px;
+
+    img {
+      vertical-align: middle;
+    }
+  }
+
+  .delivery__description {
+    padding-right: 18px;
+  }
+
+  .delivery-price-value {
+    min-width: 100px;
+    padding-left: 10px;
+    text-transform: lowercase;
+  }
+
+  .icon-info {
+    font-size: 20px;
+    color: #909AAA;
+    cursor: pointer;
+  }
+}
+
+@include lg {
+  .delivery {
+    .delivery__body {
+      padding: 12px 16px;
+    }
+
+    .delivery__thead {
+      display: table-header-group;
+    }
+
+    .delivery__logo {
+      padding-left: 0px;
+    }
+
+    .delivery__description {
+      padding-right: 0px;
+    }
+
+    table {
+      td {
+        padding: 8px 0;
+      }
+
+      tr {
+        border-bottom: none;
+      }
+    }
+  }
+}

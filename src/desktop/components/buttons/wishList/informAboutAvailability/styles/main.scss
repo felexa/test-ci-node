@@ -1,0 +1,15 @@
+@import "./src/styles/variables/colors";
+@import "./src/styles/variables/fonts";
+
+.inform-about-availability {
+  text-transform: uppercase;
+
+  &.inform-about-availability--active {
+    text-transform: initial;
+
+    .icon {
+      font-size: 23px;
+      font-weight: 400;
+    }
+  }
+}

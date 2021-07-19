@@ -1,0 +1,21 @@
+.articles {
+  .articles__header h2{
+    margin-bottom: 24px;
+    margin-top: 0;
+    font-size: 28px;
+    color: $colorBlack;
+  }
+
+  .articles__items {
+    display: flex;
+    margin: -12px;
+  }
+
+  .articles__item {
+    width: 33.3%;
+    padding: 12px;
+  }
+}
+
+@import "mediaQueries";
+

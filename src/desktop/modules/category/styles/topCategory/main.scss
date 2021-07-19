@@ -1,0 +1,40 @@
+.top-category {
+  margin-bottom: 40px;
+
+  .top-category__items {
+    display: grid;
+    grid-column-gap: 12px;
+    grid-row-gap: 12px;
+    grid-auto-flow: column;
+    width: 100%;
+  }
+
+  .top-category__item {
+    min-width: 270px;
+  }
+
+  .top-category__preview {
+    margin: auto;
+    max-width: 300px;
+    height: 200px;
+
+    img {
+      max-height: 100%;
+      max-width: 100%;
+    }
+  }
+
+  .top-category__name {
+    padding: 8px 16px;
+    font-size: 16px;
+    min-height: 58px;
+    flex: 1 0 auto;
+  }
+
+  .icon {
+    margin-left: 8px;
+    font-size: 22px;
+  }
+}
+
+@import "mediaQueries";

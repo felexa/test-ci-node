@@ -1,0 +1,7 @@
+.recommendations {
+  @media screen and (max-width: $maxXSResolution) {
+    .recommendations__items {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+}

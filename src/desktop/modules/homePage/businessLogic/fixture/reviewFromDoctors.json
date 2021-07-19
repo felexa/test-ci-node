@@ -1,0 +1,291 @@
+[
+  {
+    "id": 9,
+    "author": {
+      "name": "Валентина",
+      "lastName": "Дьякова",
+      "middleName": "Николаевна",
+      "avatar": {
+        "src": {
+          "original": "https://i.apteka24.ua/doctors/diakova-valentyna.png"
+        },
+        "size": {
+          "original": {
+            "width": 110,
+            "height": 110
+          }
+        },
+        "alt": "",
+        "title": ""
+      },
+      "qualifications": [
+        {
+          "specialty": "Онкогинеколог",
+          "qualification": "",
+          "rank": ""
+        }
+      ],
+      "workExperience": [],
+      "url": "https://www.apteka24.ua/team/diakova-balentina-nikolaevna/"
+    },
+    "text": "Вижу особую ценность данной аптеки в том, что она не просто продает лекарства, но и помогает людям разобраться в заболеваниях и действии препаратов. Это может помочь снизить количество ошибок при самолечении и подтолкнет человека уже на начальных этапах обратиться к врачу."
+  },
+  {
+    "id": 8,
+    "author": {
+      "name": "Юлия",
+      "lastName": "Примак",
+      "middleName": "Викторовна",
+      "avatar": {
+        "src": {
+          "original": "https://i.apteka24.ua/doctors/Tereshchenko-Taisiya.png"
+        },
+        "size": {
+          "original": {
+            "width": 110,
+            "height": 110
+          }
+        },
+        "alt": "",
+        "title": ""
+      },
+      "qualifications": [
+        {
+          "specialty": "Дерматовенеролог, дерматоонколог",
+          "qualification": "",
+          "rank": ""
+        }
+      ],
+      "workExperience": [],
+      "url": "https://www.apteka24.ua/team/primak-yulia-viktorovna/"
+    },
+    "text": "Для меня, как для врача, особенно ценно, что в Аптеке 24 термолабильные препараты продают с соблюдением холодовой цепи. Лекарство, которое нуждается в холоде, можно купить либо непосредственно в аптеке, либо курьером, который привозит препарат обязательно в термобоксе. Это дает уверенность, что я не получу испорченное лекарство. Считаю, что им можно доверять."
+  },
+  {
+    "id": 7,
+    "author": {
+      "name": "Мария",
+      "lastName": "Палеева",
+      "middleName": "Олеговна",
+      "avatar": {
+        "src": {
+          "original": "https://i.apteka24.ua/pharmacist/Frame+1715.png"
+        },
+        "size": {
+          "original": {
+            "width": 110,
+            "height": 110
+          }
+        },
+        "alt": "",
+        "title": ""
+      },
+      "qualifications": [
+        {
+          "specialty": "Магистр психологии",
+          "qualification": "",
+          "rank": ""
+        }
+      ],
+      "workExperience": [],
+      "url": "https://www.apteka24.ua/team/paleeva-maria-olegovna/"
+    },
+    "text": "Аптека24 пришла мне на помощь тогда, когда достать лекарства было невозможно. На отдыхе в деревне у меня началась сильная аллергия. Купить лекарства было негде. А эти ребята доставили антигистаминные даже в такую глушь."
+  },
+  {
+    "id": 6,
+    "author": {
+      "name": "Таисия",
+      "lastName": "Терещенко",
+      "middleName": "Валериевна",
+      "avatar": {
+        "src": {
+          "original": "https://i.apteka24.ua/doctors/Frame+1694.png"
+        },
+        "size": {
+          "original": {
+            "width": 110,
+            "height": 110
+          }
+        },
+        "alt": "",
+        "title": ""
+      },
+      "qualifications": [
+        {
+          "specialty": "Стоматолог-ортопед",
+          "qualification": "",
+          "rank": "Врач высшей категории"
+        }
+      ],
+      "workExperience": [],
+      "url": "https://www.apteka24.ua/team/tereshenko-taisiya-valerievna/"
+    },
+    "text": "На сайте можно найти все, что необходимо для ухода за зубами. Те же зубные нити и интердентальные зубные щетки хорошего качества встречаются далеко не везде. А здесь хороший выбор. Поэтому пациентам своей клиники советую эту аптеку."
+  },
+  {
+    "id": 5,
+    "author": {
+      "name": "Артем",
+      "lastName": "Терещенко",
+      "middleName": "Викторович",
+      "avatar": {
+        "src": {
+          "original": "https://i.apteka24.ua/doctors/Frame+1693.png"
+        },
+        "size": {
+          "original": {
+            "width": 110,
+            "height": 110
+          }
+        },
+        "alt": "",
+        "title": ""
+      },
+      "qualifications": [
+        {
+          "specialty": "Травматолог-ортопед",
+          "qualification": "",
+          "rank": "Врач высшей категории"
+        }
+      ],
+      "workExperience": [],
+      "url": "https://www.apteka24.ua/team/tereshenko-artem-viktorovich/"
+    },
+    "text": "Неплохой выбор ортопедических товаров. Пациенты заказывают курьерской доставкой прямо в стационар или на дом."
+  },
+  {
+    "id": 4,
+    "author": {
+      "name": "Анна",
+      "lastName": "Шапиро",
+      "middleName": "Владимировна",
+      "avatar": {
+        "src": {
+          "original": "https://i.apteka24.ua/doctors/Frame-1620.png"
+        },
+        "size": {
+          "original": {
+            "width": 110,
+            "height": 110
+          }
+        },
+        "alt": "",
+        "title": ""
+      },
+      "qualifications": [
+        {
+          "specialty": "Врач педиатр-неонатолог",
+          "qualification": "",
+          "rank": ""
+        }
+      ],
+      "workExperience": [
+        {
+          "time": "",
+          "description": "Апробация в Städtisches Klinikum Karlsruhe, Германия"
+        }
+      ],
+      "url": "https://www.apteka24.ua/team/shapyro-anna-vladymyrovna/"
+    },
+    "text": "Работаю с малышами, а это всегда огромное количество расходных материалов (пеленки, салфетки, масло и т.д.). И чтобы не заморачиваться отдельно с каждой вещью, заказываю сразу все оптом через Медмаркет. Накладок с заказами не было."
+  },
+  {
+    "id": 3,
+    "author": {
+      "name": "Ксения",
+      "lastName": "Рязанцева",
+      "middleName": "Сергеевна",
+      "avatar": {
+        "src": {
+          "original": "https://i.apteka24.ua/pharmacist/Frame+1620.png"
+        },
+        "size": {
+          "original": {
+            "width": 110,
+            "height": 110
+          }
+        },
+        "alt": "",
+        "title": ""
+      },
+      "qualifications": [
+        {
+          "specialty": "Врач-хирург",
+          "qualification": "",
+          "rank": ""
+        }
+      ],
+      "workExperience": [
+        {
+          "time": "",
+          "description": "КП\"ДОК ЦКК\" ДОР\""
+        }
+      ],
+      "url": "https://www.apteka24.ua/team/riazantseva-ksenyia-serheevna/"
+    },
+    "text": "Для срочных случаев, конечно, не вариант, но для планомерного лечения — самое то. Круто, что вроде и интернет-аптека, но можно получить сертификат на любой препарат. Это определенно внушает доверие."
+  },
+  {
+    "id": 2,
+    "author": {
+      "name": "Анна",
+      "lastName": "Мунтян",
+      "middleName": "Петровна",
+      "avatar": {
+        "src": {
+          "original": "https://i.apteka24.ua/doctors/muntyan-anna-petrivna.jpg"
+        },
+        "size": {
+          "original": {
+            "width": 110,
+            "height": 110
+          }
+        },
+        "alt": "",
+        "title": ""
+      },
+      "qualifications": [
+        {
+          "specialty": "Акушер-гинеколог",
+          "qualification": "",
+          "rank": "Врач второй категории"
+        }
+      ],
+      "workExperience": [],
+      "url": "https://www.apteka24.ua/team/muntian-anna-petrovna/"
+    },
+    "text": "Мне нравится, что Аптека24 дает сертификаты на всю продукцию. Я уверена, что мои пациентки не натолкнутся на подделку. Плюс не все препараты можно найти в ближайшей аптеке, особенно гормональные. А тут эта проблема тоже решается."
+  },
+  {
+    "id": 1,
+    "author": {
+      "name": "Юлия",
+      "lastName": "Овсянникова",
+      "middleName": "Николаевна",
+      "avatar": {
+        "src": {
+          "original": "https://i.apteka24.ua/doctors/ovsannikova-ulia-nikolaevna.jpg"
+        },
+        "size": {
+          "original": {
+            "width": 110,
+            "height": 110
+          }
+        },
+        "alt": "",
+        "title": ""
+      },
+      "qualifications": [
+        {
+          "specialty": "Кардиолог (Детский)",
+          "qualification": "",
+          "rank": "Врач высшей категории"
+        }
+      ],
+      "workExperience": [],
+      "url": "https://www.apteka24.ua/team/ovsiannykova-yulyia-nykolaevna/"
+    },
+    "text": "Довольна и пациентам советую. Слежу за ассортиментом и вижу, что можно найти даже редкие препараты. Можно не бегать по городу в поисках лекарств, а просто заказать доставку домой. Очень удобно, если у пациента постельный режим."
+  }
+]

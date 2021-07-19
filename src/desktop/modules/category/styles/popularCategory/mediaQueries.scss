@@ -1,0 +1,35 @@
+@include sm {
+  .popular-category {
+    .popular-category__preview {
+      height: 150px;
+    }
+  }
+}
+
+@include md {
+  .popular-category {
+    h4 {
+      margin-bottom: 20px;
+    }
+
+    .popular-category__items {
+      grid-column-gap: 18px;
+      grid-row-gap: 18px;
+    }
+    .popular-category__preview {
+      max-width: 300px;
+    }
+    .popular-category__name {
+      font-weight: 500;
+    }
+  }
+
+}
+
+@include lg {
+  .popular-category {
+    .popular-category__items {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+}

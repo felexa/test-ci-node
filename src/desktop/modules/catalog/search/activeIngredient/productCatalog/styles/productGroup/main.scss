@@ -1,0 +1,51 @@
+.product-group--analogs {
+    .product-group {
+        margin: 0 4px 8px;
+        border: 1px solid rgba(136, 143, 154, 0.16);
+        width: calc(50% - 8px);
+
+        .product-group__not_available {
+            font-size: 14px;
+            color: $colorGray;
+        }
+    }
+}
+
+@include sm {
+    .product-group--analogs {
+        .product-group {
+            margin: 0 4px 8px;
+            width: calc(33.3% - 8px);
+        }
+    }
+}
+
+@include md {
+    .product-group--analogs {
+        .product-group {
+            margin: 0 4px 8px;
+            width: calc(33.3% - 8px);
+
+            .product-group__not_available {
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+@include lg {
+    .product-group--analogs {
+        .product-group {
+            margin: 0 8px 16px;
+            width: calc(24.12% - 8px);
+        }
+    }
+}
+@include xl {
+    .product-group--analogs {
+        .product-group {
+            margin: 0 8px 16px;
+            width: calc(19.29% - 8px);
+        }
+    }
+}

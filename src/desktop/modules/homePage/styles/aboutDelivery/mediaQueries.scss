@@ -1,0 +1,52 @@
+.about-delivery {
+  @media screen and (max-width: $minLGResolution) {
+    .about-delivery__title {
+      .title-heading {
+        line-height: 30px;
+      }
+    }
+
+    .about-delivery__items {
+      .item {
+        max-width: 100%;
+        border-radius: 0;
+        text-align: center;
+        padding: 12px;
+
+        & + .item {
+          margin-left: 0;
+        }
+
+        &:first-child {
+          border-top-left-radius: 16px;
+          border-top-right-radius: 16px;
+          padding-top: 24px;
+        }
+
+        &:last-child {
+          border-bottom-left-radius: 16px;
+          border-bottom-right-radius: 16px;
+          padding-bottom: 24px;
+        }
+      }
+
+      .item__preview {
+        margin: 0 auto;
+      }
+
+      .item__description {
+        font-size: 16px;
+      }
+    }
+  }
+
+  @media screen and (max-width: $maxXSResolution) {
+    margin-bottom: 24px;
+
+    .about-delivery__items {
+      .item__description {
+        font-size: 14px;
+      }
+    }
+  }
+}

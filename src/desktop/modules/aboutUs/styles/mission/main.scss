@@ -1,0 +1,31 @@
+.mission {
+  color: $colorBlack;
+
+  .mission__alert-info {
+    padding: 16px;
+  }
+
+  h2,
+  h3,
+  p.warning-text {
+    font-family: $fontFamilySans;
+    font-weight: 500;
+    font-size: 24px;
+    margin: 32px 0 12px;
+    width: 100%;
+    color: inherit;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 150%;
+
+    &:not(:last-child) {
+      margin-bottom: 8px;
+    }
+  }
+
+  .redactor {
+    color: $colorGray;
+  }
+}

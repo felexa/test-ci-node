@@ -1,0 +1,24 @@
+.status {
+  background-color: lighten(#FFC107, 43%);
+
+  .status__icon {
+    background-color: #FFC107;
+  }
+
+  &[data-status-id="O"] {
+    background-color: $colorLightGreen;
+
+    .status__icon {
+      background-color: $colorGreen;
+    }
+  }
+
+  &[data-status-id="A"] {
+    background-color: $colorGray2;
+
+    .status__icon {
+      font-size: 18px;
+      background-color: $colorGray1;
+    }
+  }
+}

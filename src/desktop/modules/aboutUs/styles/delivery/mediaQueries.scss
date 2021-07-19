@@ -1,0 +1,35 @@
+.delivery {
+  @media screen and (max-width: $maxMDResolution) {
+    .delivery__section {
+      .section__header {
+        margin-bottom: 24px;
+      }
+
+      .section__preview {
+        margin-right: 24px;
+      }
+
+      .section__title {
+        font-size: 24px;
+      }
+    }
+  }
+
+  @media screen and (max-width: $maxXSResolution) {
+    .delivery__section {
+      .section__subsection {
+        margin-bottom: 24px;
+      }
+
+      .section__preview {
+        width: 60px;
+        height: 60px;
+        margin-right: 12px;
+      }
+
+      .section__title {
+        font-size: 20px;
+      }
+    }
+  }
+}

@@ -1,0 +1,200 @@
+.gallery-image {
+  height: 95%;
+
+  .gallery-image__to-immersive-view {
+    display: none;
+    font-size: $fontSizeMedium;
+
+    .icon {
+      font-size: 24px;
+      margin-right: 8px;
+    }
+
+    &:hover {
+      color: $colorPink;
+    }
+  }
+
+  .gallery-image__content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-top: 24px;
+
+    .gallery-image__body {
+      order: 1;
+      width: 100%;
+      margin-right: 20px;
+      background-color: $colorBlack;
+      height: 50%;
+
+      &.loading {
+        &::before {
+          background: rgba(0, 0, 0, 0.4);
+        }
+      }
+
+      .slider {
+        .swiper-container {
+          height: 100%;
+          position: relative;
+
+          &::before, &::after {
+            position: absolute;
+            z-index: 5;
+            top: 0;
+            content: "";
+            display: block;
+            width: 24px;
+            height: 100%;
+          }
+
+          &::before {
+            background: linear-gradient(90deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 93.75%);
+          }
+
+          &::after {
+            right: 0;
+            background: linear-gradient(-90deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 93.75%);
+          }
+
+          .swiper-button-next,
+          .swiper-button-prev {
+            color: #68707C;
+            outline: none;
+          }
+
+          .image-container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            top: 0;
+
+            img {
+              max-width: 100%;
+              max-height: 100%;
+              object-fit: contain;
+              user-select: none;
+              width: 100%;
+              height: 100%;
+            }
+          }
+        }
+      }
+    }
+
+    .gallery-image__aside {
+      order: 2;
+      width: 100%;
+      margin-top: 24px;
+
+        .thread-review.thread-review--base {
+          margin: 0 12px 0 50px;
+        }
+    }
+
+    .thumbnails {
+      display: none;
+      margin-bottom: -12px;
+
+      .thumbnails__items {
+        display: flex;
+        flex-wrap: wrap;
+
+        .thumbnails__item {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          overflow: hidden;
+          width: 80px;
+          height: 80px;
+          border-radius: 10px;
+          border: 1px solid $borderColorBase;
+          flex-shrink: 0;
+          margin-bottom: 12px;
+          margin-right: 12px;
+          -webkit-tap-highlight-color: transparent;
+
+          @media (hover: hover) and (pointer: fine) {
+            &:hover {
+              border-color: $colorPink;
+              cursor: pointer;
+            }
+          }
+
+          &.active {
+            border-color: $colorPink;
+          }
+
+          img {
+            max-width: 100%;
+            max-height: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@include md {
+  .gallery-image {
+    .gallery-image__to-immersive-view {
+      display: flex;
+    }
+
+    .gallery-image__content {
+      margin-top: 0;
+
+      .gallery-image__aside {
+        .thread-review.thread-review--base {
+          margin: 0 0 0 53px;
+        }
+      }
+
+      .slider {
+        .swiper-container {
+          &::before, &::after {
+            display: none !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+@include xl {
+  .gallery-image {
+    .gallery-image__content {
+      flex-direction: row;
+
+      .gallery-image__body {
+        width: 65%;
+        height: 100%;
+        margin-top: 0;
+
+        .slider {
+          .swiper-container {
+            .swiper-button-next,
+            .swiper-button-prev {
+              color: $colorGray1;
+            }
+          }
+        }
+      }
+
+      .gallery-image__aside {
+        width: 35%;
+        overflow-y: auto;
+        margin-top: 0;
+      }
+
+      .thumbnails {
+        display: block;
+        font-size: 18px;
+        margin-left: 53px;
+      }
+    }
+  }
+}

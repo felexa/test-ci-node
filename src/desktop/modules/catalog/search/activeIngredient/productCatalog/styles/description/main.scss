@@ -1,0 +1,84 @@
+@import "./src/styles/variables/main";
+@import "./src/styles/mixin/main";
+
+.description {
+  color: $colorBlack;
+  padding: 0 9px;
+
+  h2,
+  h3,
+  h4 {
+    font-family: $fontFamilySans;
+    font-weight: 500;
+    width: 100%;
+    color: $colorBlack;
+    margin: 24px 0 16px;
+  }
+
+  h2:first-child,
+  h3:first-child,
+  h4:first-child {
+    margin-top: 0;
+  }
+
+  h2,
+  h3 {
+    font-size: 22px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 150%;
+    margin-bottom: 16px;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 24px;
+
+    li {
+      padding: 0 0 0 20px;
+      position: relative;
+      width: 100%;
+      font-size: 14px;
+      line-height: 150%;
+
+      &:not(:last-child) {
+        margin-bottom: 16px;
+      }
+
+      &::before {
+        content: "";
+        display: block;
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background: #f64c6b;
+        position: absolute;
+        top: 7px;
+        left: 0;
+      }
+    }
+  }
+
+  ol {
+    padding: 0;
+    list-style-position: inside;
+    margin-bottom: 24px;
+
+    li {
+      width: 100%;
+      font-size: 14px;
+      line-height: 150%;
+
+      &:not(:last-child) {
+        margin-bottom: 16px;
+      }
+    }
+  }
+}

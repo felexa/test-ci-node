@@ -1,0 +1,36 @@
+.faq__header {
+  padding: 60px 0 50px 0;
+  margin-bottom: -46px;
+  background: url(build-image-url("/medical-answers/background.jpg")) no-repeat center/cover, #2B90CE;
+  color: $colorWhite;
+
+  .search {
+    margin-bottom: 60px;
+
+    .search__title {
+      font-size: 24px;
+      margin: 0 0 16px 0;
+    }
+
+    .search__input {
+      position: relative;
+    }
+
+    .search__to-results {
+      position: absolute;
+      top: 16px;
+      right: 16px;
+      font-size: 18px;
+      color: $colorGray1;
+    }
+
+    input[type="text"] {
+      max-width: 784px;
+      height: 48px;
+      box-shadow: 0 5px 10px rgba(57, 72, 86, 0.05);
+      border-radius: 50px;
+    }
+  }
+}
+
+@import "mediaQueries";

@@ -1,0 +1,19 @@
+.vendor-card--johnson {
+  @include md {
+    .vendor-card__section {
+      margin-top: 60px;
+    }
+  }
+
+  @include lg {
+    &.vendor-card--johnson {
+      margin-bottom: -100px;
+    }
+  }
+
+  @include xl {
+    .title .title-heading {
+      font-size: 28px;
+    };
+  }
+}

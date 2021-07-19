@@ -1,0 +1,146 @@
+@import "./src/styles/variables/main";
+@import "./src/styles/mixin/main";
+
+@import "./src/core/components/tabs/main";
+@import "./src/desktop/components/carousel/styles";
+
+.medical-expert-card {
+  $bgColorCover: #006CBD;
+
+  @import "./about/main";
+  @import "./articles/main";
+
+  margin-top: 10px;
+
+  .medical-expert-card__sticker-expert {
+    position: relative;
+    display: inline-block;
+    padding: 7px 5px 4px 27px;
+    margin-bottom: 4px;
+    border: 1px solid $borderColorBase;
+    border-radius: 6px;
+    font-size: $fontSizeSmall;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: $colorGray1;
+    line-height: 16px;
+    white-space: nowrap;
+  }
+
+  .medical-expert-card__sticker-icon {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 16px;
+    height: 16px;
+  }
+
+  .medical-expert-card__header {
+    position: relative;
+    height: 160px;
+
+    .medical-expert-card__cover {
+        background-color: $bgColorCover;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 16px;
+    }
+
+    .medical-expert-card__avatar {
+      position: absolute;
+      bottom: -20px;
+      left: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 126px;
+      height: 126px;
+      border-radius: 50%;
+      background-color: $colorWhite;
+
+      img {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+    }
+  }
+
+  .medical-expert-card__short-description {
+    padding: 24px 12px;
+    margin-top: 16px;
+    font-size: $fontSizeMedium;
+
+    .icon {
+      margin-right: 12px;
+      font-size: 24px;
+      color: $colorGray1;
+    }
+
+    .medical-expert-card__full-name {
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 33px;
+      color: $colorBlack;
+    }
+
+    .medical-expert-card__position {
+      font-size: $fontSizeMedium;
+      line-height: 24px;
+    }
+
+    .medical-expert-card__expertises {
+      position: relative;
+      margin-left: 35px;
+
+      .icon {
+        position: absolute;
+        top: -3px;
+        left: -34px;
+      }
+
+      span {
+        word-break: break-word;
+      }
+    }
+  }
+}
+
+@include md {
+  .medical-expert-card {
+    .medical-expert-card__header {
+      height: 250px;
+
+      .medical-expert-card__avatar {
+        bottom: -40px;
+        left: 27px;
+        width: 168px;
+        height: 168px;
+
+        img {
+          width: 160px;
+          height: 160px;
+        }
+      }
+    }
+
+    .medical-expert-card__short-description {
+      padding: 24px;
+      margin-top: 32px;
+
+      .medical-expert-card__full-name {
+        font-size: 28px;
+      }
+
+      .medical-expert-card__position {
+        font-size: $fontSizeLarge;
+        line-height: 27px;
+      }
+    }
+  }
+}

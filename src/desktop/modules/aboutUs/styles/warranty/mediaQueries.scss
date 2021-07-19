@@ -1,0 +1,9 @@
+.warranty {
+  @media screen and (max-width: $maxXSResolution) {
+    .certificates {
+      .certificates__title {
+        font-size: 20px;
+      }
+    }
+  }
+}

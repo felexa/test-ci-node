@@ -1,0 +1,17 @@
+@import "./src/styles/variables/main";
+
+.warning {
+  padding: 16px;
+
+  p {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 1.5;
+    color: $colorBlack;
+
+    & + p {
+      margin-top: 14px;
+    }
+  }
+}

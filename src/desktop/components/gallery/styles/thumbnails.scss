@@ -1,0 +1,37 @@
+.thumbnails {
+  width: $thumbnailSize;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: -8px;
+
+  .thumbnails__item {
+    width: $thumbnailSize;
+    height: $thumbnailSize;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 8px;
+    -webkit-tap-highlight-color: transparent;
+
+    @media (hover: hover) and (pointer: fine) {
+      &:hover {
+        border-color: $colorPink;
+      }
+    }
+
+    &.active {
+      border-color: $colorPink;
+    }
+
+    img {
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
+
+  .to-all-round-view {
+    outline: 0;
+    background: url(build-image-url("/icons/view360Black.svg")) no-repeat center/86%;
+  }
+}

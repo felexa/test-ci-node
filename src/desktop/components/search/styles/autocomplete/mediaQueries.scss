@@ -1,0 +1,56 @@
+@include before-xl {
+  .search {
+    width: 90%;
+    margin: auto;
+
+    .search-result {
+      position: fixed;
+      top: 60px;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      overflow: auto;
+    }
+
+    .search__input {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+    .to-search {
+      right: 20px;
+    }
+  }
+}
+
+@include xl {
+  .search.search--open {
+    input:focus {
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+      box-shadow: $shadowGrey;
+    }
+  }
+
+  .search {
+    .suggestion__item {
+      padding: 0 16px;
+
+      &:hover {
+        background: rgba(52, 92, 139, 0.06);
+
+        .icon-close {
+          display: block;
+        }
+      }
+
+      .icon-close {
+        display: none;
+      }
+    }
+    .search-result {
+      border-bottom-left-radius: 21px;
+      border-bottom-right-radius: 21px;
+    }
+  }
+}

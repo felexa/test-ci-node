@@ -1,0 +1,19 @@
+.region {  
+  .popular-cities {    
+    .item {
+      &.active {
+        a {
+          border: 1px solid $colorPink;
+        }
+      }
+
+      a {
+        font-weight: 400;
+
+        &:hover {
+          color: $colorPink;
+        }
+      }
+    }
+  }
+}

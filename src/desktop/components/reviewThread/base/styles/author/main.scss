@@ -1,0 +1,13 @@
+.author {
+  margin-right: 4px;
+  overflow: hidden;
+  line-height: normal;
+  font-weight: 500;
+  font-size: $fontSizeMedium;
+  color: $colorBlack;
+
+  .author__header {
+    display: inline-flex;
+    align-items: center;
+  }
+}

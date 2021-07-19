@@ -1,0 +1,28 @@
+.promo {
+    text-align: left;
+    border: 1px dashed $colorLightRed;
+    border-radius: 10px;
+    padding: 16px;
+    background-color: #FFF5F7;
+    color: $colorBlack;
+    margin-bottom: 24px;
+    
+    a {
+      text-decoration: none;
+      color: $colorLightRed;
+    }
+  
+    a:hover {
+      cursor: pointer;
+      text-decoration: underline;
+      text-decoration-style: dashed;
+      text-decoration-color: $colorLightRed;
+    }
+  }
+  
+  @include md {
+    .promo {
+      margin: 0 0 24px 0;
+  
+    }
+  }

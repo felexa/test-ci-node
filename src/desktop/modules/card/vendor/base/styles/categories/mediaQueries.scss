@@ -1,0 +1,30 @@
+.categories {
+  @include sm {
+    .categories__items {
+      margin: -8px;
+    }
+
+    .categories__item {
+      padding: 8px;
+    }
+  }
+
+  @include xl {
+    .categories__items {
+      margin: -12px;
+    }
+
+    .categories__item {
+      width: 33.33%;
+      padding: 12px;
+    }
+
+    .categories__header {
+      margin-bottom: 20px;
+    }
+
+    .categories__title {
+      font-size: 28px;
+    }
+  }
+}

@@ -1,0 +1,7 @@
+.recommendations {
+  .recommendations__items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@import "mediaQueries";

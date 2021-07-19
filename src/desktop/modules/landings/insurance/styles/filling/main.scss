@@ -1,0 +1,145 @@
+$itemBorderRadius: 16px;
+
+.filling {
+  .filling__header {
+    margin-bottom: 32px;
+  }
+
+  .filling__title {
+    margin-bottom: 16px;
+  }
+
+  .filling__body {
+    margin: 0 -3px;
+  }
+
+  .filling__description {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+
+  .filling__items {
+    border-top-left-radius: $itemBorderRadius;
+    border-top-right-radius: $itemBorderRadius;
+    border-bottom: 1px solid $colorExtraLightGray;
+  }
+
+  .filling__item {
+    .item__header {
+      padding: 19px 36px;
+      margin: 8px 8px 0 8px;
+      border-radius: 16px;
+      color: $colorWhite;
+      border-top-left-radius: $itemBorderRadius;
+      border-top-right-radius: $itemBorderRadius;
+      background: $colorPurple;
+
+      .item__title {
+        text-align: center;
+        font-size: 18px;
+        font-weight: 500;
+      }
+    }
+
+    .item__body {
+      padding: 16px 16px 24px 16px;
+      border-bottom-left-radius: $itemBorderRadius;
+      border-bottom-right-radius: $itemBorderRadius;
+      background: $colorWhite;
+      overflow: hidden;
+
+      .item__subtitle {
+        font-size: 16px;
+        margin-bottom: 16px;
+      }
+
+      .item__list {
+        .list__point {
+          display: flex;
+          line-height: 1.5;
+          color: $colorBlack;
+
+          & + .list__point {
+            margin-top: 16px;
+          }
+
+          i {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            width: 15px;
+            height: 15px;
+            margin-right: 17px;
+            margin-top: 2px;
+            border-radius: 50%;
+            background-color: $colorGreen;
+            color: $colorWhite;
+          }
+        }
+      }
+
+      .item__separator {
+        height: 1px;
+        background-color: $colorExtraLightGray;
+        margin: 19px -32px 24px -32px;
+      }
+
+      .item__price {
+        display: block;
+        margin: 16px 0 0 32px;
+        font-size: 22px;
+        font-weight: 700;
+        color: $colorPink;
+        font-weight: 500;
+      }
+    }
+  }
+
+  .filling__conditions {
+    padding: 18px 16px 24px 18px;
+    border-bottom-left-radius: $itemBorderRadius;
+    border-bottom-right-radius: $itemBorderRadius;
+
+    .conditions__item {
+      justify-content: space-between;
+
+      & + .conditions__item {
+        margin-top: 18px;
+      }
+
+      .item__icon {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        margin-right: 12px;
+        flex-shrink: 0;
+        background-color: $colorPurple;
+        border-radius: 50%;
+
+        &.icon-time {
+          background:  url(build-image-url("/landings/insurance/icon-time1.svg")) no-repeat center;
+        }
+
+        &.icon-price {
+          background:  url(build-image-url("/landings/insurance/icon-price1.svg")) no-repeat center;
+        }
+      }
+
+      .item__name {
+        max-width: 175px;
+      }
+    }
+  }
+
+  .filling__footer {
+    margin-top: 16px;
+  }
+
+  .filling__instruction {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+}
+
+@import "mediaQueries";

@@ -1,0 +1,126 @@
+@import "./src/styles/variables/main";
+@import "./src/styles/mixin/main";
+@import "./src/styles/helpers/utilities/image";
+
+@import "./src/core/components/rangeSlider/styles/main";
+
+@import "./src/desktop/components/accordion/styles/main";
+@import "./src/desktop/components/priceSlider/styles/main";
+@import "./src/desktop/components/pagination/styles/main";
+@import "./src/desktop/components/rubric/product/styles/main";
+@import "./src/desktop/components/spinner/styles/main";
+@import "./src/desktop/components/redactor/styles/main";
+@import "./src/desktop/components/consultation/styles";
+
+@import "./modal/main";
+
+.catalog-result {
+  $colorLightGray: rgba(136, 143, 154, 0.16);
+  $colorGreyForHover: rgba(52, 92, 139, 0.04);
+  $yellowBackground: #FFFBF5;
+  $yellowBorder: #FF9500;
+  $greyBackground: #F6F9FE;
+  $blueBorder: #77A7F4;
+
+  @import "./accordion/main";
+  @import "./category/main";
+  @import "./products/main";
+  @import "./priceSlider/main";
+  @import "./sort/main";
+  @import "./filter/main";
+  @import "./seoText/main";
+  @import "./seoPrices/main";
+  @import "./showMoreCard/main";
+  @import "./activeFilter/main";
+  @import "./tooltip/main";
+  @import "./faq/main";
+
+  &.loading {
+    &::before {
+      content: "";
+      position: fixed;
+  }
+}
+
+  .redactor {
+    margin-bottom: -8px;
+  }
+
+  .catalog__header {
+    .catalog__title {
+      font-size: 22px;
+      line-height: 28px;
+    }
+
+    .catalog__banner {
+      &.catalog__banner--mobile {
+        display: block;
+        margin-bottom: -4px;
+      }
+    }
+
+    .catalog__controls {
+      justify-content: flex-end;
+  }
+
+    .catalog__found-products {
+      .found-products__category {
+        color: $colorBlue;
+        cursor: pointer;
+
+        &:hover {
+          color: $colorPink;
+        }
+      }
+    }
+
+    .catalog__suggestion {
+      font-size: 16px;
+      margin-top: 16px;
+    }
+
+    .btn-default--outline .icon {
+      margin-right: 8px;
+    }
+  }
+
+  .catalog__body {
+    width: 100%;
+
+    .catalog__banner {
+      &.catalog__banner--desktop {
+        display: none;
+      }
+    }
+
+    .product-card.product-card--xs .product-card__preview .product-card__warning {
+      display: flex;
+    }
+  }
+
+  .catalog__aside {
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    transform: translateX(-100%);
+    transition: 0;
+
+    &--active {
+      transform: translateX(0);
+    }
+  }
+
+  .banner-body {
+    .banner-preview {
+      height: auto;
+      width: 100%;
+      border-radius: 16px;
+
+    }
+  }
+}
+
+@import "mediaQueries";

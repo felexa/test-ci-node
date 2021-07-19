@@ -1,0 +1,13 @@
+.seller {
+  @include before-sm {
+    .seller__name {
+      margin-bottom: 0;
+    }
+
+    .seller__body {
+      & > div {
+        height: 26px;
+      }
+    }
+  }
+}

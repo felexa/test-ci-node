@@ -1,0 +1,44 @@
+@import "./src/styles/variables/main";
+
+.buy-block {
+  &.buy-block--mini {
+    position: sticky;
+    top: 16px;
+
+    .buy-block__status {
+        margin-bottom: 18px;
+    }
+
+    .status__icon {
+      padding-left: 1px;
+    }
+
+    .sticker {
+      .sticker__body {
+        .sticker__item {
+          margin-right: 12px;
+
+          img {
+            width: 40px;
+            height: 40px;
+            margin-bottom: 8px;
+          }
+        }
+      }
+    }
+
+    .inform-about-availability {
+      width: 100%;
+      margin-bottom: 24px;
+      font-size: $fontSizeBase;
+
+      &.inform-about-availability--active {
+        margin-bottom: 14px;
+      }
+    }
+  }
+
+  .product-card__name {
+    font-size: 16px;
+  }
+}

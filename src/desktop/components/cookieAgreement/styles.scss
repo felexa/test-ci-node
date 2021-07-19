@@ -1,0 +1,108 @@
+@import "./src/styles/variables/main";
+@import "./src/styles/mixin/main";
+
+.cookie-agreement {
+  width: 90%;
+  position: fixed;
+  bottom: 40px;
+  left:0;
+  right: 0;
+  margin: auto;
+  z-index: 100;
+  color: $colorWhite;
+  font-size: 16px;
+  line-height: 1.4;
+  background-image: linear-gradient(to left, #8DADE7, #527FBB);
+
+
+  .cookie-agreement__body {
+    position: relative;
+    padding: 33px 0 20px 0;
+
+    a {
+      color: $colorWhite;
+      font-weight: 500;
+    }
+
+    .cookie-agreement__icon {
+      margin-right: 0;
+      min-width: 50px;
+      min-height: 50px;
+      max-width: 50px;
+      max-height: 50px;
+      position: absolute;
+      top: -25px;
+      left: calc(50% - 25px);
+
+      img {
+        max-width: 100%;
+        max-height: 100%;
+      }
+    }
+  }
+
+  h3 {
+    font-size: $fontSizeBase;
+  }
+
+  p:first-child {
+    margin-top: 0;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+
+  button {
+    width: 120px;
+    padding: 9px 14px;
+    line-height: 1.2;
+    border: transparent;
+    background-color: $colorWhite;
+  }
+
+  button:hover {
+    background-color: $colorWhite;
+  }
+}
+
+@include md {
+  .cookie-agreement {
+    font-size: 16px;
+    width: 80%;
+
+    .cookie-agreement__body {
+      padding: 28px 13px;
+
+      .cookie-agreement__icon {
+        margin-right: 24px;
+      }
+    }
+
+    h3 {
+      font-size: $fontSizeMedium;
+    }
+
+    button {
+      margin-left: 32px;
+    }
+  }
+}
+
+@include lg {
+  .cookie-agreement {
+    width: 60%;
+
+    .cookie-agreement__body {
+      padding: 28px 13px;
+
+      .cookie-agreement__icon {
+        min-width: 60px;
+        min-height: 60px;
+        max-width: 60px;
+        max-height: 60px;
+        position: static;
+      }
+    }
+  }
+}

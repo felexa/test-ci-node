@@ -1,0 +1,53 @@
+.advantages {
+  padding: 60px 0;
+  color: $colorWhite;
+  background: $blueGradient;
+  position: relative;
+
+  img {
+    display: none;
+  }
+
+  .advantages__header {
+    .advantages__title {
+      color: $colorWhite;
+    }
+  }
+
+  .advantages__body {
+    .advantages__description {
+      max-width: 855px;
+      font-size: 16px;
+      line-height: 1.5;
+      color: $colorWhite;
+
+      p {
+        margin: 0;
+      }
+
+      p + p {
+        margin-top: 30px;
+      }
+    }
+  }
+}
+
+@include md {
+  .advantages {
+    padding: 80px 0;
+    position: relative;
+
+    img {
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+  }
+
+  .advantages__body {
+    .advantages__description {
+      font-size: 20px;
+    }
+  }
+}

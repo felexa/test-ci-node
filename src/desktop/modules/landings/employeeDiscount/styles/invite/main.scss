@@ -1,0 +1,55 @@
+.invite {
+  position: relative;
+  width: 100%;
+  max-width: 480px;
+  min-height: 200px;
+  margin: 50px auto 0 auto;
+  padding: 16px;
+  color: $colorBlack;
+
+  &.loading:before {
+    background-color: transparent;
+  }
+
+  .invite__header {
+    .avatar {
+      margin: -60px auto 0 auto;
+    }
+  }
+
+  .invite__inviter-name {
+    margin: 16px 0 8px 0;
+    font-weight: 500;
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .authorization {
+    margin: 0;
+    padding: 0;
+
+    .authorization__header {
+      display: none;
+    }
+
+    .step.step--login {
+      .step__footer {
+        p {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@include md {
+  .invite {
+    padding: 40px;
+
+    .invite__header {
+      .avatar {
+        margin: -80px auto 0 auto;
+      }
+    }
+  }
+}

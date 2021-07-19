@@ -1,0 +1,50 @@
+.usage {
+  @include md {
+    .section__body {
+      .section__items {
+        margin: 0 -24px;
+
+        .item{
+          & + .item {
+            margin-left: 0;
+
+            .item__body {
+              border-left: 1px solid rgba(255, 255, 255, .3);
+              flex-grow: 1;
+            }
+          }
+        }
+
+        .item__body {
+          padding: 0 24px;
+        }
+
+        .item__subtitle {
+          flex-grow: 1;
+          padding: 0 6px;
+        }
+
+        .item__preview {
+          flex-grow: 0;
+
+          img {
+            height: 220px;
+          }
+        }
+      }
+    }
+  }
+
+  @include lg {
+    .section__body {
+      .section__items {
+        .item__preview {
+          img {
+            height: 300px;
+          }
+        }
+      }
+    }
+  }
+
+}

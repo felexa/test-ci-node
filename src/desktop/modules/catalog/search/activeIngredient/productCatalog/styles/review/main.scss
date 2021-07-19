@@ -1,0 +1,47 @@
+.review {
+  .warning--review {
+    margin-top: 40px;
+  }
+
+  .thread-review.thread-review--base {
+    padding-bottom: 0;
+    border: none;
+    margin: 0;
+
+    .thread-review__product {
+      margin-bottom: 25px;
+    }
+
+    .thread-review__content {
+      padding: 0;
+      border: none;
+
+      .thread-review__header {
+        margin: 0;
+      }
+      .thread-review__comment {
+        margin-bottom: 0;
+      }
+    }
+
+    .author {
+      margin-left: 45px;
+    }
+
+    .avatar {
+      left: 0;
+      top: 112px;
+    }
+
+    .rating {
+      margin-top: 15px;
+    }
+  }
+
+  .thread-review__answer {
+    .answer__controls,
+    .thread-review__evaluation {
+      display: none;
+    }
+  }
+}
